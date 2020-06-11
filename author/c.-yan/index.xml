@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C. Yan | Jinsong Zhang</title>
+    <link>/author/c.-yan/</link>
+      <atom:link href="/author/c.-yan/index.xml" rel="self" type="application/rss+xml" />
+    <description>C. Yan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Jinsong Zhang</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>C. Yan</title>
+      <link>/author/c.-yan/</link>
+    </image>
+    
+    <item>
+      <title>The optimal corepressor function of nuclear receptor corepressor (NCoR) for peroxisome proliferator-activated receptor γ requires g protein pathway suppressor 2</title>
+      <link>/publication/2015-01-01_the_optimal_corepres/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/2015-01-01_the_optimal_corepres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multivalent binding of the ETO corepressor to E proteins facilitates dual repression controls targeting chromatin and the basal transcription machinery</title>
+      <link>/publication/2009-01-01_multivalent_binding_/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/2009-01-01_multivalent_binding_/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

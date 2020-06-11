@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F. Ruiz | Jinsong Zhang</title>
+    <link>/author/f.-ruiz/</link>
+      <atom:link href="/author/f.-ruiz/index.xml" rel="self" type="application/rss+xml" />
+    <description>F. Ruiz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Jinsong Zhang</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>F. Ruiz</title>
+      <link>/author/f.-ruiz/</link>
+    </image>
+    
+    <item>
+      <title>Pharmacological activation of the nuclear receptor REV-ERB reverses cognitive deficits and reduces amyloid-β burden in a mouse model of Alzheimer&#39;s disease</title>
+      <link>/publication/2019-01-01_pharmacological_acti/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_pharmacological_acti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rev-erb regulation of cholesterologenesis</title>
+      <link>/publication/2017-01-01_rev-erb_regulation_o/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/2017-01-01_rev-erb_regulation_o/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

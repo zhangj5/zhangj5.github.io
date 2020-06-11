@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M. Shrestha | Jinsong Zhang</title>
+    <link>/author/m.-shrestha/</link>
+      <atom:link href="/author/m.-shrestha/index.xml" rel="self" type="application/rss+xml" />
+    <description>M. Shrestha</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Jinsong Zhang</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>M. Shrestha</title>
+      <link>/author/m.-shrestha/</link>
+    </image>
+    
+    <item>
+      <title>A FOXO1-induced oncogenic network defines the AML1-ETO preleukemic program</title>
+      <link>/publication/2017-01-01_a_foxo1-induced_onco/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/2017-01-01_a_foxo1-induced_onco/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

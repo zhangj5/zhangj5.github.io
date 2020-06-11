@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>N. Cui | Jinsong Zhang</title>
+    <link>/author/n.-cui/</link>
+      <atom:link href="/author/n.-cui/index.xml" rel="self" type="application/rss+xml" />
+    <description>N. Cui</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Jinsong Zhang</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>N. Cui</title>
+      <link>/author/n.-cui/</link>
+    </image>
+    
+    <item>
+      <title>Epigenetic regulator ARID1A and stem cell transcription factor SOX9 in the maintenance of pancreatic ductal cell differentiation state and development of intraductal papillary mucinous neoplasia (IPMN) and pancreatic ductal adenocarcinoma (PDAC)</title>
+      <link>/publication/2018-01-01_epigenetic_regulator/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/2018-01-01_epigenetic_regulator/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

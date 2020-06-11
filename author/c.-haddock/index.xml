@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C. Haddock | Jinsong Zhang</title>
+    <link>/author/c.-haddock/</link>
+      <atom:link href="/author/c.-haddock/index.xml" rel="self" type="application/rss+xml" />
+    <description>C. Haddock</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Jinsong Zhang</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>C. Haddock</title>
+      <link>/author/c.-haddock/</link>
+    </image>
+    
+    <item>
+      <title>GPR160 de-orphanization reveals critical roles in neuropathic pain in rodents</title>
+      <link>/publication/2020-01-01_gpr160_de-orphanizat/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-01-01_gpr160_de-orphanizat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

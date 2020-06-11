@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A. Chatterjee | Jinsong Zhang</title>
+    <link>/author/a.-chatterjee/</link>
+      <atom:link href="/author/a.-chatterjee/index.xml" rel="self" type="application/rss+xml" />
+    <description>A. Chatterjee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Jinsong Zhang</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>A. Chatterjee</title>
+      <link>/author/a.-chatterjee/</link>
+    </image>
+    
+    <item>
+      <title>LXR-inverse agonism stimulates immune-mediated tumor destruction by enhancing CD8 T-cell activity in triple negative breast cancer</title>
+      <link>/publication/2019-01-01_lxr-inverse_agonism_/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_lxr-inverse_agonism_/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M.G. Guenther | Jinsong Zhang</title>
+    <link>/author/m.g.-guenther/</link>
+      <atom:link href="/author/m.g.-guenther/index.xml" rel="self" type="application/rss+xml" />
+    <description>M.G. Guenther</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Jinsong Zhang</copyright><lastBuildDate>Sat, 01 Jan 2000 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>M.G. Guenther</title>
+      <link>/author/m.g.-guenther/</link>
+    </image>
+    
+    <item>
+      <title>Nuclear receptor corepressors partner with class II histone deacetylases in a Sin3-independent repression pathway</title>
+      <link>/publication/2000-01-01_nuclear_receptor_cor/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>/publication/2000-01-01_nuclear_receptor_cor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proteasomal regulation of nuclear receptor corepressor-mediated repression</title>
+      <link>/publication/1998-01-01_proteasomal_regulati/</link>
+      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      <guid>/publication/1998-01-01_proteasomal_regulati/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
