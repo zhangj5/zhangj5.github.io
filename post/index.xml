@@ -2,59 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jinsong Zhang</title>
-    <link>https://zhangj5.github.io/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Jinsong Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="https://zhangj5.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Project Report</title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/project-report/</link>
+      <title>COVID-19 Forcast</title>
+      <link>/post/final-project-kzhang917/covid-19-forcast/</link>
       <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/project-report/</guid>
-      <description>library(tidyverse) library(keras) library(modelr) library(tensorflow) library(caret) library(janitor) library(lubridate) library(glmnet) library(glmnetUtils) library(kernlab) library(gridExtra) library(ggdendro) library(magrittr) library(corrplot) library(usmap) set.seed(9254853) # Load Data --------------------------------------------------------------- # 5/9/20 Daily report: daily_report &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/05-09-2020.csv&amp;quot;) %&amp;gt;% clean_names() # Time series: confirmed_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv&amp;quot;) %&amp;gt;% clean_names() deaths_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv&amp;quot;) %&amp;gt;% clean_names() recovered_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv&amp;quot;) %&amp;gt;% clean_names() Executive Summary The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state.</description>
+      <guid>/post/final-project-kzhang917/covid-19-forcast/</guid>
+      <description>The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made.</description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/post/test/r-markdown/</link>
+      <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
+      
+      <guid>/post/test/r-markdown/</guid>
+      <description>R Markdown Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.</description>
     </item>
     
     <item>
       <title>COVID-19 situation in the US (3/1/2020-6/12/2020)</title>
-      <link>https://zhangj5.github.io/post/covid_19/</link>
+      <link>/post/covid_19/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/covid_19/</guid>
+      <guid>/post/covid_19/</guid>
       <description>import os import pandas as pd import numpy as np import matplotlib.pyplot as plt  We download the most updated Cases in the US from the &amp;ldquo;COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE)&amp;rdquo; at Johns Hopkins University. These include (i) confirmed cases and (ii) deaths, since 1/23/20 till the preceding day of the current date.
 ! git pull origin master ! git remote -v  From https://github.</description>
     </item>
     
     <item>
-      <title>Why statistics can be scary</title>
-      <link>https://zhangj5.github.io/post/test/why-statistics-can-be-scary/</link>
-      <pubDate>Thu, 27 Mar 2014 02:52:57 +0000</pubDate>
-      
-      <guid>https://zhangj5.github.io/post/test/why-statistics-can-be-scary/</guid>
-      <description>I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted. So as a brief aside, I highly encourage people to blog!</description>
-    </item>
-    
-    <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/eda/</link>
+      <link>/post/final-project-kzhang917/eda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/eda/</guid>
+      <guid>/post/final-project-kzhang917/eda/</guid>
       <description>EDA Report/*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */!function(a,b){&#34;object&#34;==typeof module&amp;&amp;&#34;object&#34;==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error(&#34;jQuery requires a window with a document&#34;);return b(a)}:b(a)}(&#34;undefined&#34;!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l=&#34;1.11.3&#34;,m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:&#34;&#34;,length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0a?b:0);return this.pushStack(c=0&amp;&amp;bc?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for(&#34;boolean&#34;==typeof g&amp;&amp;(j=g,g=arguments[h]||{},h++),&#34;object&#34;==typeof g||m.isFunction(g)||(g={}),h===i&amp;&amp;(g=this,h--);ih;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&amp;&amp;(j&amp;&amp;c&amp;&amp;(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&amp;&amp;m.isArray(a)?a:[]):f=a&amp;&amp;m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&amp;&amp;(g[d]=c));return g},m.extend({expando:&#34;jQuery&#34;+(l+Math.random()).replace(/\D/g,&#34;&#34;),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return&#34;function&#34;===m.type(a)},isArray:Array.isArray||function(a){return&#34;array&#34;===m.type(a)},isWindow:function(a){return null!=a&amp;&amp;a==a.window},isNumeric:function(a){return!m.isArray(a)&amp;&amp;a-parseFloat(a)+1=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||&#34;object&#34;!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&amp;&amp;!j.call(a,&#34;constructor&#34;)&amp;&amp;!j.call(a.constructor.prototype,&#34;isPrototypeOf&#34;))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.call(a,b)},type:function(a){return null==a?a+&#34;&#34;:&#34;object&#34;==typeof a||&#34;function&#34;==typeof a?</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/readme/</link>
+      <link>/post/final-project-kzhang917/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/readme/</guid>
+      <guid>/post/final-project-kzhang917/readme/</guid>
       <description>Data Science III Final Project (STAT 301-3) This repository sets up the basic structure for your final project which will display/contain all of your work.
 You are welcome to create/remove subdirectories as you see fit, but stay as organized as possible so others will be able to naviagte and inspect your work.
 Likely, you will have your EDA report (midterm), executive summary, and final report all accessible at this level.</description>
@@ -62,48 +64,48 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
     
     <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/data/readme/</link>
+      <link>/post/final-project-kzhang917/data/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/data/readme/</guid>
+      <guid>/post/final-project-kzhang917/data/readme/</guid>
       <description> Data for Final Project </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/data/processed/readme/</link>
+      <link>/post/final-project-kzhang917/data/processed/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/data/processed/readme/</guid>
+      <guid>/post/final-project-kzhang917/data/processed/readme/</guid>
       <description>Processed Data File contains the processed dataset - maybe datasets. That is, the data is now ready for an EDA and for future analyses. It may be useful to save the data in both a .rds and .csv format.
 Codebook A variable codebook should also be included for each dataset. Might consider a condensed codebook displayed in this document for quick reference.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/</link>
+      <link>/post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/</guid>
+      <guid>/post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/</guid>
       <description>Census Data API: /data/2018/acs/acs5/variables table { counter-reset: counter1 0; border: thin solid; border-collapse: collapse; width:100%; margin: 2em 0; } tfoot tr { border-top: double; } tfoot tr td { font-style: italic; padding-top: 1em; text-align: center; vertical-align: bottom; } th { vertical-align: bottom; background: #ACCCFF; } th, td { text-align: left; border: thin solid; padding: 0.2em; } caption { font-style: italic; padding: 1em; } tr:nth-child(even) {background: #CCC} tr:nth-child(odd) {background: #FFF} .hier-sep { font-style: italic; font-family: monospace; } .</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/readme/</link>
+      <link>/post/final-project-kzhang917/data/unprocessed/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/readme/</guid>
+      <guid>/post/final-project-kzhang917/data/unprocessed/readme/</guid>
       <description>Unprocessed Data Dataset or datasets in their orginial format prior to any cleaning or processing.
 Citations Include a citation for each dataset here.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/</link>
+      <link>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/</guid>
+      <guid>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/</guid>
       <description>JHU CSSE COVID-19 Dataset Table of contents  Daily reports (csse_covid_19_daily_reports) USA daily state reports (csse_covid_19_daily_reports_us) Time series summary (csse_covid_19_time_series) Data modification records UID Lookup Table Logic &amp;mdash;  Daily reports (csse_covid_19_daily_reports) This folder contains daily case reports. All timestamps are in UTC (GMT+0).
 File naming convention MM-DD-YYYY.csv in UTC.
 Field description  FIPS: US only. Federal Information Processing Standards code that uniquely identifies counties within the USA. Admin2: County name.</description>
@@ -111,38 +113,38 @@ Field description  FIPS: US only. Federal Information Processing Standards code 
     
     <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/readme/</link>
+      <link>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/readme/</guid>
+      <guid>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/readme/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports_us/readme/</link>
+      <link>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports_us/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports_us/readme/</guid>
+      <guid>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports_us/readme/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/readme/</link>
+      <link>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/readme/</guid>
+      <guid>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/readme/</guid>
       <description>Time series summary (csse_covid_19_time_series) This folder contains daily time series summary tables, including confirmed, deaths and recovered. All data is read in from the daily case report. The time series tables are subject to be updated if inaccuracies are identified in our historical data. The daily reports will not be adjusted in these instances to maintain a record of raw data.
 Two time series tables are for the US confirmed cases and deaths, reported at the county level.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://zhangj5.github.io/post/final-project-kzhang917/results/readme/</link>
+      <link>/post/final-project-kzhang917/results/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangj5.github.io/post/final-project-kzhang917/results/readme/</guid>
+      <guid>/post/final-project-kzhang917/results/readme/</guid>
       <description>Results This subdirectory contains graphics and tables that I may use in the reports.</description>
     </item>
     

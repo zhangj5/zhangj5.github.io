@@ -18,7 +18,11 @@
       <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
       
       <guid>https://zhangj5.github.io/post/final-project-kzhang917/project-report/</guid>
-      <description>&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+      <description>&lt;div id=&#34;executive-summary&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Executive Summary&lt;/h1&gt;
+&lt;p&gt;The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made. Although various data was analyzed to be potentially used as predictors, much of the data didn’t show much relation to the death totals from the pandemic.&lt;/p&gt;
+&lt;p&gt;From the predictors chosen, models were trained using Deep Learning (Keras), Random Forests, Ridge Regression (glmnet), and Boosting (xgboost). One ensemble model was created using the other four trained models. The models were then evaluated based on how well they could predict future death counts on both a national and state level. The graphic below shows each model’s performance on a national level.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
 library(keras)
 library(modelr)
 library(tensorflow)
@@ -51,10 +55,6 @@ deaths_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_
 
 recovered_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv&amp;quot;) %&amp;gt;%
   clean_names()&lt;/code&gt;&lt;/pre&gt;
-&lt;div id=&#34;executive-summary&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Executive Summary&lt;/h1&gt;
-&lt;p&gt;The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made. Although various data was analyzed to be potentially used as predictors, much of the data didn’t show much relation to the death totals from the pandemic.&lt;/p&gt;
-&lt;p&gt;From the predictors chosen, models were trained using Deep Learning (Keras), Random Forests, Ridge Regression (glmnet), and Boosting (xgboost). One ensemble model was created using the other four trained models. The models were then evaluated based on how well they could predict future death counts on both a national and state level. The graphic below shows each model’s performance on a national level.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rf &amp;lt;- read_csv(&amp;quot;outcomes/rf.csv&amp;quot;) %&amp;gt;%
   mutate(
     model = rep(&amp;quot;RF&amp;quot;, nrow(.))
@@ -1068,6 +1068,34 @@ mobility_analysis_states %&amp;gt;% # Washington
 &lt;p&gt;US States - Ranked by Population 2020. Retrieved from &lt;a href=&#34;https://worldpopulationreview.com/states/&#34; class=&#34;uri&#34;&gt;https://worldpopulationreview.com/states/&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>https://zhangj5.github.io/post/test/project-report/</link>
+      <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
+      
+      <guid>https://zhangj5.github.io/post/test/project-report/</guid>
+      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;R Markdown&lt;/h2&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Including Plots&lt;/h2&gt;
+&lt;p&gt;You can also embed plots, for example:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/test/R_markdown_files/figure-html/pressure-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Note that the &lt;code&gt;echo = FALSE&lt;/code&gt; parameter was added to the code chunk to prevent printing of the R code that generated the plot.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

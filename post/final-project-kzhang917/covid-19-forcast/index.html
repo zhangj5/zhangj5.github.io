@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.42" />
+  <meta name="author" content="Jinsong Zhang">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="../../../post/final-project-kzhang917/covid-19-forcast/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#328cc1">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow-night-eighties.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="../../../styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-126128799-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="../../../index.xml" type="application/rss+xml" title="Jinsong Zhang">
+  <link rel="feed" href="../../../index.xml" type="application/rss+xml" title="Jinsong Zhang">
+  
+
+  <link rel="manifest" href="../../../site.webmanifest">
+  <link rel="icon" type="image/png" href="../../../img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../../img/icon-192.png">
+
+  <link rel="canonical" href="../../../post/final-project-kzhang917/covid-19-forcast/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Jinsong Zhang">
+  <meta property="og:url" content="/post/final-project-kzhang917/covid-19-forcast/">
+  <meta property="og:title" content="COVID-19 Forcast | Jinsong Zhang">
+  <meta property="og:description" content="The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2020-06-12T03:13:43&#43;00:00">
+  
+  <meta property="article:modified_time" content="2020-06-12T03:13:43&#43;00:00">
+  
+
+  
+  
+
+  <title>COVID-19 Forcast | Jinsong Zhang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="../../../">Jinsong Zhang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../../#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../../#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../../#publications_selected">
+            
+            <span>Selective Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../../#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../../#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">COVID-19 Forcast</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2020-06-12 03:13:43 &#43;0000 &#43;0000" itemprop="datePublished dateModified">
+      Jun 12, 2020
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jinsong Zhang">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    34 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="../../../post/final-project-kzhang917/covid-19-forcast/#disqus_thread"></a>
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=COVID-19%20Forcast&amp;url=%2fpost%2ffinal-project-kzhang917%2fcovid-19-forcast%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2ffinal-project-kzhang917%2fcovid-19-forcast%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2ffinal-project-kzhang917%2fcovid-19-forcast%2f&amp;title=COVID-19%20Forcast"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2ffinal-project-kzhang917%2fcovid-19-forcast%2f&amp;title=COVID-19%20Forcast"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=COVID-19%20Forcast&amp;body=%2fpost%2ffinal-project-kzhang917%2fcovid-19-forcast%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made. Although various data was analyzed to be potentially used as predictors, much of the data didn’t show much relation to the death totals from the pandemic.</p>
+<p>From the predictors chosen, models were trained using Deep Learning (Keras), Random Forests, Ridge Regression (glmnet), and Boosting (xgboost). One ensemble model was created using the other four trained models. The models were then evaluated based on how well they could predict future death counts on both a national and state level. The graphic below shows each model’s performance on a national level.</p>
+<pre class="r"><code>library(tidyverse)
+library(keras)
+library(modelr)
+library(tensorflow)
+library(caret)
+library(janitor)
+library(lubridate)
+library(glmnet)
+library(glmnetUtils)
+library(kernlab)
+library(gridExtra)
+library(ggdendro)
+library(magrittr)
+library(corrplot)
+library(usmap)
+
+set.seed(9254853)
+
+# Load Data ---------------------------------------------------------------
+
+# 5/9/20 Daily report:
+daily_report &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/05-09-2020.csv&quot;) %&gt;%
+  clean_names()
+
+# Time series:
+confirmed_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv&quot;) %&gt;%
+  clean_names()
+
+deaths_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv&quot;) %&gt;%
+  clean_names()
+
+recovered_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv&quot;) %&gt;%
+  clean_names()</code></pre>
+<pre class="r"><code>rf &lt;- read_csv(&quot;outcomes/rf.csv&quot;) %&gt;%
+  mutate(
+    model = rep(&quot;RF&quot;, nrow(.))
+  )
+
+deep_learning &lt;- read_csv(&quot;outcomes/deep_learning.csv&quot;) %&gt;%
+  mutate(
+    model = rep(&quot;Keras&quot;, nrow(.))
+  )
+
+ridge &lt;- read_csv(&quot;outcomes/ridge.csv&quot;) %&gt;%
+  mutate(
+    model = rep(&quot;Ridge&quot;, nrow(.))
+  )
+
+boosting &lt;- read_csv(&quot;outcomes/boosting.csv&quot;) %&gt;%
+  mutate(
+    model = rep(&quot;xgboost&quot;, nrow(.))
+  )
+
+real_values &lt;- rf %&gt;%
+  mutate(pred_change = change,
+         pred_total = total_deaths,
+         model = &quot;Reported Deaths&quot;)
+
+
+outcomes &lt;- rf %&gt;%
+  bind_rows(deep_learning, ridge, boosting, real_values)
+
+# Create Ensemble model:
+ensemble &lt;- outcomes %&gt;%
+  filter(model != &quot;Reported Deaths&quot;) %&gt;%
+  group_by(state, date) %&gt;%
+  summarise(pred_change = mean(pred_change),
+            pred_total = mean(pred_total)) %&gt;%
+  ungroup() %&gt;%
+  mutate(total_deaths = rf$total_deaths,
+         change = rf$change,
+         model = &quot;Ensemble&quot;) %&gt;%
+  select(state, date, total_deaths, change, pred_change, pred_total, model)
+
+
+outcomes &lt;- outcomes %&gt;%
+  bind_rows(ensemble)
+ 
+outcomes %&gt;%
+  group_by(date, model) %&gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &quot;Model Performance - Predicted National Death Totals&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>From the current results, it looks as if Ridge Regression performed the best on both a state and national level; still, all models showed a trend of overpredicting the number of deaths, and models were susceptible to sometimes predicting negative daily death counts. These are the current issues with the models. Further interpretation of the data, as well as incorporating additional data which captures trends that the models are currently unable to accurately predict for, may help improve the models.</p>
+<div id="main-report" class="section level1">
+<h1>Main Report</h1>
+<div id="data-overview" class="section level2">
+<h2>Data Overview</h2>
+<p>For the purposes of model-building, I drew data from two sources: Johns Hopkins University’s COVID-19 repository, and Google’s COVID-19 Community Mobility Reports. Apple’s Mobility Trends Reports were also read in during data processing, but were ultimately discarded during the model-building process.</p>
+<p>Additional data sources were used in the EDA. These will be listed in the EDA section in the appendix.</p>
+<p>Within the JHU repository, the only dataset used for model-building purposes was the US death total time-series dataset.</p>
+<p>Additional details on the data will be discussed in the data processing section in the appendix.</p>
+<p>When processed and setup for model-building, the data consisted of 32 variables. Each observation represents data for a given state and day. The data was split into a training and testing set, with the training set containing dates ranging from March 7th to May 18th (3723 observations in total), and the testing set containing dates ranging from May 19th to June 1st(714 observations in total).</p>
+</div>
+<div id="model-building" class="section level2">
+<h2>Model Building</h2>
+<p>Five candidate models were developed for this project. The five methods used were Neural Networks(Keras), Random Forests(ranger), Ridge Regression(glmnet), Boosting(xgboost), and an ensemble model using these four methods, equally weighted.</p>
+<p>The response variable for the data was the number of deaths reported in a given date and state (<code>change</code>), and the same 28 predictors were used for each model: The day of the week, the 1-14 day lag on <code>change</code>, the 2-3 week lagged mean for the six Google mobility predictors: retail and recreation, workplace, transit, grocery and pharmacy, parks, and residential, the 3-4 week lagged mean for these six predictor, and finally a count on how many days have passed since the given state reported its first COVID-19 death.</p>
+<div id="neural-networks" class="section level3">
+<h3>Neural Networks</h3>
+<p>The process of model building with Keras began with scaling the training and testing set using means and standard deviations from the training data. Then, two networks were trained. A validation set comprising of 20% of the training data was used to evaluate the networks:</p>
+<p>Finding a good network for training the data was largely done through trial and error. Various numbers of hidden units were used to train networks, and the two networks described below were two of the best performing networks.</p>
+<p>The first network used 3 layers with the first two layers using 8 hidden units. As usual with regression problems, MSE was used as the loss function and MAE as the accuracy metric. The results are shown below, when training with a batch size of 32 and 500 epochs:</p>
+<pre class="r"><code>history_keras &lt;- read_rds(&quot;deep_learning/history_keras.rds&quot;)
+
+print(history_keras)</code></pre>
+<pre><code>## Trained on NULL samples (batch_size=NULL, epochs=200)
+## Final epoch (plot to see history):
+##     loss: 524.7
+##      mae: 8.687
+## val_loss: 2,288
+##  val_mae: 9.784</code></pre>
+<p>The second network used 16 hidden units for the first two layers. The results for the same batch size and 500 epochs are shown below:</p>
+<pre class="r"><code>history_keras &lt;- read_rds(&quot;deep_learning/history_keras_2.rds&quot;)
+
+print(history_keras)</code></pre>
+<pre><code>## Trained on NULL samples (batch_size=NULL, epochs=150)
+## Final epoch (plot to see history):
+##     loss: 509.4
+##      mae: 8.288
+## val_loss: 2,266
+##  val_mae: 9.758</code></pre>
+<p>From these two plots, the final selected model was trained using 16 hidden units and 40 epochs.</p>
+</div>
+<div id="random-forests" class="section level3">
+<h3>Random Forests</h3>
+<p>Random forest models were trained using cross-validation. The training data was split into 5 folds, and 10 values of <code>mtry</code> between 1 and 28, as well as 10 values of <code>num.trees</code> between 200 and 1000 were evaluated with cross validation. After cross-validation, the results were as follows:</p>
+<pre class="r"><code>rf_cv_err &lt;- read_csv(&quot;outcomes/rf_cv_err.csv&quot;)
+
+# find cv error means:
+rf_cv_err &lt;- rf_cv_err %&gt;%
+  group_by(mtry, num.trees) %&gt;%
+  summarise(
+    mean_train_err = mean(train_err),
+    mean_test_err = mean(test_err)
+  ) %&gt;%
+  arrange(mean_test_err)
+
+rf_cv_err %&gt;% 
+  ggplot(aes(mtry, num.trees)) +
+  geom_tile(aes(fill = mean_test_err)) +
+  labs(title = &quot;Heatmap of tuning parameters: Darker shades indicate better test error!&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>The best parameters were found to be <code>mtry</code> = 7 and <code>num.trees</code> = 300. Using these parameters, the final model was trained.</p>
+</div>
+</div>
+<div id="ridge-regression" class="section level2">
+<h2>Ridge Regression</h2>
+<p>Using glmnet cross validation, the training set was trained on 400 different lambda values from 1e-10 to 1e10. The results of cross validation are as shown below:</p>
+<pre class="r"><code># Load Data ---------------------------------------------------------------
+
+data &lt;- read_csv(&quot;data/processed/modelling_data.csv&quot;) %&gt;%
+  clean_names()
+
+# Cut off early dates for which data is not fully available, and filter out states/territories w/ missing data:
+data &lt;- data %&gt;% filter(date &gt;= &quot;2020-03-07&quot;) %&gt;%
+  filter(!(state %in% c(&quot;Virgin Islands&quot;,
+                        &quot;Northern Mariana Islands&quot;,
+                        &quot;American Samoa&quot;,
+                        &quot;Diamond Princess&quot;,
+                        &quot;Grand Princess&quot;,
+                        &quot;Guam&quot;,
+                        &quot;Puerto Rico&quot;))) %&gt;%
+  mutate(weekday = as.factor(weekday))
+
+data &lt;- data %&gt;%
+  select(-driving, -driving_lag14, -driving_lag21, -rollmean_driving, -(20:32), -first_death)
+
+train &lt;- data %&gt;%
+  filter(date &lt;= &quot;2020-05-18&quot;)
+
+test &lt;- data %&gt;%
+  filter(date &gt; &quot;2020-05-18&quot;)
+
+
+# Ridge Regression --------------------------------------------------------
+
+# lambda grid to search -- use for ridge regression (400 values)
+lambda_grid &lt;- 10^seq(-10, 10, length = 400)
+
+# ridge regression: 10-fold cv
+ridge_cv &lt;- train %&gt;% 
+  cv.glmnet(
+    formula = change ~ . - state - date - total_deaths, 
+    data = ., 
+    alpha = 0, 
+    nfolds = 10,
+    lambda = lambda_grid
+  )
+
+plot(ridge_cv)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p>From this cross-validation a minimum lambda value of 10.6554 was chosen and a 1se lambda value of 120.282 was chosen. Two final models were chosen based on these lambda values. Ultimately, the minimum lambda model performed better on the test set and was thus chosen to be used in the final model comparison.</p>
+<div id="boosting" class="section level3">
+<h3>Boosting:</h3>
+<p>Model-building for boosting followed a similar pattern to Random Forests, but only one parameter was tuned a time due to training times being unreasonably high for cross-validating on multiple parameters at a time. The parameters tuned were <code>eta</code>, <code>max_depth</code> <code>min_child_weight</code>, <code>gamma</code>, and <code>colsample_bytree</code> in their respective order, and tuning for the optimal <code>nrounds</code> at the end. These parameters were used to build the final model.</p>
+</div>
+</div>
+<div id="ensemble-model" class="section level2">
+<h2>Ensemble Model</h2>
+<p>An ensemble model was built using the evenly-weighted mean of each model for every prediction. This approach aims to increase predictive power by using the predictions of all models together. Often this sort of an approach can improve predictive power beyond any of the individual models, so it should certainly be tried.</p>
+</div>
+<div id="model-predictions" class="section level2">
+<h2>Model Predictions:</h2>
+<p>Given that we are predicting future observations while using lag variables, we need to assume that from the period from May 19th to June 1st, no data is known about the daily reported deaths. This means that, for example, on May 21st, we know every lag variable corresponding to data from before May 19th (which would be lag data from 3-14 days ago), but we don’t know the 2 day lag and 1 day lag. However, in the testing dataset, the 2 day lag and 1 day lag from the actual number of reported deaths on May 19th and 20th were present in the data.</p>
+<p>To solve this issue, I wrote code that iterated through the test data starting from May 19th. The code generated a prediction, then updated the 1 day lag on May 20th with that prediction, the 2 day lag on May 21st, etc., iterating through 13 of the 14 lag columns. Predictions generated for successive days used real data from days before May 19th, and predicted data from May 19th and after.</p>
+</div>
+<div id="final-model-selection" class="section level2">
+<h2>Final Model Selection</h2>
+<p>To compare final models, I first visualized each model by comparing the predicted total deaths over the 2 week period from May 19th to June 1st to the actual number of reported deaths. Here are the results:</p>
+<pre class="r"><code>outcomes %&gt;%
+  group_by(date, model) %&gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &quot;Model Performance - Predicted National Death Totals&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p>Next, I created the same plot, but on a state level, for a few states:</p>
+<pre class="r"><code>outcomes %&gt;%
+  filter(state == &quot;New York&quot;) %&gt;%
+  group_by(date, model) %&gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &quot;Model Performance - New York Death Totals&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<pre class="r"><code>outcomes %&gt;%
+  filter(state == &quot;Minnesota&quot;) %&gt;%
+  group_by(date, model) %&gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &quot;Model Performance - Minnesota Death Totals&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-2.png" width="672" /></p>
+<pre class="r"><code>outcomes %&gt;%
+  filter(state == &quot;Florida&quot;) %&gt;%
+  group_by(date, model) %&gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &quot;Model Performance - Florida Death Totals&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-3.png" width="672" /></p>
+<pre class="r"><code>outcomes %&gt;%
+  filter(state == &quot;Alabama&quot;) %&gt;%
+  group_by(date, model) %&gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &quot;Model Performance - Alabama Death Totals&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-4.png" width="672" /></p>
+<pre class="r"><code>outcomes %&gt;%
+  filter(state == &quot;California&quot;) %&gt;%
+  group_by(date, model) %&gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &quot;Model Performance - California Death Totals&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-5.png" width="672" /></p>
+<pre class="r"><code>outcomes %&gt;%
+  filter(state == &quot;Montana&quot;) %&gt;%
+  group_by(date, model) %&gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &quot;Model Performance - Montana Death Totals&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-6.png" width="672" /></p>
+<pre class="r"><code>outcomes %&gt;%
+  filter(state == &quot;Kansas&quot;) %&gt;%
+  group_by(date, model) %&gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &quot;Model Performance - Kansas Death Totals&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-7.png" width="672" /></p>
+<p>As can be seen in the state models, there are some problems with the models predicting total deaths to decrease. I’ll discuss this issue in a later section.</p>
+<p>When choosing a final model, we need to consider whether or not it will be used to predict state totals or national totals. To differentiate, I calculated two types of MSE - a state level MSE which calculates each individual observation, and a national level MSE which sums the predicted daily death counts for every state together to produce a national day-by-day predicted death count. The national and state level MSEs are shown for each model on the scatterplot below:</p>
+<pre class="r"><code># Calculate national and state level MSE
+# National MSE
+mean_state_mse &lt;- outcomes %&gt;%
+  group_by(model) %&gt;%
+  summarise(state_mse = mean((pred_change - change)^2))
+
+national_mse &lt;- outcomes %&gt;%
+  group_by(model, date) %&gt;%
+  summarise(change = sum(change),
+            pred_change = sum(pred_change)) %&gt;%
+  ungroup() %&gt;%
+  group_by(model) %&gt;%
+  summarise(national_mse = mean((pred_change - change) ^2))
+
+national_mse %&gt;%
+  left_join(mean_state_mse, by = &quot;model&quot;) %&gt;%
+  ggplot(aes(national_mse, state_mse)) +
+  geom_point(aes(color = model))</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p>From the current results, it appears that Ridge Regression performs the best on both a state and national level. As such, it should be chosen as the final model, since the goal of this project is to forecast the number of COVID-19 deaths in the US as accurately as possible. Ridge Regression performs the best in this aspect on both a state and national level.</p>
+</div>
+<div id="summary-insights" class="section level2">
+<h2>Summary &amp; Insights</h2>
+<p>Our original problem was predicting future death counts of the COVID-19 across the United States and its individual states. The methodology used is capable of predicting real future death counts, since it wouldn’t need to rely on future data. The results of the models, although flawed in many ways, did a reasonable job of predicting within a 2 week interval given the unpredictability of the COVID-19 pandemic.</p>
+<p>The flaws with the models were clear. First of all, there was a clear pattern of overpredicting the number of deaths nationally - every model did it. There are some possible explanations for this: the overall trend nationwide has been a decrease in death counts. Perhaps the models didn’t capture this fully. Additionally, the usual trend is that death counts usually dip in the weekend then increase on Monday. However, May 25th was Memorial Day and saw a continued decrease from Sunday.</p>
+<p>Additionally, the models sometimes predicted a negative change in total deaths for some states. This may be in part due to the presence of such negative counts in the training set - these might be caused by reporting errors, but the models do not know that. One way to address this issue might be using rolling averages of death counts, but whether or not the models would be better off overall when using those is unclear.</p>
+<p>Finally, one major shortcoming with the model is that it can only predict up to two weeks into the future. This is because the model relies on mobility data which is lagged 2-4 weeks behind the current data. Any predictions beyond two weeks would require future mobility data, which obviously is not available when making actual future predictions. This problem might be addressed by making assumptions about how mobility will change going into the future, or even trying to predict future mobility data. So far I have not attempted to do these things in my project.</p>
+<p>Overall, the biggest challenge with this problem is trying to capture as much useful data as possible to be used in the modeling, since there is a lot of things we don’t know - how does climate affect the spread of the virus? We don’t find a great deal of variation in climate with only US data. What are the optimal conditions for virus spreading? What’s the current hospital usage and capacity for each state (this data was present in the daily_reports dataset but was incomplete, so I decided not to use it). How much more relevant information can be captured by using data on a county level? I may experiment with using county level data in the future; however, this will greatly increase the size of the datasets, and some procedures such as cross-validation tuning of multiple parameters at once, will certainly be near impossible. Ultimately, there was plenty of information which could be fed into the models but I ultimately excluded. I will likely continue experimenting with how this data affects the predictions.</p>
+</div>
+</div>
+<div id="appendix" class="section level1">
+<h1>Appendix</h1>
+<div id="eda" class="section level2">
+<h2>EDA</h2>
+<div id="introduction" class="section level3">
+<h3>Introduction</h3>
+<p>With the ongoing COVID-19 pandemic, many are relying on predictive models to better understand the future trajectory of the disease’s impact on countries across the world. Since there is a great deal of data available on the pandemic, I decided to try and use these resources to create my own predictive model, and, in the process, hopefully come to better understand how COVID-19 impacts different communities and populations.</p>
+</div>
+<div id="about-the-data" class="section level3">
+<h3>About the Data</h3>
+<p>The main source of data regarding COVID-19 was obtained from the Johns Hopkins University CSSE. The data from this repository which I used included daily reports and time series data for the US and all other affected countries. For global data, the daily reports contained 3232 observations of 12 variables, the confirmed cases time series data contained 266 observations of 113 variables, the deaths time series data had 266 observations of 113 variables, and the recovered time series data contained 252 observations of 113 variables.</p>
+<p>The patterns of missingness in each of these datasets are as follows:</p>
+<pre class="r"><code># Missing data:
+daily_report %&gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&gt;%
+  pivot_longer(cols = 1:12, names_to = &quot;var&quot;, values_to = &quot;percent_missing&quot;) %&gt;%
+  ggplot(aes(percent_missing, var)) +
+  geom_bar(stat = &quot;identity&quot;, aes(fill = var)) +
+  labs(title = &quot;Missing data: Daily Report&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<pre class="r"><code>confirmed_ts %&gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&gt;%
+  pivot_longer(cols = 1:113, names_to = &quot;var&quot;, values_to = &quot;percent_missing&quot;) %&gt;%
+  filter(percent_missing &gt; 0) %&gt;% # There are a lot of variables, so I&#39;m only choosing the ones with any missing data
+  ggplot(aes(percent_missing, var)) +
+  geom_bar(stat = &quot;identity&quot;, aes(fill = var)) +
+  labs(title = &quot;Missing data: Confirmed Cases Time Series&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-2.png" width="672" /></p>
+<pre class="r"><code>deaths_ts %&gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&gt;%
+  pivot_longer(cols = 1:113, names_to = &quot;var&quot;, values_to = &quot;percent_missing&quot;) %&gt;%
+  filter(percent_missing &gt; 0) %&gt;% # There are a lot of variables, so I&#39;m only choosing the ones with any missing data
+  ggplot(aes(percent_missing, var)) +
+  geom_bar(stat = &quot;identity&quot;, aes(fill = var)) +
+  labs(title = &quot;Missing data: Deaths Time Series&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-3.png" width="672" /></p>
+<pre class="r"><code>recovered_ts %&gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&gt;%
+  pivot_longer(cols = 1:113, names_to = &quot;var&quot;, values_to = &quot;percent_missing&quot;) %&gt;%
+  filter(percent_missing &gt; 0) %&gt;% # There are a lot of variables, so I&#39;m only choosing the ones with any missing data
+  ggplot(aes(percent_missing, var)) +
+  geom_bar(stat = &quot;identity&quot;, aes(fill = var)) +
+  labs(title = &quot;Missing data: Recovered Time Series&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-4.png" width="672" /></p>
+<p>In general, there was not much actual missing data in the datasets; for example, <code>admin2</code> was used for US county names, so other countries had a missing value for it. The same is true for other missing values, except for <code>lat</code> and <code>long</code>, which indicated latitude and longitude–however, I do not plan on using these two variables.</p>
+<p></br></p>
+<div id="other-data" class="section level4">
+<h4>Other Data</h4>
+<p>Many other data sources were used in this data analysis. Four datasets were retrieved from the American Community Survey (ACS) on the US Census Bureau’s COVID-19 website. These datasets contained various statistics about population, income, health insurance, and internet usage, all on a state level. The purpose of this data for my analyses is to try and find any statistics that may be correlated with COVID-19 statistics.</p>
+<p>Additionally, I used a dataset giving statistics on each state’s population numbers. This was used to supplement the ACS data.</p>
+<p>Finally, I used data from Google on mobility trends across the United States during the COVID-19 pandemic. I used this data to analyze how reduced mobility affects the trajectory of the pandemic.</p>
+<p></br></p>
+</div>
+</div>
+<div id="analysis-of-primary-dataset" class="section level3">
+<h3>Analysis of Primary Dataset</h3>
+<p>My data analysis of the primary JHU CSSE dataset involved looking at distributions of response variables such as confirmed cases. I used linear and logarithmic scales to visualize the data, but given the shape of the data, logarithmic scales show the data much better, which can be seen in these visualizations, showing the distribution of the latest numbers of cases, deaths, and recoveries by country:</p>
+<pre class="r"><code>daily_report %&gt;% # All Response
+  group_by(country_region) %&gt;%
+  summarise(total_confirmed = sum(confirmed),
+            total_deaths = sum(deaths),
+            total_recovered = sum(recovered)) %&gt;%
+  pivot_longer(cols = c(2:4), names_to = &quot;var&quot;) %&gt;%
+  ggplot(aes(value)) +
+  geom_histogram() +
+  facet_wrap(~var) +
+  labs(title = &quot;Distribution of Confirmed Cases, Deaths, and Recoveries by Country - Linear&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<pre class="r"><code>daily_report %&gt;% # All response variables on a log-10 scale
+  group_by(country_region) %&gt;%
+  summarise(log_confirmed = log10(sum(confirmed)),
+            log_deaths = log10(sum(deaths)),
+            log_recovered = log10(sum(recovered))) %&gt;%
+  pivot_longer(cols = 2:4, names_to = &quot;var&quot;) %&gt;%
+  ggplot(aes((value))) +
+  geom_freqpoly(aes(color = var)) +
+  labs(title = &quot;Distribution of Confirmed Cases, Deaths, and Recoveries by country - Logarithmic&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-11-2.png" width="672" /></p>
+<p>Next, I plotted time series data on a global scale:</p>
+<pre class="r"><code># Putting all time series info into one graphic:
+confirmed_all_countries &lt;- confirmed_ts %&gt;% # Total cases over time
+  select(-province_state, -lat, -long) %&gt;%
+  pivot_longer(cols = c(2:110), names_to = &quot;date&quot;, values_to = &quot;cases&quot;) %&gt;%
+  mutate(date = as_date(date, format = &quot;x%m_%d_%y&quot;)) %&gt;% # Convert date to a date variable
+  group_by(date) %&gt;%
+  summarise(total_cases = sum(cases))
+
+deaths_all_countries &lt;- deaths_ts %&gt;% # Total deaths over time
+  select(-province_state, -lat, -long) %&gt;%
+  pivot_longer(cols = c(2:110), names_to = &quot;date&quot;, values_to = &quot;deaths&quot;) %&gt;%
+  mutate(date = as_date(date, format = &quot;x%m_%d_%y&quot;)) %&gt;% # Convert date to a date variable
+  group_by(date) %&gt;%
+  summarise(total_deaths = sum(deaths))
+
+recovered_all_countries &lt;- recovered_ts %&gt;% # Total recovered over time
+  select(-province_state, -lat, -long) %&gt;%
+  pivot_longer(cols = c(2:110), names_to = &quot;date&quot;, values_to = &quot;recovered&quot;) %&gt;%
+  mutate(date = as_date(date, format = &quot;x%m_%d_%y&quot;)) %&gt;% # Convert date to a date variable
+  group_by(date) %&gt;%
+  summarise(total_recovered = sum(recovered))
+
+worldwide_ts &lt;- confirmed_all_countries %&gt;%
+  left_join(deaths_all_countries, by = &quot;date&quot;) %&gt;%
+  left_join(recovered_all_countries, by = &quot;date&quot;)
+
+worldwide_ts %&gt;% pivot_longer(cols = 2:4, names_to = &quot;type&quot;) %&gt;% # Linear scale
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = type)) +
+  labs(title = &quot;Worldwide cases, deaths, and recoveries over time - Linear&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+<pre class="r"><code>worldwide_ts %&gt;% pivot_longer(cols = 2:4, names_to = &quot;type&quot;) %&gt;% # Log scale
+  ggplot(aes(date, log10(value))) +
+  geom_line(aes(color = type)) +
+  labs(title = &quot;Worldwide cases, deaths and recoveries over time - Logarithmic&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-12-2.png" width="672" /></p>
+<p>Next, I wanted to look at some of the countries most impacted by COVID-19. The confirmed cases over time are displayed for the 10 countries with the most current cases on a linear and logarithmic scale as follows:</p>
+<pre class="r"><code># Time - series for top 10 countries by confirmed cases
+top10 &lt;- daily_report %&gt;% group_by(country_region) %&gt;% # 10 countries with most cases
+  summarise(total_cases = sum(confirmed)) %&gt;%
+  arrange(desc(total_cases)) %&gt;%
+  mutate(rank = min_rank(-total_cases)) %&gt;%
+  filter(rank &lt;= 10) %&gt;%
+  pull(country_region)
+
+confirmed_ts %&gt;% # Total cases over time - top 10 countries - linear scale
+  select(-province_state, -lat, -long) %&gt;%
+  pivot_longer(cols = c(2:110), names_to = &quot;date&quot;, values_to = &quot;cases&quot;) %&gt;%
+  mutate(date = as_date(date, format = &quot;x%m_%d_%y&quot;)) %&gt;% # Convert date to a date variable
+  filter(country_region %in% top10) %&gt;%
+  group_by(country_region, date) %&gt;%
+  summarise(total_cases = sum(cases)) %&gt;%
+  ggplot(aes(date, total_cases)) +
+  geom_line(aes(color = country_region)) +
+  labs(title = &quot;10 Countries with most cases - linear time series&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<pre class="r"><code>confirmed_ts %&gt;% # Total cases over time - top 10 countries - log scale
+  select(-province_state, -lat, -long) %&gt;%
+  pivot_longer(cols = c(2:110), names_to = &quot;date&quot;, values_to = &quot;cases&quot;) %&gt;%
+  mutate(date = as_date(date, format = &quot;x%m_%d_%y&quot;)) %&gt;% # Convert date to a date variable
+  filter(country_region %in% top10) %&gt;%
+  group_by(country_region, date) %&gt;%
+  summarise(total_cases = sum(cases)) %&gt;%
+  ggplot(aes(date, log10(total_cases))) +
+  geom_line(aes(color = country_region)) +
+  labs(title = &quot;10 countries with most cases - logarithmic time series&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-13-2.png" width="672" /></p>
+<p>The data here shows that the US is adding more cases at a relatively linear rate, while most other countries are slowing down, with the exception of Russia and Brazil, which are seeing increasing numbers of new cases per day.</p>
+<p></br></p>
+<div id="analysis-of-us-data" class="section level4">
+<h4>Analysis of US Data</h4>
+<p>From this point on in the data analysis, I decided to focus on US data. This decision was made in part because US data is more consistently available, and data such as that from the ACS is very consistent and does not have much missing data. I first plotted the time series cases and deaths for the US as a whole:</p>
+<pre class="r"><code># US Focused analysis
+covid_us_report &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports_us/05-09-2020.csv&quot;) %&gt;%
+  clean_names()
+
+us_confirmed_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv&quot;) %&gt;%
+  clean_names()
+
+us_deaths_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv&quot;) %&gt;%
+  clean_names()
+
+# Cases, fatalities
+us_confirmed_ts &lt;- us_confirmed_ts %&gt;% pivot_longer(cols = 12:120, names_to = &quot;date&quot;, values_to = &quot;confirmed&quot;) %&gt;%
+  mutate(date = as_date(date, format = &quot;x%m_%d_%y&quot;)) # Convert to a more usable format
+
+us_deaths_ts &lt;- us_deaths_ts %&gt;% pivot_longer(cols = 13:121, names_to = &quot;date&quot;, values_to = &quot;deaths&quot;) %&gt;%
+  mutate(date = as_date(date, format = &quot;x%m_%d_%y&quot;))
+
+us_ts &lt;- us_confirmed_ts %&gt;%
+  group_by(date) %&gt;%
+  summarise(total_cases = sum(confirmed)) %&gt;% left_join(
+    us_deaths_ts %&gt;%
+      
+      group_by(date) %&gt;%
+      
+      summarise(total_deaths = sum(deaths)),
+    
+    by = &quot;date&quot;)
+
+# Plot cumulative cases and deaths:
+us_ts %&gt;% # Linear
+  pivot_longer(cols = 2:3, names_to = &quot;report&quot;, values_to = &quot;num&quot;) %&gt;%
+  ggplot(aes(date, num)) +
+  geom_line(aes(color = report)) +
+  labs(title = &quot;US Cases and Deaths - Linear&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<pre class="r"><code>us_ts %&gt;% # Log
+  pivot_longer(cols = 2:3, names_to = &quot;report&quot;, values_to = &quot;num&quot;) %&gt;%
+  ggplot(aes(date, log10(num))) +
+  geom_line(aes(color = report)) +
+  labs(title = &quot;US Cases and Deaths - Logarithmic&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-14-2.png" width="672" /></p>
+<p>I also included a time series plot which displayed each state as a separate line, but I omitted it as it was very difficult to read.</p>
+<p></br></p>
+</div>
+</div>
+<div id="creating-new-variables" class="section level3">
+<h3>Creating New Variables</h3>
+<p>Given the nature of the data, investigating the relationship between response and predictor variables can be quite difficult. The total number of cases in a given state, for example, relies heavily on the testing capacity of that state. The mortality rate depends on how many of the actual number of people who have contracted COVID-19 are actually being tested and reported as a confirmed case. Variables such as hospitalization and incident rate are provided exclusively for US data, but there are more missing values in these variables.</p>
+<p>I chose to create a new variable to measure as a response variable: the daily change in the total number of deaths for each given state. This, I believed, would provide a cleaner measure of the degree to which COVID-19 is impacting each state.</p>
+<p>From this daily rate of change variable, I created two more summary variables–the average rate of increase in deaths for each state following the 30 days after each state’s first reported death, and the average rate of increase in deaths for all states in the past 10 days. The purpose for creating these summary statistics was to then compare them with various ACS variables and then see whether or not there were any significant correlations.</p>
+<p></br></p>
+<div id="analysis-of-the-relationship-between-response-variables-and-acs-predictors" class="section level4">
+<h4>Analysis of the relationship between response variables and ACS predictors</h4>
+<p>After calculating the new summary statistics described above, I loaded four different ACS datasets on a state level - population, income, internet access, and health insurance. The analysis I did with this data could have been more thorough (i.e. county level analysis and more variables investigated), but for the purposes of this EDA I started off looking at state level data.</p>
+<p>For each dataset, I joined together previously existing response variables and new predictor variables by state names. Then, I calculated a correlation matrix and sorted each response variable to view the most correlated predictors. I took five predictors from each of the four datasets which had a correlation of over 0.5, and added them to another dataset.</p>
+<p>I also repeated this process for a dataset containing total state level population counts and densities.</p>
+<p>After taking these steps, I decided analyze the data via clustering. The initial results were very poor, due to all the predictors being highly correlated with population numbers, as they were in the form of totals (of an entire state population) rather than percentages. I converted them into percentages and the proceeded with the clustering.</p>
+<p>First, here is a correlation matrix:</p>
+<pre class="r"><code># Creating a percent change variable: -------------------------------------
+
+# Calculates percentage change in deaths for a given date
+percent_change_deaths &lt;- function(data){
+  data %&gt;%
+    group_by(date) %&gt;%
+    summarise(deaths = sum(deaths)) %&gt;%
+    mutate(pct_change = (deaths - lag(deaths)) / lag(deaths) * 100)
+}
+
+# Run percent change function for all states
+percent_change_death &lt;- us_deaths_ts %&gt;% group_nest(province_state) %&gt;% 
+  mutate(change = map(data, percent_change_deaths)) %&gt;%
+  select(province_state, change) %&gt;%
+  unnest(cols = c(change)) 
+
+# Change all non-number values to NA
+percent_change_death &lt;- percent_change_death %&gt;% 
+  mutate(pct_change = ifelse(is.nan(pct_change), NA, pct_change)) %&gt;%
+  mutate(pct_change = ifelse(pct_change == Inf, NA, pct_change)) 
+
+# Create variable for earliest death, 30 days after 
+deaths_dates &lt;- percent_change_death %&gt;%
+  filter(deaths &gt; 0) %&gt;%
+  group_by(province_state) %&gt;%
+  summarise(first_death = min(date),
+            day_30 = first_death + days(30))
+
+# Use earliest death and 30 day period to calculate 30 day avg rate of change:
+first_30 &lt;- percent_change_death %&gt;%
+  left_join(deaths_dates, by = &quot;province_state&quot;) %&gt;%
+  filter(date &gt; first_death, date &lt;= day_30) %&gt;%
+  group_by(province_state) %&gt;%
+  summarise(first30 = mean(pct_change, na.rm = TRUE)) %&gt;%
+  arrange(desc(first30))
+
+# Average growth in deaths in past 10 days:
+past_10 &lt;- percent_change_death %&gt;%
+  filter(date &gt;= as_date(&quot;05-01-20&quot;, format = &quot;%m-%d-%y&quot;)) %&gt;%
+  group_by(province_state) %&gt;%
+  summarise(past10 = mean(pct_change, na.rm = TRUE)) %&gt;%
+  mutate(past10 = ifelse(is.nan(past10), 0, past10)) %&gt;%
+  arrange(desc(past10))
+
+# Overall mean growth
+overall_change &lt;- percent_change_death %&gt;%
+  group_by(province_state) %&gt;%
+  summarise(mean_change = mean(pct_change, na.rm = TRUE)) %&gt;%
+  mutate(mean_change = ifelse(is.nan(mean_change), 0, mean_change)) %&gt;%
+  arrange(desc(mean_change))
+
+# Add summary percent change statistics to the main dataset:
+covid_us_report &lt;- covid_us_report %&gt;% 
+  left_join(first_30, by = &quot;province_state&quot;) %&gt;%
+  left_join(past_10, by = &quot;province_state&quot;)
+
+# Analysis of Predictor Variables -----------------------------------------
+
+# Get US Data From ACS:
+
+
+# Population Data ---------------------------------------------------------
+
+
+acs_population &lt;- read_csv(&quot;data/unprocessed/ACS/ACS_Total_Population_-_State.csv&quot;) %&gt;%
+  clean_names()
+
+covid_data_pop &lt;- covid_us_report %&gt;%
+  filter(province_state %in% acs_population$name) %&gt;%
+  rename(name = province_state) %&gt;%
+  left_join(acs_population, by = &quot;name&quot;)
+
+pop_corr &lt;- covid_data_pop %&gt;%
+  select(confirmed, deaths, incident_rate, people_tested, people_hospitalized, mortality_rate,
+         testing_rate, hospitalization_rate, first30, past10, 25:140) %&gt;%
+  cor() %&gt;%
+  as_tibble()
+
+# Store most correlated variables:
+covid_all_vars &lt;- covid_data_pop %&gt;%
+  select(1:22, b01001_049e, b01001_042e, b01001_041e, b01001_040e, b01001_018e) 
+
+
+
+
+
+# Internet Connectivity Data ----------------------------------------------
+
+acs_internet &lt;- read_csv(&quot;data/unprocessed/ACS/ACS_Internet_Connectivity_-_State.csv&quot;) %&gt;%
+  clean_names()
+
+covid_data_internet &lt;- covid_us_report %&gt;%
+  filter(province_state %in% acs_internet$name) %&gt;%
+  rename(name = province_state) %&gt;%
+  left_join(acs_internet, by = &quot;name&quot;)
+
+internet_corr &lt;- covid_data_internet %&gt;%
+  select(confirmed, deaths, incident_rate, people_tested, people_hospitalized, mortality_rate,
+         testing_rate, hospitalization_rate, first30, past10, 25:78) %&gt;%
+  cor() %&gt;%
+  as_tibble()
+
+covid_all_vars &lt;- covid_all_vars %&gt;% bind_cols(
+  covid_data_internet %&gt;%
+    select(b28001_008e, b28001_011e, b28001_004e, b28002_008e, b28001_010e))
+
+# Income Data -------------------------------------------------------------
+
+acs_income &lt;- read_csv(&quot;data/unprocessed/ACS/ACS_Household_Income_Distribution_-_State.csv&quot;) %&gt;%
+  clean_names()
+
+covid_data_income &lt;- covid_us_report %&gt;%
+  filter(province_state %in% acs_income$name) %&gt;%
+  rename(name = province_state) %&gt;%
+  left_join(acs_income, by = &quot;name&quot;)
+
+income_corr &lt;- covid_data_income %&gt;%
+  select(confirmed, deaths, incident_rate, people_tested, people_hospitalized, mortality_rate,
+         testing_rate, hospitalization_rate, first30, past10, 25:72) %&gt;%
+  cor() %&gt;%
+  as_tibble()
+
+covid_all_vars &lt;- covid_all_vars %&gt;% bind_cols(
+  covid_data_income %&gt;%
+    select(b19001_015e, b19001_002e, b19001_014e, b19001_016e, b19001_calc_num_ge100e))
+
+
+# Insurance Data ----------------------------------------------------------
+
+acs_insurance &lt;- read_csv(&quot;data/unprocessed/ACS/ACS_Health_Insurance_Coverage_-_State.csv&quot;) %&gt;%
+  clean_names()
+
+covid_data_insurance &lt;- covid_us_report %&gt;%
+  filter(province_state %in% acs_income$name) %&gt;%
+  rename(name = province_state) %&gt;%
+  left_join(acs_insurance, by = &quot;name&quot;)
+
+insurance_corr &lt;- covid_data_insurance %&gt;%
+  select(confirmed, deaths, incident_rate, people_tested, people_hospitalized, mortality_rate,
+         testing_rate, hospitalization_rate, first30, past10, 25:93) %&gt;%
+  cor() %&gt;%
+  as_tibble()
+
+covid_all_vars &lt;- covid_all_vars %&gt;% bind_cols(
+  covid_data_insurance %&gt;%
+    select(b27010_036e, b27010_042e, b27010_010e, b27010_026e,
+           b27010_004e))
+
+
+# State Population Data ---------------------------------------------------
+
+state_pop &lt;- read_csv(&quot;data/unprocessed/state_population.csv&quot;) %&gt;%
+  clean_names() %&gt;%
+  rename(name = state)
+
+covid_data_pop2 &lt;- covid_us_report %&gt;%
+  filter(province_state %in% state_pop$name) %&gt;%
+  rename(name = province_state) %&gt;%
+  left_join(state_pop, by = &quot;name&quot;)
+
+pop2_corr &lt;- covid_data_pop2 %&gt;%
+  select(confirmed, deaths, incident_rate, people_tested, people_hospitalized, mortality_rate,
+         testing_rate, hospitalization_rate, first30, past10, 22:28) %&gt;%
+  cor() %&gt;%
+  as_tibble()
+
+covid_all_vars &lt;- covid_all_vars %&gt;%
+  bind_cols(covid_data_pop2 %&gt;% select(pop))
+
+# Change all variables into a percentage of population
+covid_all_vars &lt;- covid_all_vars %&gt;% mutate_at(23:42, funs(./pop))
+
+# Looking at all saved variables: -----------------------------------------
+
+covid_all_vars %&gt;%
+  select(first30, past10, 23:42) %&gt;%
+  cor() %&gt;%
+  corrplot()</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<p>There are correlations between some of these variables, but they are not overwhelmingly correlated, as was the case before predictors were converted from totals to percentages.</p>
+<p>Importantly, all of these predictors were moderately correlated with the <code>first30</code> variable, which is the mean growth rate in deaths during the first 30 days following the first death in each state. None of them were even moderately correlated with <code>past10</code>, which is the average rate of growth in the psat 10 days.</p>
+<p>Also, it is important to note that the variables were originally chosen based on how they correlated with response variables in their total, not percentage, form. Once the conversion was done, much of the correlations with the <code>first30</code> variable were eliminated. Although I did not do it in this EDA, a good next step to take might be to analyze the predictors again after converting all of them to percentages.</p>
+<p></br></p>
+</div>
+<div id="analysis-using-clustering" class="section level4">
+<h4>Analysis using Clustering</h4>
+<p>I performed hierarchical, K-Means, and spectral clustering on the states using only the predictors. Some of the results I obtained are shown below:</p>
+<pre class="r"><code># Clustering --------------------------------------------------------------
+
+# Helper Functions --------------------------------------------------------
+
+# run_hclust: runs hierarchical clustering with the given method
+# args: x - data used for clustering; meth - method of clustering
+run_hclust &lt;- function(x, meth){
+  return(hclust(dist(x), method = meth)) # hclust runs the clustering algorithm.
+}
+
+# cut_hclust: gives desired number of clusters for an hclust() object
+# args: hclust_obj - an hclust() object; ncuts - number of clusters desired
+cut_hclust &lt;- function(hclust_obj, ncuts){
+  return(cutree(hclust_obj, ncuts))
+}
+
+# get_within_ss: Get within-cluster SS from a K-means object
+# args: kmean_obj - a K-means obj
+get_within_ss &lt;- function(kmean_obj){
+  return(kmean_obj$tot.withinss)
+}
+
+# get_cluster: get cluster labels for data
+# args: x - data; clust_obj - a cluster object
+get_cluster &lt;- function(x, clust_obj){
+  
+  if(class(clust_obj) == &quot;kmeans&quot;){
+    clust = clust_obj$cluster
+  }
+  else{
+    clust = clust_obj
+  }
+  
+  out = x %&gt;%
+    
+    mutate(cluster = clust)
+  
+  return(out)
+}
+
+
+# Hierarchical Clustering -------------------------------------------------
+
+
+covid_cluster_data &lt;- covid_all_vars %&gt;%
+  select(name, 23:42)
+
+scaled_cluster_data &lt;- covid_cluster_data %&gt;%
+  select(2:21) %&gt;%
+  as.matrix() %&gt;%
+  scale() %&gt;%
+  as_tibble()
+
+covid_cluster_data_scaled &lt;- 
+  covid_cluster_data %&gt;%
+  select(name) %&gt;%
+  bind_cols(scaled_cluster_data)
+
+covid_hclust &lt;- tibble(
+  dat = covid_cluster_data_scaled %&gt;% list()
+)
+
+covid_hclust &lt;- covid_hclust %&gt;%
+  mutate(
+    hcl = map2(dat, &quot;complete&quot;, run_hclust), # Create clusters
+    dendo = map(hcl, ggdendrogram), # Create dendrogram,
+  )
+
+
+covid_hclust &lt;- covid_hclust %&gt;%
+  crossing(ncuts = c(2:6)) %&gt;%
+  mutate(
+    clusters = map2(hcl, ncuts, cut_hclust),
+    clust_dat = map2(dat, clusters, get_cluster)
+  )
+
+covid_hclust_6cut &lt;- covid_hclust %&gt;%
+  filter(ncuts == 6) %&gt;%
+  select(clust_dat) %&gt;%
+  unnest(cols = c(clust_dat)) %&gt;%
+  rename(state = name) %&gt;%
+  mutate(cluster = as_factor(cluster))
+
+# Plot 6 cluster cut on map:
+plot_usmap(data = covid_hclust_6cut, values = &quot;cluster&quot;, color = &quot;white&quot;) +
+  scale_fill_discrete(name = &quot;Cluster&quot;, na.translate = FALSE) +
+  labs(title = &quot;Hierarchical Clustering, 6 clusters&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<pre class="r"><code># K-Means Clustering ------------------------------------------------------
+
+covid_kmeans &lt;- tibble(xmat = list(covid_cluster_data_scaled %&gt;% select(-name))) %&gt;%
+  crossing(nclust = 2:6)
+
+covid_kmeans &lt;- covid_kmeans %&gt;% 
+  mutate(
+    kmean = map2(xmat, nclust, kmeans, nstart = 20),
+    within_ss = map_dbl(kmean, get_within_ss),
+    clusters = map2(xmat, kmean, get_cluster)
+  )
+
+covid_kmeans_5clust &lt;- covid_kmeans %&gt;%
+  filter(nclust == 5) %&gt;%
+  select(clusters) %&gt;%
+  unnest(cols = c(clusters))
+
+covid_kmeans_5clust &lt;- covid_kmeans_5clust %&gt;%
+  bind_cols(covid_cluster_data_scaled %&gt;% select(name)) %&gt;%
+  select(name, everything()) %&gt;%
+  rename(state = name) %&gt;%
+  mutate(cluster = as_factor(cluster))
+
+# 5 Clusters
+plot_usmap(data = covid_kmeans_5clust, values = &quot;cluster&quot;, color = &quot;white&quot;) +
+  scale_fill_discrete(name = &quot;Cluster&quot;, na.translate = FALSE) +
+  labs(title = &quot;K-Means Clustering, 5 clusters&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-2.png" width="672" /></p>
+<pre class="r"><code># Spectral Clustering -----------------------------------------------------
+
+covid_spectral &lt;- tibble(data = list(covid_cluster_data_scaled %&gt;% select(-name)))
+
+# Create spectral clusters--nclus = 5
+covid_spectral &lt;- covid_spectral %&gt;% mutate(
+  spec = map(.x = data,
+             .f = function(x) specc(as.matrix(x), centers = 5)),
+  spec_data = map2(data, spec, get_cluster)
+)
+
+covid_spectral_data &lt;- covid_spectral %&gt;%
+  select(spec_data) %&gt;%
+  unnest(cols = c(spec_data)) %&gt;%
+  bind_cols(covid_cluster_data_scaled %&gt;% select(name)) %&gt;%
+  select(name, everything()) %&gt;%
+  rename(state = name) %&gt;%
+  mutate(cluster = as_factor(as.character(cluster)))
+
+plot_usmap(data = covid_spectral_data, values = &quot;cluster&quot;, color = &quot;white&quot;) +
+  scale_fill_discrete(name = &quot;Cluster&quot;, na.translate = FALSE) +
+  labs(title = &quot;Spectral Clustering, 5 clusters&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-3.png" width="672" /></p>
+<p>Note that Puerto Rico, which was not on the map, was contained in its own cluster for hierarchical and K-Means clustering. Otherwise, the results seem to be much better for K-Means and spectral than for hierarchical, which did a poor job of distinguishing between most states.</p>
+<p></br></p>
+</div>
+<div id="comparing-cluster-results-to-response-variables" class="section level4">
+<h4>Comparing Cluster Results to Response Variables</h4>
+<p>In the next step, I compared various response variables separated by cluster for the K-Means and spectral methods:</p>
+<pre class="r"><code># K-Means
+covid_kmeans_5clust %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(log10(confirmed), log10(deaths))) +
+  geom_point(aes(color = cluster)) +
+  labs(title = &quot;confirmed cases vs deaths by cluster, K-Means&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<pre class="r"><code>covid_kmeans_5clust %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(first30, past10)) +
+  geom_point(aes(color = cluster)) +
+  labs(title = &quot;first 30 vs past 10 average rates by cluster, K-Means&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-2.png" width="672" /></p>
+<pre class="r"><code>covid_kmeans_5clust %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(incident_rate, mortality_rate)) +
+  geom_point(aes(color = cluster)) +
+  labs(title = &quot;incident_rate vs mortality rates by cluster, K-Means&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-3.png" width="672" /></p>
+<pre class="r"><code>covid_kmeans_5clust %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(incident_rate, cluster)) +
+  geom_boxplot() +
+  labs(title = &quot;incident rate by cluster, K-Means&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-4.png" width="672" /></p>
+<pre class="r"><code>covid_kmeans_5clust %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(past10, cluster)) +
+  geom_boxplot() +
+  labs(title = &quot;past10 by cluster, K-Means&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-5.png" width="672" /></p>
+<pre class="r"><code>covid_kmeans_5clust %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(first30, cluster)) +
+  geom_boxplot() +
+  labs(title = &quot;first30 by cluster, K-Means&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-6.png" width="672" /></p>
+<pre class="r"><code># Spectral
+covid_spectral_data %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(log10(confirmed), log10(deaths))) +
+  geom_point(aes(color = cluster)) +
+  labs(title = &quot;confirmed cases vs deaths by cluster, spectral&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-7.png" width="672" /></p>
+<pre class="r"><code>covid_spectral_data %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(first30, past10)) +
+  geom_point(aes(color = cluster)) +
+  labs(title = &quot;first30 vs past10 by cluster, spectral&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-8.png" width="672" /></p>
+<pre class="r"><code>covid_spectral_data %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(incident_rate, cluster)) +
+  geom_boxplot() +
+  labs(title = &quot;incident rate by cluster, spectral&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-9.png" width="672" /></p>
+<pre class="r"><code>covid_spectral_data %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(past10, cluster)) +
+  geom_boxplot() +
+  labs(title = &quot;past10 by cluster, spectral&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-10.png" width="672" /></p>
+<pre class="r"><code>covid_spectral_data %&gt;% select(state, cluster) %&gt;%
+  rename(province_state = state) %&gt;%
+  left_join(covid_us_report, by = &quot;province_state&quot;) %&gt;%
+  ggplot(aes(first30, cluster)) +
+  geom_boxplot() +
+  labs(title = &quot;first30 by cluster, spectral&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-11.png" width="672" /></p>
+<p>It appears that the clustering does not necessarily have a clear, significant effect on the response outcomes for either type of clustering. No immediate conclusions can be drawn from the results. It is likely, though, that the predictors chosen for the cluster have at most a slight effect on the response variables, based on the effects of converting the predictors from totals to percentages.</p>
+<p>Furthermore, there is no complete, thoroughly investigated conclusion as to why some states, such as New York and New Jersey, had much worse outbreaks than others. Unless we can identify these factors and adjust the data to account for their impact, it will be difficult to truly measure the effect of the ACS predictors on the data without deeper analysis.</p>
+</div>
+<div id="analysis-of-the-relationship-between-googles-mobility-data-and-covid-19-deaths" class="section level4">
+<h4>Analysis of the Relationship between Google’s Mobility Data and COVID-19 Deaths</h4>
+<p>In the next step of my EDA, I investigated whether or not Google’s Community Mobility Reports might be related to day-to-day percent changes in death totals. To do this, I converted the dataset and joined it with the time-series percent change in death rates which I computed earlier. I also looked at the overall trend for the US as a whole:</p>
+<pre class="r"><code># Looking at Lockdown Data ------------------------------------------------
+
+mobility &lt;- read_csv(&quot;data/unprocessed/Global_Mobility_Report.csv&quot;, col_types = list(
+  col_character(),
+  col_character(),
+  col_character(),
+  col_character(),
+  col_date(format = &quot;&quot;),
+  col_double(),
+  col_double(),
+  col_double(),
+  col_double(),
+  col_double(),
+  col_double()
+)) %&gt;%
+  clean_names()
+
+mobility_by_state &lt;- mobility %&gt;%
+  filter(country_region == &quot;United States&quot;, is.na(sub_region_2)) %&gt;%
+  group_by(sub_region_1, date) %&gt;%
+  summarise(retail_rec = mean(retail_and_recreation_percent_change_from_baseline, na.rm = TRUE),
+            grocery_pharmacy = mean(grocery_and_pharmacy_percent_change_from_baseline, na.rm = TRUE),
+            parks = mean(parks_percent_change_from_baseline, na.rm = TRUE),
+            transit = mean(transit_stations_percent_change_from_baseline, na.rm = TRUE),
+            workplace = mean(workplaces_percent_change_from_baseline, na.rm = TRUE), 
+            residential = mean(residential_percent_change_from_baseline, na.rm = TRUE)) %&gt;%
+  rename(province_state = sub_region_1)
+
+mobility_us &lt;- mobility %&gt;%
+  filter(country_region == &quot;United States&quot;, is.na(sub_region_1))
+
+# Overall trend for US:
+mobility_us %&gt;%
+  pivot_longer(cols = 6:11, names_to = &quot;cat&quot;) %&gt;%
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = cat))</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+<p>There are some interesting patterns in the data. The lines show the percentage difference from baseline (i.e. under normal conditions) in how often data is coming from various locations, such as at home (residential) or workplaces. Clearly, location data is showing more people at home and much less at workplaces or on transit. However, these overall trends are accompanied by fluctuations, which can be most clearly seen in the residential and workplace lines. I have not investigated these fluctuations in this EDA, but I plan to do so as a next step.</p>
+<p>After joining together the state data, I looked at some visualizations for a few states: each plot shows the transit and residential data from Google as two separate lines, and a third line shows the daily percent change in deaths:</p>
+<pre class="r"><code># Analysis by state:
+mobility_analysis_states &lt;- percent_change_death %&gt;%
+  left_join(mobility_by_state, by = c(&quot;province_state&quot;, &quot;date&quot;))
+
+# Look at some states:
+mobility_analysis_states %&gt;% # Washington
+  filter(province_state == &quot;Washington&quot;) %&gt;%
+  pivot_longer(cols = c(pct_change, transit, residential), names_to = &quot;var&quot;) %&gt;%
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = var)) +
+  xlim(as_date(&quot;13-02-20&quot;, format = &quot;%d-%m-%y&quot;), as_date(&quot;07-05-20&quot;, format = &quot;%d-%m-%y&quot;)) +
+  ylim(-80, 50) + 
+  labs(title = &quot;Washington State&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
+<pre class="r"><code>mobility_analysis_states %&gt;% # New York
+  filter(province_state == &quot;New York&quot;) %&gt;%
+  pivot_longer(cols = c(pct_change, transit, residential), names_to = &quot;var&quot;) %&gt;%
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = var)) +
+  xlim(as_date(&quot;13-02-20&quot;, format = &quot;%d-%m-%y&quot;), as_date(&quot;07-05-20&quot;, format = &quot;%d-%m-%y&quot;)) +
+  ylim(-80, 50) +
+  labs(title = &quot;New York State&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-2.png" width="672" /></p>
+<pre class="r"><code>mobility_analysis_states %&gt;% # Mississippi
+  filter(province_state == &quot;Mississippi&quot;) %&gt;%
+  pivot_longer(cols = c(pct_change, transit, residential), names_to = &quot;var&quot;) %&gt;%
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = var)) +
+  xlim(as_date(&quot;13-02-20&quot;, format = &quot;%d-%m-%y&quot;), as_date(&quot;07-05-20&quot;, format = &quot;%d-%m-%y&quot;)) +
+  ylim(-80, 50) + 
+  labs(title = &quot;Mississippi&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-3.png" width="672" /></p>
+<pre class="r"><code>mobility_analysis_states %&gt;% # Illinois
+  filter(province_state == &quot;Illinois&quot;) %&gt;%
+  pivot_longer(cols = c(pct_change, transit, residential), names_to = &quot;var&quot;) %&gt;%
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = var)) +
+  xlim(as_date(&quot;13-02-20&quot;, format = &quot;%d-%m-%y&quot;), as_date(&quot;07-05-20&quot;, format = &quot;%d-%m-%y&quot;)) +
+  ylim(-80, 50) +
+  labs(title = &quot;Illinois&quot;)</code></pre>
+<p><img src="../../../post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-4.png" width="672" /></p>
+<p>There’s a clear trend in the plots: all four states showed signs of people going to work less and staying home more. This is accompanied by a decrease in the percent change in death rates. Mississippi, which has shown somewhat of an increase in mobility recently, also sees a spike in death rates towards the most recent dates displayed. This data certainly supports the hypothesis that lockdowns can slow down the amount of deaths caused by COVID-19, and as some states ease lockdown policies, more data will be available in the coming weeks which provides more insight as to whether or not the easing of lockdowns can cause deaths to spike again.</p>
+<p></br></p>
+</div>
+</div>
+<div id="conclusion" class="section level3">
+<h3>Conclusion</h3>
+<p>Although I end the EDA here, there is still much to be investigated. Most of this EDA was dedicated to finding variables which show promise in possibly explaining the trends in how COVID-19 affects the US and its communities. I have found that, on a state level, there is no strong evidence to suggest that any of the variables from the four ACS datasets which I used have a significant relationship with COVID-19 statistics. However, to be sure, more analyses should be done on a county level. Also, I have found that mobility data could potentially serve as a good predictor of COVID-19 related trends.</p>
+<p>The next steps involve continuing to search for potential variables that can influence the impact of COVID-19. For example, there have been reports that COVID-19 is affecting Black and Latino communities disproportionally, perhaps due to socioeconomic factors and the presence of more comorbidities. More time should be dedicated to exploring how mobility data can be used to model the future trajectory of COVID-19 deaths, as well as how both of these might be impacted by government.</p>
+<p></br></p>
+</div>
+<div id="data-processing" class="section level3">
+<h3>Data Processing:</h3>
+<p>The time series data which was used for model-building was formatted such that there were columns for states and dates, and to find the total number of deaths on a certain date, one would need to look under the state column to find the row which corresponded to the desired state, then find the column which corresponded to the desired date.</p>
+<p>I first changed the format of the data by creating a date column which indicated the date, rather than having one column for each individual date. This converted the data to a much longer form, and helped with visualizations as well as further processing.</p>
+<p>The data was then summarised from county level to state level. Google and Apple mobility data were also filtered and summarised to US state-level data before being joined to the main dataset. Next, lag variables from 1-14 days were calculated and inserted into the data, and then rolling averages of mobility data were calculated, and then lag variables for these rolling averages.</p>
+<p>Finally, a tibble containing the name of each state and the date of its first recorded death was constructed. This tibble was then joined to the primary dataset, and a new variable, the difference between the date of the first death and the date of the observation, was added. The primary dataset was then saved to be used for various model-building scripts.</p>
+</div>
+<div id="data-sources" class="section level3">
+<h3>Data Sources:</h3>
+<p>Census COVID-19 Data Hub. Retrieved from <a href="https://covid19.census.gov/" class="uri">https://covid19.census.gov/</a></p>
+<p>COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. (2020, April 24). Retrieved from <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a></p>
+<p>COVID‑19 - Mobility Trends Reports. (2020, June 1). Retrieved from <a href="https://www.apple.com/covid19/mobility" class="uri">https://www.apple.com/covid19/mobility</a></p>
+<p>Google LLC “Google COVID-19 Community Mobility Reports” Retrieved from <a href="https://www.google.com/covid19/mobility/" class="uri">https://www.google.com/covid19/mobility/</a></p>
+<p>US States - Ranked by Population 2020. Retrieved from <a href="https://worldpopulationreview.com/states/" class="uri">https://worldpopulationreview.com/states/</a></p>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-lmyint-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2020 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script id="dsq-count-scr" src="//https-lmyint-github-io.disqus.com/count.js" async></script>
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="../../../js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/cs.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/xml.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

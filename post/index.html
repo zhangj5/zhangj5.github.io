@@ -16,7 +16,7 @@
   <meta name="description" content="Associate Professor">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://zhangj5.github.io/post/">
+  <link rel="alternate" hreflang="en-us" href="../post/">
 
   
 
@@ -44,7 +44,7 @@
   
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
   
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="../styles.css">
   
 
   
@@ -64,22 +64,22 @@
   
 
   
-  <link rel="alternate" href="https://zhangj5.github.io/post/index.xml" type="application/rss+xml" title="Jinsong Zhang">
-  <link rel="feed" href="https://zhangj5.github.io/post/index.xml" type="application/rss+xml" title="Jinsong Zhang">
+  <link rel="alternate" href="../post/index.xml" type="application/rss+xml" title="Jinsong Zhang">
+  <link rel="feed" href="../post/index.xml" type="application/rss+xml" title="Jinsong Zhang">
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="icon" type="image/png" href="../img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="../img/icon-192.png">
 
-  <link rel="canonical" href="https://zhangj5.github.io/post/">
+  <link rel="canonical" href="../post/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Jinsong Zhang">
-  <meta property="og:url" content="https://zhangj5.github.io/post/">
+  <meta property="og:url" content="/post/">
   <meta property="og:title" content="Posts | Jinsong Zhang">
-  <meta property="og:description" content="Associate Professor"><meta property="og:image" content="https://zhangj5.github.io/img/featured.png">
+  <meta property="og:description" content="Associate Professor"><meta property="og:image" content="/img/featured.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2017-01-01T00:00:00-06:00">
@@ -107,7 +107,7 @@
         <span class="icon-bar"></span>
       </button>
       
-      <a class="navbar-brand" href="/">Jinsong Zhang</a>
+      <a class="navbar-brand" href="../">Jinsong Zhang</a>
     </div>
 
     
@@ -127,7 +127,7 @@
         
 
         <li class="nav-item">
-          <a href="/#about">
+          <a href="../#about">
             
             <span>Home</span>
             
@@ -146,7 +146,7 @@
         
 
         <li class="nav-item">
-          <a href="/#posts">
+          <a href="../#posts">
             
             <span>Posts</span>
             
@@ -165,7 +165,26 @@
         
 
         <li class="nav-item">
-          <a href="/#publications">
+          <a href="../#publications_selected">
+            
+            <span>Selective Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../#publications">
             
             <span>Publications</span>
             
@@ -184,7 +203,7 @@
         
 
         <li class="nav-item">
-          <a href="/#contact">
+          <a href="../#contact">
             
             <span>Contact</span>
             
@@ -207,7 +226,7 @@
 <div class="article-header">
   
   
-    <img src="/img/featured.png" class="article-banner" itemprop="image">
+    <img src="../img/featured.png" class="article-banner" itemprop="image">
   
 
   
@@ -252,20 +271,11 @@
   
   
   <span class="middot-divider"></span>
-  <a href="https://zhangj5.github.io/post/final-project-kzhang917/project-report/#disqus_thread"></a>
+  <a href="../post/final-project-kzhang917/covid-19-forcast/#disqus_thread"></a>
   
 
   
   
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="https://zhangj5.github.io/categories/education/">Education</a
-    >
-    
-  </span>
   
   
 
@@ -277,15 +287,78 @@
   
   
   <h3 class="article-title" itemprop="headline">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/project-report/" itemprop="url">Project Report</a>
+    <a href="../post/final-project-kzhang917/covid-19-forcast/" itemprop="url">COVID-19 Forcast</a>
   </h3>
   <div class="article-style" itemprop="articleBody">
     
-    library(tidyverse) library(keras) library(modelr) library(tensorflow) library(caret) library(janitor) library(lubridate) library(glmnet) library(glmnetUtils) library(kernlab) library(gridExtra) library(ggdendro) library(magrittr) library(corrplot) library(usmap) set.seed(9254853) # Load Data --------------------------------------------------------------- # 5/9/20 Daily report: daily_report &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/05-09-2020.csv&quot;) %&gt;% clean_names() # Time series: confirmed_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv&quot;) %&gt;% clean_names() deaths_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv&quot;) %&gt;% clean_names() recovered_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv&quot;) %&gt;% clean_names() Executive Summary The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state.
+    The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made.
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/project-report/" class="btn btn-primary btn-outline">
+    <a href="../post/final-project-kzhang917/covid-19-forcast/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+    
+  
+    
+    
+      
+
+<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2020-06-12 03:13:43 &#43;0000 &#43;0000" itemprop="datePublished dateModified">
+      Jun 12, 2020
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jinsong Zhang">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="../post/test/r-markdown/#disqus_thread"></a>
+  
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+
+  
+  
+  <h3 class="article-title" itemprop="headline">
+    <a href="../post/test/r-markdown/" itemprop="url">R Markdown</a>
+  </h3>
+  <div class="article-style" itemprop="articleBody">
+    
+    R Markdown Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.
+    
+  </div>
+  <p class="read-more" itemprop="mainEntityOfPage">
+    <a href="../post/test/r-markdown/" class="btn btn-primary btn-outline">
       CONTINUE READING
     </a>
   </p>
@@ -322,7 +395,7 @@
   
   
   <span class="middot-divider"></span>
-  <a href="https://zhangj5.github.io/post/covid_19/#disqus_thread"></a>
+  <a href="../post/covid_19/#disqus_thread"></a>
   
 
   
@@ -338,7 +411,7 @@
   
   
   <h3 class="article-title" itemprop="headline">
-    <a href="https://zhangj5.github.io/post/covid_19/" itemprop="url">COVID-19 situation in the US (3/1/2020-6/12/2020)</a>
+    <a href="../post/covid_19/" itemprop="url">COVID-19 situation in the US (3/1/2020-6/12/2020)</a>
   </h3>
   <div class="article-style" itemprop="articleBody">
     
@@ -346,77 +419,7 @@
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://zhangj5.github.io/post/covid_19/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-    
-  
-    
-    
-      
-
-<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2014-03-27 02:52:57 &#43;0000 &#43;0000" itemprop="datePublished dateModified">
-      Mar 27, 2014
-    </time>
-  </span>
-  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Jinsong Zhang">
-  </span>
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    8 min read
-  </span>
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <a href="https://zhangj5.github.io/post/test/why-statistics-can-be-scary/#disqus_thread"></a>
-  
-
-  
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="https://zhangj5.github.io/categories/opinion/">Opinion</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-
-  
-  
-  <h3 class="article-title" itemprop="headline">
-    <a href="https://zhangj5.github.io/post/test/why-statistics-can-be-scary/" itemprop="url">Why statistics can be scary</a>
-  </h3>
-  <div class="article-style" itemprop="articleBody">
-    
-    I’ve been planning for some time to start this blog mainly as a way to give intuition to people untrained in statistics about what statisticians do and why. For the last few weeks, I’ve been gathering ideas, and I’ve found that in the process I’ve had to be a lot more reflective about fundamental aims in statistics that I had almost started taking for granted. So as a brief aside, I highly encourage people to blog!
-    
-  </div>
-  <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://zhangj5.github.io/post/test/why-statistics-can-be-scary/" class="btn btn-primary btn-outline">
+    <a href="../post/covid_19/" class="btn btn-primary btn-outline">
       CONTINUE READING
     </a>
   </p>
@@ -453,7 +456,7 @@
   
   
   <span class="middot-divider"></span>
-  <a href="https://zhangj5.github.io/post/final-project-kzhang917/eda/#disqus_thread"></a>
+  <a href="../post/final-project-kzhang917/eda/#disqus_thread"></a>
   
 
   
@@ -466,7 +469,7 @@
   
   
   <h3 class="article-title" itemprop="headline">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/eda/" itemprop="url"></a>
+    <a href="../post/final-project-kzhang917/eda/" itemprop="url"></a>
   </h3>
   <div class="article-style" itemprop="articleBody">
     
@@ -474,7 +477,7 @@
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/eda/" class="btn btn-primary btn-outline">
+    <a href="../post/final-project-kzhang917/eda/" class="btn btn-primary btn-outline">
       CONTINUE READING
     </a>
   </p>
@@ -511,7 +514,7 @@
   
   
   <span class="middot-divider"></span>
-  <a href="https://zhangj5.github.io/post/final-project-kzhang917/readme/#disqus_thread"></a>
+  <a href="../post/final-project-kzhang917/readme/#disqus_thread"></a>
   
 
   
@@ -524,7 +527,7 @@
   
   
   <h3 class="article-title" itemprop="headline">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/readme/" itemprop="url"></a>
+    <a href="../post/final-project-kzhang917/readme/" itemprop="url"></a>
   </h3>
   <div class="article-style" itemprop="articleBody">
     
@@ -534,7 +537,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/readme/" class="btn btn-primary btn-outline">
+    <a href="../post/final-project-kzhang917/readme/" class="btn btn-primary btn-outline">
       CONTINUE READING
     </a>
   </p>
@@ -571,7 +574,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
   
   
   <span class="middot-divider"></span>
-  <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/readme/#disqus_thread"></a>
+  <a href="../post/final-project-kzhang917/data/readme/#disqus_thread"></a>
   
 
   
@@ -584,7 +587,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
   
   
   <h3 class="article-title" itemprop="headline">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/readme/" itemprop="url"></a>
+    <a href="../post/final-project-kzhang917/data/readme/" itemprop="url"></a>
   </h3>
   <div class="article-style" itemprop="articleBody">
     
@@ -595,7 +598,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/readme/" class="btn btn-primary btn-outline">
+    <a href="../post/final-project-kzhang917/data/readme/" class="btn btn-primary btn-outline">
       CONTINUE READING
     </a>
   </p>
@@ -632,7 +635,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
   
   
   <span class="middot-divider"></span>
-  <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/processed/readme/#disqus_thread"></a>
+  <a href="../post/final-project-kzhang917/data/processed/readme/#disqus_thread"></a>
   
 
   
@@ -645,7 +648,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
   
   
   <h3 class="article-title" itemprop="headline">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/processed/readme/" itemprop="url"></a>
+    <a href="../post/final-project-kzhang917/data/processed/readme/" itemprop="url"></a>
   </h3>
   <div class="article-style" itemprop="articleBody">
     
@@ -662,7 +665,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/processed/readme/" class="btn btn-primary btn-outline">
+    <a href="../post/final-project-kzhang917/data/processed/readme/" class="btn btn-primary btn-outline">
       CONTINUE READING
     </a>
   </p>
@@ -699,7 +702,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
   
   
   <span class="middot-divider"></span>
-  <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/#disqus_thread"></a>
+  <a href="../post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/#disqus_thread"></a>
   
 
   
@@ -712,7 +715,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
   
   
   <h3 class="article-title" itemprop="headline">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/" itemprop="url"></a>
+    <a href="../post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/" itemprop="url"></a>
   </h3>
   <div class="article-style" itemprop="articleBody">
     
@@ -720,7 +723,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/" class="btn btn-primary btn-outline">
+    <a href="../post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/" class="btn btn-primary btn-outline">
       CONTINUE READING
     </a>
   </p>
@@ -757,7 +760,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
   
   
   <span class="middot-divider"></span>
-  <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/readme/#disqus_thread"></a>
+  <a href="../post/final-project-kzhang917/data/unprocessed/readme/#disqus_thread"></a>
   
 
   
@@ -770,7 +773,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
   
   
   <h3 class="article-title" itemprop="headline">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/readme/" itemprop="url"></a>
+    <a href="../post/final-project-kzhang917/data/unprocessed/readme/" itemprop="url"></a>
   </h3>
   <div class="article-style" itemprop="articleBody">
     
@@ -787,7 +790,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/readme/" class="btn btn-primary btn-outline">
+    <a href="../post/final-project-kzhang917/data/unprocessed/readme/" class="btn btn-primary btn-outline">
       CONTINUE READING
     </a>
   </p>
@@ -824,7 +827,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
   
   
   <span class="middot-divider"></span>
-  <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/#disqus_thread"></a>
+  <a href="../post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/#disqus_thread"></a>
   
 
   
@@ -837,7 +840,7 @@ Likely, you will have your EDA report (midterm), executive summary, and final re
   
   
   <h3 class="article-title" itemprop="headline">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/" itemprop="url"></a>
+    <a href="../post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/" itemprop="url"></a>
   </h3>
   <div class="article-style" itemprop="articleBody">
     
@@ -847,7 +850,7 @@ Field description  FIPS: US only. Federal Information Processing Standards code 
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/" class="btn btn-primary btn-outline">
+    <a href="../post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/" class="btn btn-primary btn-outline">
       CONTINUE READING
     </a>
   </p>
@@ -861,7 +864,7 @@ Field description  FIPS: US only. Federal Information Processing Standards code 
   <ul class="pager">
     
     
-    <li><a href="/post/page/2/">&gt;</a></li>
+    <li><a href="../post/page/2/">&gt;</a></li>
     
   </ul>
 </nav>
@@ -932,7 +935,7 @@ Field description  FIPS: US only. Federal Information Processing Standards code 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
     
     
-    <script src="/js/hugo-academic.js"></script>
+    <script src="../js/hugo-academic.js"></script>
     
 
     

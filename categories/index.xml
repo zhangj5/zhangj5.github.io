@@ -2,32 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jinsong Zhang</title>
-    <link>https://zhangj5.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Jinsong Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     
-        <atom:link href="https://zhangj5.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Education</title>
-      <link>https://zhangj5.github.io/categories/education/</link>
-      <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
-      
-      <guid>https://zhangj5.github.io/categories/education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opinion</title>
-      <link>https://zhangj5.github.io/categories/opinion/</link>
-      <pubDate>Thu, 27 Mar 2014 02:52:57 +0000</pubDate>
-      
-      <guid>https://zhangj5.github.io/categories/opinion/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

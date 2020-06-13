@@ -18,7 +18,18 @@
       <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
       
       <guid>https://zhangj5.github.io/post/final-project-kzhang917/project-report/</guid>
-      <description>library(tidyverse) library(keras) library(modelr) library(tensorflow) library(caret) library(janitor) library(lubridate) library(glmnet) library(glmnetUtils) library(kernlab) library(gridExtra) library(ggdendro) library(magrittr) library(corrplot) library(usmap) set.seed(9254853) # Load Data --------------------------------------------------------------- # 5/9/20 Daily report: daily_report &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/05-09-2020.csv&amp;quot;) %&amp;gt;% clean_names() # Time series: confirmed_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv&amp;quot;) %&amp;gt;% clean_names() deaths_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv&amp;quot;) %&amp;gt;% clean_names() recovered_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv&amp;quot;) %&amp;gt;% clean_names() Executive Summary The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state.</description>
+      <description>Executive Summary The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made.</description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>https://zhangj5.github.io/post/test/project-report/</link>
+      <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
+      
+      <guid>https://zhangj5.github.io/post/test/project-report/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min.</description>
     </item>
     
   </channel>

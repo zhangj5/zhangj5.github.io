@@ -225,7 +225,18 @@
     <h2><a href="https://zhangj5.github.io/post/final-project-kzhang917/project-report/">Project Report</a></h2>
     <div class="article-style">
       
-      library(tidyverse) library(keras) library(modelr) library(tensorflow) library(caret) library(janitor) library(lubridate) library(glmnet) library(glmnetUtils) library(kernlab) library(gridExtra) library(ggdendro) library(magrittr) library(corrplot) library(usmap) set.seed(9254853) # Load Data &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; # 5/9/20 Daily report: daily_report &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/05-09-2020.csv&quot;) %&gt;% clean_names() # Time series: confirmed_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv&quot;) %&gt;% clean_names() deaths_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv&quot;) %&gt;% clean_names() recovered_ts &lt;- read_csv(&quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv&quot;) %&gt;% clean_names() Executive Summary The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state.
+      Executive Summary The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="https://zhangj5.github.io/post/test/project-report/">R Markdown</a></h2>
+    <div class="article-style">
+      
+      R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" target="_blank">http://rmarkdown.rstudio.com</a>.
+When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min.
       
     </div>
   </div>
