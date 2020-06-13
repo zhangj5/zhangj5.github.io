@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jinsong Zhang</title>
-    <link>/post/</link>
+    <link>https://zhangj5.github.io/post/</link>
     <description>Recent content in Posts on Jinsong Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhangj5.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>COVID-19 situation in the US (3/1/2020-6/12/2020)</title>
-      <link>/post/covid_19/</link>
+      <link>https://zhangj5.github.io/post/covid_19/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/covid_19/</guid>
+      <guid>https://zhangj5.github.io/post/covid_19/</guid>
       <description>import os import pandas as pd import numpy as np import matplotlib.pyplot as plt  We download the most updated Cases in the US from the &amp;ldquo;COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE)&amp;rdquo; at Johns Hopkins University. These include (i) confirmed cases and (ii) deaths, since 1/23/20 till the preceding day of the current date.
-os.getcwd() %cd ../COVID-19/ ! git pull origin master ! git remote -v  /media/data_analysis5/apps/git_repository/jupyter_notebook/kaggle/covid_19/COVID-19 From https://github.</description>
+! git pull origin master ! git remote -v  From https://github.</description>
     </item>
     
   </channel>
