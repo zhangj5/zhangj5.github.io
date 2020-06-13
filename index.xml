@@ -3,19 +3,394 @@
   <channel>
     <title>Jinsong Zhang</title>
     <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jinsong Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Jinsong Zhang</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Jinsong Zhang</title>
-      <link>/</link>
-    </image>
+    <description>Recent content on Jinsong Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academic</title>
+      <link>/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/home/hero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
+
+&lt;p&gt;I am an Associate Professor at &lt;a href=&#34;https://www.slu.edu/&#34; target=&#34;_blank&#34;&gt;Saint Louis University&lt;/a&gt; in the &lt;a href=&#34;https://www.slu.edu/medicine/medical-education/graduate-programs/pharmacology-physiology/&#34; target=&#34;_blank&#34;&gt;Department of Pharmacology and Physiology&lt;/a&gt;. My research interests span different areas including molecular biology, structural biology, and bioinformatics. To learn more about my “peer-reviewed” research projects, please visit the “Publication” page. To learn more about my unpublished research interests, please visit the “Recent Posts”” area.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/talks/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Graphs Galore! Representing Knowledge in the Sciences and Humanities&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;Carleton College. October 22, 2019.&lt;/em&gt; (&lt;a href=&#34;https://docs.google.com/presentation/d/1gh2qpDZhjUDgV-Qo2QZrADnGxwaD2qU7k-zNSHAjvOE/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;)&lt;br /&gt;
+&lt;em&gt;Macalester College. November 1, 2019.&lt;/em&gt; (&lt;a href=&#34;https://docs.google.com/presentation/d/1LQY6P4qZJnVg-s8w0wxPzSjc3-A8nWpuyh-Z5MJ9xDc/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/teaching/</guid>
+      <description>&lt;p&gt;I teach the following courses at Macalester. Some of my courses have course websites which you can navigate to below. For many of my classes I make videos, which can be found on my &lt;a href=&#34;https://www.youtube.com/channel/UCgW3LCQ623sUjprV8EbtVoA&#34; target=&#34;_blank&#34;&gt;YouTube channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;STAT 125: Epidemiology&lt;/li&gt;
+&lt;li&gt;STAT 155: Introduction to Statistical Modeling
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bcheggeseth.github.io/Stat155Notes/&#34; target=&#34;_blank&#34;&gt;Class notes&lt;/a&gt; in collaboration with &lt;a href=&#34;https://sites.google.com/macalester.edu/bcheggeseth&#34; target=&#34;_blank&#34;&gt;Brianna Heggeseth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/155_spring_2020/&#34; target=&#34;_blank&#34;&gt;[S20 Site]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;STAT 253: Statistical Machine Learning
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/253_spring_2019/&#34; target=&#34;_blank&#34;&gt;[S19 Site]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;STAT 451: Causal Inference (formerly STAT 394)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/causal_spring_2020/&#34; target=&#34;_blank&#34;&gt;[S20 Site]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/home/cv/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/cv/</guid>
+      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form. (Last updated: June 6, 2020)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fun</title>
+      <link>/home/fun/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/fun/</guid>
+      <description>&lt;p&gt;I am an avid &lt;a href=&#34;http://dnd.wizards.com/&#34; target=&#34;_blank&#34;&gt;Dungeons and Dragons&lt;/a&gt; player and game enthusiast, and I love finding ways to bring coding and analysis into these beloved hobbies of mine. As a result, I have a few side projects devoted entirely to fun!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/rdnd&#34; target=&#34;_blank&#34;&gt;Map Annotator&lt;/a&gt;: A Shiny app that I developed to create clickable annotated maps for helping game masters keep track of details in information-dense areas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1zdMStQLOJUIpmVQZv9VxwYYTyp1nFHgorwQzYrgA1Uo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;R + Magic the Gathering&lt;/a&gt;: (Slides) A foray into the &lt;a href=&#34;https://github.com/hadley/rvest&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; package in R with an application for organizing information about Magic the Gathering decklists.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19 situation in the US (3/1/2020-6/12/2020)</title>
+      <link>/post/covid_19/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/covid_19/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import os
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We download the most updated Cases in the US from the &amp;ldquo;COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE)&amp;rdquo; at Johns Hopkins University. These include (i) confirmed cases and (ii) deaths, since 1/23/20 till the preceding day of the current date.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;os.getcwd()
+%cd ../COVID-19/
+! git pull origin master
+! git remote -v
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;/media/data_analysis5/apps/git_repository/jupyter_notebook/kaggle/covid_19/COVID-19
+From https://github.com/CSSEGISandData/COVID-19
+ * branch              master     -&amp;gt; FETCH_HEAD
+Already up to date.
+origin  https://github.com/CSSEGISandData/COVID-19.git (fetch)
+origin  https://github.com/CSSEGISandData/COVID-19.git (push)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df_death=pd.read_csv(&amp;quot;/media/data_analysis5/apps/git_repository/jupyter_notebook/kaggle/covid_19/COVID-19/csse_covid_19_data\
+/csse_covid_19_time_series/time_series_covid19_deaths_US.csv&amp;quot;)
+
+
+df_confirmed=pd.read_csv(&amp;quot;/media/data_analysis5/apps/git_repository/jupyter_notebook/kaggle/covid_19/COVID-19/csse_covid_19_data\
+/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;state_name=df_death[&amp;quot;Province_State&amp;quot;].unique()
+state_name=state_name.tolist()
+state_name.append(&amp;quot;all&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We define a class &amp;ldquo;covid19&amp;rdquo; to store the case data and the derived statistics. It includes accumulated and daily confirmed cases and deaths, methods to calculate these numbers and to plot the statistics.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class covid19:
+    country=&amp;quot;US&amp;quot;
+    def __init__(self,name):
+        self.state_name=name
+        self.df_death=None
+        self.df_confirm=None
+        self.df_death_accu=None
+        self.df_confirm_dccu=None
+        self.df_death_daily=None
+        self.df_confirm_daily=None
+        
+    def update_df(self):
+        if self.state_name==&amp;quot;all&amp;quot;:
+            self.df_confirm=df_confirmed
+            self.df_death=df_death
+        else:
+            self.df_death=df_death[df_death[&amp;quot;Province_State&amp;quot;]==self.state_name]
+            self.df_confirm=df_confirmed[df_confirmed[&amp;quot;Province_State&amp;quot;]==self.state_name]  
+        
+    def get_accu(self):
+        self.df_confirm_accu=self.df_confirm.iloc[:,12:]
+        self.df_confirm_accu=self.df_confirm_accu.sum(axis=0)
+        self.df_confirm_accu.index=pd.to_datetime(self.df_confirm_accu.index)
+        self.df_confirm_daily=self.df_confirm_accu.diff().fillna(self.df_confirm_accu[0]).astype(np.int64)
+        self.df_confirm_daily.index=pd.to_datetime(self.df_confirm_daily.index)
+    def get_death(self):
+        self.df_death_accu=self.df_death.iloc[:,12:]
+        self.df_death_accu=self.df_death_accu.sum(axis=0)
+        self.df_death_accu.index=pd.to_datetime(self.df_death_accu.index)
+        self.df_death_daily=self.df_death_accu.diff().fillna(self.df_death_accu[0]).astype(np.int64)
+        self.df_death_daily.index=pd.to_datetime(self.df_death_daily.index)
+    
+    def update_all_plots(self):
+        self.update_df()
+        self.get_accu()
+        self.get_death()
+        self.get_plots()
+    def get_plots(self):
+        figure, axes = plt.subplots(ncols=4,nrows=1,figsize=(20, 5))
+        plt.setp(axes, xlim=  pd.to_datetime([&amp;quot;2020-03-01&amp;quot;,&amp;quot;2020-06-15&amp;quot;]).to_numpy())
+#         fig, axs = plt.subplots(ncols=4, figsize=(18, 10))
+        axes[0].plot(self.df_confirm_accu)
+        axes[0].title.set_text(self.state_name)
+        axes[0].set_ylabel(&amp;quot;accumulated confirmed cases&amp;quot;)
+        axes[1].plot(self.df_death_accu)
+        axes[1].set_ylabel(&amp;quot;daily confirmed cases&amp;quot;)
+        axes[2].plot(self.df_confirm_daily)
+        axes[2].set_ylabel(&amp;quot;accumulated deaths&amp;quot;)
+        axes[3].plot(self.df_death_daily)
+        axes[3].set_ylabel(&amp;quot;daily deaths&amp;quot;)
+        figure.autofmt_xdate(rotation=45)
+        figure.tight_layout()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;plt.rcParams.update({&#39;figure.max_open_warning&#39;: 0}) # suppress warnings.
+for x in state_name:
+    temp=covid19(x)
+    temp.update_all_plots()
+plt.show()
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_0.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_1.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_2.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_3.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_4.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_5.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_6.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_7.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_8.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_9.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_10.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_11.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_12.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_13.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_14.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_15.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_16.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_17.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_18.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_19.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_20.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_21.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_22.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_23.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_24.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_25.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_26.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_27.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_28.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_29.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_30.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_31.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_32.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_33.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_34.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_35.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_36.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_37.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_38.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_39.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_40.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_41.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_42.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_43.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_44.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_45.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_46.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_47.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_48.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_49.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_50.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_51.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_52.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_53.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_54.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_55.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_56.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_57.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./output_10_58.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>GPR160 de-orphanization reveals critical roles in neuropathic pain in rodents</title>
       <link>/publication/2020-01-01_gpr160_de-orphanizat/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2020-01-01_gpr160_de-orphanizat/</guid>
       <description></description>
     </item>
@@ -24,6 +399,7 @@
       <title>Histone deacetylase 3 preferentially binds and collaborates with the transcription factor RUNX1 to repress AML1-ETO- dependent transcription in t(8;21) AML</title>
       <link>/publication/2020-01-01_histone_deacetylase_/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2020-01-01_histone_deacetylase_/</guid>
       <description></description>
     </item>
@@ -32,6 +408,7 @@
       <title>The transcriptional corepressor CBFA2T3 inhibits all-trans retinoic acid-induced myeloid gene expression and differentiation in acute myeloid leukemia</title>
       <link>/publication/2020-01-01_the_transcriptional_/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2020-01-01_the_transcriptional_/</guid>
       <description></description>
     </item>
@@ -40,15 +417,8 @@
       <title>Circadian clock protein Rev-erbα regulates neuroinflammation</title>
       <link>/publication/2019-01-01_circadian_clock_prot/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2019-01-01_circadian_clock_prot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Low plasma adropin concentrations increase risks of weight gain and metabolic dysregulation in response to a high-sugar diet in male nonhuman primates</title>
-      <link>/publication/2019-01-01_low_plasma_adropin_c/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019-01-01_low_plasma_adropin_c/</guid>
       <description></description>
     </item>
     
@@ -56,7 +426,17 @@
       <title>LXR-inverse agonism stimulates immune-mediated tumor destruction by enhancing CD8 T-cell activity in triple negative breast cancer</title>
       <link>/publication/2019-01-01_lxr-inverse_agonism_/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2019-01-01_lxr-inverse_agonism_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Low plasma adropin concentrations increase risks of weight gain and metabolic dysregulation in response to a high-sugar diet in male nonhuman primates</title>
+      <link>/publication/2019-01-01_low_plasma_adropin_c/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019-01-01_low_plasma_adropin_c/</guid>
       <description></description>
     </item>
     
@@ -64,6 +444,7 @@
       <title>Myeloid translocation gene CBFA2T3 directs a relapse gene program and determines patient-specific outcomes in AML</title>
       <link>/publication/2019-01-01_myeloid_translocatio/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2019-01-01_myeloid_translocatio/</guid>
       <description></description>
     </item>
@@ -72,6 +453,7 @@
       <title>Pharmacological activation of the nuclear receptor REV-ERB reverses cognitive deficits and reduces amyloid-β burden in a mouse model of Alzheimer&#39;s disease</title>
       <link>/publication/2019-01-01_pharmacological_acti/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2019-01-01_pharmacological_acti/</guid>
       <description></description>
     </item>
@@ -80,6 +462,7 @@
       <title>Adropin: An endocrine link between the biological clock and cholesterol homeostasis</title>
       <link>/publication/2018-01-01_adropin_an_endocrine/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2018-01-01_adropin_an_endocrine/</guid>
       <description></description>
     </item>
@@ -88,6 +471,7 @@
       <title>Epigenetic regulator ARID1A and stem cell transcription factor SOX9 in the maintenance of pancreatic ductal cell differentiation state and development of intraductal papillary mucinous neoplasia (IPMN) and pancreatic ductal adenocarcinoma (PDAC)</title>
       <link>/publication/2018-01-01_epigenetic_regulator/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2018-01-01_epigenetic_regulator/</guid>
       <description></description>
     </item>
@@ -96,15 +480,8 @@
       <title>A FOXO1-induced oncogenic network defines the AML1-ETO preleukemic program</title>
       <link>/publication/2017-01-01_a_foxo1-induced_onco/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2017-01-01_a_foxo1-induced_onco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Emerging Roles of MTG16 in Cell-Fate Control of Hematopoietic Stem Cells and Cancer</title>
-      <link>/publication/2017-01-01_emerging_roles_of_mt/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/2017-01-01_emerging_roles_of_mt/</guid>
       <description></description>
     </item>
     
@@ -112,7 +489,17 @@
       <title>EZH2-, CHD4-, and IDH-linked epigenetic perturbation and its association with survival in glioma patients</title>
       <link>/publication/2017-01-01_ezh2-_chd4-_and_id/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2017-01-01_ezh2-_chd4-_and_id/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emerging Roles of MTG16 in Cell-Fate Control of Hematopoietic Stem Cells and Cancer</title>
+      <link>/publication/2017-01-01_emerging_roles_of_mt/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-01-01_emerging_roles_of_mt/</guid>
       <description></description>
     </item>
     
@@ -120,6 +507,7 @@
       <title>Rev-Erb co-regulates muscle regeneration via tethered interaction with the NF-Y cistrome</title>
       <link>/publication/2017-01-01_rev-erb_co-regulates/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2017-01-01_rev-erb_co-regulates/</guid>
       <description></description>
     </item>
@@ -128,6 +516,7 @@
       <title>Rev-erb regulation of cholesterologenesis</title>
       <link>/publication/2017-01-01_rev-erb_regulation_o/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2017-01-01_rev-erb_regulation_o/</guid>
       <description></description>
     </item>
@@ -136,6 +525,7 @@
       <title>Transcriptional and Genomic Control of Stem Cells in Development and Cancer</title>
       <link>/publication/2017-01-01_transcriptional_and_/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2017-01-01_transcriptional_and_/</guid>
       <description></description>
     </item>
@@ -144,64 +534,16 @@
       <title>New insights into transcriptional and leukemogenic mechanisms of AML1-ETO and E2A fusion proteins</title>
       <link>/publication/2016-01-01_new_insights_into_tr/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2016-01-01_new_insights_into_tr/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
     </item>
     
     <item>
       <title>The optimal corepressor function of nuclear receptor corepressor (NCoR) for peroxisome proliferator-activated receptor γ requires g protein pathway suppressor 2</title>
       <link>/publication/2015-01-01_the_optimal_corepres/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2015-01-01_the_optimal_corepres/</guid>
       <description></description>
     </item>
@@ -210,6 +552,7 @@ Figure 1: A fancy pie chart.
       <title>Differential involvement of E2A-corepressor interactions in distinct leukemogenic pathways</title>
       <link>/publication/2014-01-01_differential_involve/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2014-01-01_differential_involve/</guid>
       <description></description>
     </item>
@@ -218,6 +561,7 @@ Figure 1: A fancy pie chart.
       <title>A TAF4 coactivator function for E proteins that involves enhanced TFIID binding</title>
       <link>/publication/2013-01-01_a_taf4_coactivator_f/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2013-01-01_a_taf4_coactivator_f/</guid>
       <description></description>
     </item>
@@ -226,6 +570,7 @@ Figure 1: A fancy pie chart.
       <title>DNA Homologous Recombination Factor SFR1 Physically and Functionally Interacts with Estrogen Receptor Alpha</title>
       <link>/publication/2013-01-01_dna_homologous_recom/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2013-01-01_dna_homologous_recom/</guid>
       <description></description>
     </item>
@@ -234,6 +579,7 @@ Figure 1: A fancy pie chart.
       <title>The novel interaction between microspherule protein Msp58 and ubiquitin E3 ligase EDD regulates cell cycle progression</title>
       <link>/publication/2013-01-01_the_novel_interactio/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2013-01-01_the_novel_interactio/</guid>
       <description></description>
     </item>
@@ -242,6 +588,7 @@ Figure 1: A fancy pie chart.
       <title>Regulated clearance of histone deacetylase 3 protects independent formation of nuclear receptor corepressor complexes</title>
       <link>/publication/2012-01-01_regulated_clearance_/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2012-01-01_regulated_clearance_/</guid>
       <description></description>
     </item>
@@ -250,6 +597,7 @@ Figure 1: A fancy pie chart.
       <title>LMO7 mediates cell-specific activation of the rho-myocardin-related transcription factor-serum response factor pathway and plays an important role in breast cancer cell migration</title>
       <link>/publication/2011-01-01_lmo7_mediates_cell-s/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2011-01-01_lmo7_mediates_cell-s/</guid>
       <description></description>
     </item>
@@ -258,6 +606,7 @@ Figure 1: A fancy pie chart.
       <title>The leukemogenicity of AML1-ETO is dependent on site-specific lysine acetylation</title>
       <link>/publication/2011-01-01_the_leukemogenicity_/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2011-01-01_the_leukemogenicity_/</guid>
       <description></description>
     </item>
@@ -266,6 +615,7 @@ Figure 1: A fancy pie chart.
       <title>Identification of ASF/SF2 as a critical, allele-specific effector of the cyclin D1b oncogene</title>
       <link>/publication/2010-01-01_identification_of_as/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2010-01-01_identification_of_as/</guid>
       <description></description>
     </item>
@@ -274,6 +624,7 @@ Figure 1: A fancy pie chart.
       <title>Multivalent binding of the ETO corepressor to E proteins facilitates dual repression controls targeting chromatin and the basal transcription machinery</title>
       <link>/publication/2009-01-01_multivalent_binding_/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2009-01-01_multivalent_binding_/</guid>
       <description></description>
     </item>
@@ -282,6 +633,7 @@ Figure 1: A fancy pie chart.
       <title>Vav3 oncogene activates estrogen receptor and its overexpression may be involved in human breast cancer</title>
       <link>/publication/2008-01-01_vav3_oncogene_activa/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2008-01-01_vav3_oncogene_activa/</guid>
       <description></description>
     </item>
@@ -290,6 +642,7 @@ Figure 1: A fancy pie chart.
       <title>The acute myeloid leukemia fusion protein AML1-ETO targets E proteins via a paired amphipathic helix-like TBP-associated factor homology domain</title>
       <link>/publication/2006-01-01_the_acute_myeloid_le/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2006-01-01_the_acute_myeloid_le/</guid>
       <description></description>
     </item>
@@ -298,6 +651,7 @@ Figure 1: A fancy pie chart.
       <title>E protein silencing by the leukemogenic AML1-ETO fusion protein</title>
       <link>/publication/2004-01-01_e_protein_silencing_/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2004-01-01_e_protein_silencing_/</guid>
       <description></description>
     </item>
@@ -306,6 +660,7 @@ Figure 1: A fancy pie chart.
       <title>Cooperative function of Aml1-ETO corepressor recruitment domains in the expansion of primary bone marrow cells</title>
       <link>/publication/2002-01-01_cooperative_function/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2002-01-01_cooperative_function/</guid>
       <description></description>
     </item>
@@ -314,6 +669,7 @@ Figure 1: A fancy pie chart.
       <title>The N-CoR-HDAC3 nuclear receptor corepressor complex inhibits the JNK pathway through the integral subunit GPS2</title>
       <link>/publication/2002-01-01_the_n-cor-hdac3_nucl/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2002-01-01_the_n-cor-hdac3_nucl/</guid>
       <description></description>
     </item>
@@ -322,6 +678,7 @@ Figure 1: A fancy pie chart.
       <title>Oligomerization of ETO is obligatory for corepressor interaction</title>
       <link>/publication/2001-01-01_oligomerization_of_e/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2001-01-01_oligomerization_of_e/</guid>
       <description></description>
     </item>
@@ -330,6 +687,7 @@ Figure 1: A fancy pie chart.
       <title>Nuclear receptor corepressors partner with class II histone deacetylases in a Sin3-independent repression pathway</title>
       <link>/publication/2000-01-01_nuclear_receptor_cor/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2000-01-01_nuclear_receptor_cor/</guid>
       <description></description>
     </item>
@@ -338,6 +696,7 @@ Figure 1: A fancy pie chart.
       <title>The mechanism of action of thyroid hormones</title>
       <link>/publication/2000-01-01_the_mechanism_of_act/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
       <guid>/publication/2000-01-01_the_mechanism_of_act/</guid>
       <description></description>
     </item>
@@ -346,6 +705,7 @@ Figure 1: A fancy pie chart.
       <title>A novel role for helix 12 of retinoid X receptor in regulating repression</title>
       <link>/publication/1999-01-01_a_novel_role_for_hel/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      
       <guid>/publication/1999-01-01_a_novel_role_for_hel/</guid>
       <description></description>
     </item>
@@ -354,6 +714,7 @@ Figure 1: A fancy pie chart.
       <title>Aberrant recruitment of the nuclear receptor corepressor-histone deacetylase complex by the acute myeloid leukemia fusion partner ETO</title>
       <link>/publication/1998-01-01_aberrant_recruitment/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      
       <guid>/publication/1998-01-01_aberrant_recruitment/</guid>
       <description></description>
     </item>
@@ -362,6 +723,7 @@ Figure 1: A fancy pie chart.
       <title>Proteasomal regulation of nuclear receptor corepressor-mediated repression</title>
       <link>/publication/1998-01-01_proteasomal_regulati/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      
       <guid>/publication/1998-01-01_proteasomal_regulati/</guid>
       <description></description>
     </item>
@@ -370,6 +732,7 @@ Figure 1: A fancy pie chart.
       <title>Differential recognition of liganded and unliganded thyroid hormone receptor by retinoid X receptor regulates transcriptional repression</title>
       <link>/publication/1997-01-01_differential_recogni/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      
       <guid>/publication/1997-01-01_differential_recogni/</guid>
       <description></description>
     </item>
@@ -378,6 +741,7 @@ Figure 1: A fancy pie chart.
       <title>Stoichiometric and steric principles governing repression by nuclear hormone receptors</title>
       <link>/publication/1997-01-01_stoichiometric_and_s/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      
       <guid>/publication/1997-01-01_stoichiometric_and_s/</guid>
       <description></description>
     </item>
@@ -386,6 +750,7 @@ Figure 1: A fancy pie chart.
       <title>DNA-independent and DNA-dependent mechanisms regulate the differential heterodimerization of the isoforms of the thyroid hormone receptor with retinoid X receptor</title>
       <link>/publication/1996-01-01_dna-independent_and_/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
+      
       <guid>/publication/1996-01-01_dna-independent_and_/</guid>
       <description></description>
     </item>
@@ -394,8 +759,403 @@ Figure 1: A fancy pie chart.
       <title>The mechanism of action of trichosanthin on eukaryotic ribosomes - RNA N-glycosidase activity of the cytotoxin</title>
       <link>/publication/1992-01-01_the_mechanism_of_act/</link>
       <pubDate>Wed, 01 Jan 1992 00:00:00 +0000</pubDate>
+      
       <guid>/publication/1992-01-01_the_mechanism_of_act/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cv/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Leslie Myint - Curriculum Vitae&lt;/title&gt;
+
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width&#34;/&gt;
+&lt;meta name=&#34;description&#34; content=&#34;The Curriculum Vitae of Leslie Myint.&#34;/&gt;
+&lt;meta charset=&#34;UTF-8&#34;&gt; 
+
+&lt;link type=&#34;text/css&#34; rel=&#34;stylesheet&#34; href=&#34;../css/cv.css&#34;&gt;
+&lt;link href=&#39;https://fonts.googleapis.com/css?family=Rokkitt:regular,bold|Lato:regular,black&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;
+
+&lt;!--[if lt IE 9]&gt;
+&lt;script src=&#34;//html5shiv.googlecode.com/svn/trunk/html5.js&#34;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body id=&#34;top&#34;&gt;
+&lt;div id=&#34;cv&#34; class=&#34;instaFade&#34;&gt;
+	&lt;div class=&#34;mainDetails&#34;&gt;
+		&lt;div id=&#34;name&#34;&gt;
+			&lt;h1 class=&#34;quickFade delayOne&#34;&gt;Leslie Myint&lt;/h1&gt;
+		&lt;/div&gt;
+		
+		&lt;div id=&#34;contactDetails&#34; class=&#34;quickFade delayTwo&#34;&gt;
+			&lt;ul&gt;
+				&lt;li&gt;e: &lt;a href=&#34;mailto:lmyint@macalester.edu&#34; target=&#34;_blank&#34;&gt;lmyint@macalester.edu&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;w: &lt;a href=&#34;https://lmyint.github.io&#34;&gt;lmyint.github.io&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;br /&gt;
+		&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;div id=&#34;mainArea&#34; class=&#34;quickFade delayThree&#34;&gt;
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Education&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;PhD in Biostatistics&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;May 2018&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Dissertation: Evidence-Based Methods in Studies of Biology and Data Analysis&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Advisor: Kasper Daniel Hansen&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;BS in Biomedical Engineering&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;May 2013&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins University&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Secondary major: Applied Mathematics and Statistics&lt;br /&gt; Minor: Computer Science&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+			&lt;br /&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Work Experience&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Assistant Professor&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;August 2018 - present&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Macalester College, Saint Paul, MN&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Johns Hopkins Biostatistics Center&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;July 2016 - August 2017&lt;/span&gt;
+					&lt;h2&gt;&lt;/h2&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Student statistical consultant&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health, Baltimore, MD&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Advisor: Carol Thompson, MS&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Siemens Competition&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;2016 - 2017&lt;/span&gt;
+					&lt;h2&gt;&lt;/h2&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Stage I, II, and finalist judge&lt;/p&gt;
+					&lt;p&gt;Categories: Computer Science, Mathematics, Bioinformatics, Cell/Cancer Biology, and Genetics&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Publications&lt;/h1&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;h2&gt;Published&lt;/h2&gt;
+				&lt;ol reversed&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Hadavand A, Jager L, Leek J. 2019. Comparison of Beginning R Students’ Perceptions of Peer-Made Plots Created in Two Plotting Systems: A Randomized Experiment. Journal of Statistics Education 28:98–108. DOI: 10.1080/10691898.2019.1695554.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Wang R, Boukas L, Hansen KD, Goff LA, Avramopoulos D. 2020b. A screen of 1,049 schizophrenia and 30 Alzheimer’s‐associated variants for regulatory potential. American Journal of Medical Genetics Part B: Neuropsychiatric Genetics 183:61–73. DOI: 10.1002/ajmg.b.32761.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Avramopoulos DG, Goff LA, Hansen KD. 2019. Linear models enable powerful differential activity analysis in massively parallel reporter assays. BMC Genomics 20:209. DOI: 10.1186/s12864-019-5556-x.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Leek JT, Jager LR. 2018. Explanation of observational data engenders a causal belief about smoking and cancer. PeerJ 6:e5597. DOI: 10.7717/peerj.5597.&lt;/li&gt;
+						&lt;ul&gt;
+							&lt;li&gt;&lt;em&gt;Press:&lt;/em&gt;&lt;br&gt;
+								Preprint was featured in the &lt;a href=&#34;https://rss.onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2018.01101.x&#34;&gt;February 2018 issue&lt;/a&gt; of Significance Magazine.
+							&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;li&gt;Monroe AK, &lt;em&gt;Myint L&lt;/em&gt;, M Rutstein R, Aberg J, L Boswell S, L Agwu A, A Gebo K, D Moore R, HIV Research Network. 2018. Factors Associated With Gaps in Medicaid Enrollment Among People With HIV and the Effect of Gaps on Viral Suppression. Journal of Acquired Immune Deficiency Syndromes 78:413–420. DOI: 10.1097/QAI.0000000000001702.&lt;/li&gt;
+					&lt;li&gt;Kang JY, Rabiei AH, &lt;em&gt;Myint L&lt;/em&gt;, Nei M. 2017. Equivocal significance of post-ictal generalized EEG suppression as a marker of SUDEP risk. Seizure: The Journal of the British Epilepsy Association 48:28–32. DOI: 10.1016/j.seizure.2017.03.017.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint L&lt;/em&gt;, Kleensang A, Zhao L, Hartung T, Hansen KD. 2017. Joint Bounding of Peaks Across Samples Improves Differential Analysis in Mass Spectrometry-Based Metabolomics. Analytical Chemistry 89:3517–3523. DOI: 10.1021/acs.analchem.6b04719.&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;br /&gt;
+				&lt;!-- &lt;h2&gt;Submitted&lt;/h2&gt;
+				&lt;ol reversed&gt;
+					&lt;li&gt;&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;br /&gt;
+				&lt;h2&gt;In Preparation&lt;/h2&gt;
+				&lt;ol reversed&gt;
+					&lt;li&gt;&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;br /&gt; --&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Software&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;p&gt;
+					&lt;b&gt;yamss&lt;/b&gt;: Tools for the analysis of high-throughput metabolomics data. An R package released through the Bioconductor project.&lt;br /&gt;
+					&lt;a href=&#34;https://www.bioconductor.org/packages/yamss&#34;&gt;https://www.bioconductor.org/packages/yamss&lt;/a&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;b&gt;mpra&lt;/b&gt;: Tools for the analysis of data from massively parallel reporter assays. An R package released through the Bioconductor project.&lt;br /&gt;
+					&lt;a href=&#34;https://www.bioconductor.org/packages/mpra&#34;&gt;https://www.bioconductor.org/packages/mpra&lt;/a&gt;
+				&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Grant Participation&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;p&gt;
+					&lt;b&gt;Metabolomics of Uremic Symptoms in Dialysis Patients&lt;/b&gt;&lt;br /&gt;
+					&lt;i&gt; NIH R01 subaward contract&lt;/i&gt;&lt;br /&gt;
+					Dates: 6/1/2019 - 5/31/2021&lt;br /&gt;
+					Role: statistical analyst
+				&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+		
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Presentations&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Graphs Galore! Representing Knowledge in the Sciences and Humanities&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: Carleton College (&lt;a href=&#34;https://docs.google.com/presentation/d/1gh2qpDZhjUDgV-Qo2QZrADnGxwaD2qU7k-zNSHAjvOE/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						October 2019&lt;br /&gt;
+						Talk: Macalester College (&lt;a href=&#34;https://docs.google.com/presentation/d/1LQY6P4qZJnVg-s8w0wxPzSjc3-A8nWpuyh-Z5MJ9xDc/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						November 2019
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Statistical methods for querying the regulatory role of DNA&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: Creighton University Math Colloquium (&lt;a href=&#34;https://docs.google.com/presentation/d/1JtTMhWT8qZh9TiciD4UAHwRMJ5jGXqhqVNkSEG2O7Wg/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						March 2019
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Magical Web Scraping with rvest&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: Baltimore R Ladies Group (&lt;a href=&#34;https://docs.google.com/presentation/d/1zdMStQLOJUIpmVQZv9VxwYYTyp1nFHgorwQzYrgA1Uo/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						May 2018
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Joint Preprocessing of Samples Improves Power in Differential Analysis for Mass Spectrometry-Based Metabolomics&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: JHU Biophysics&lt;br /&gt;
+						December 2017
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Shiny Applications for Teaching and Dungeons and Dragons&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: Baltimore UseR Group (&lt;a href=&#34;https://docs.google.com/presentation/d/15NZkZdaEcrWlTTVZlTovOp7t_JkSbI73l1Fyxjf4i0U/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						September 2017
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;A Method for Joint Processing of Mass Spectrometry-Based Metabolomics Data for Improved Differential Analysis&lt;/b&gt;&lt;br /&gt;
+						Poster: ENAR, Washington D.C.&lt;br /&gt;
+						March 2017
+					&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Teaching&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Macalester College&lt;/h2&gt;
+					&lt;i&gt;Instructor&lt;/i&gt;
+					&lt;br /&gt;
+					&lt;ul&gt;
+						&lt;li&gt;STAT 125: Epidemiology (F19)&lt;/li&gt;
+						&lt;li&gt;STAT 155: Introduction to Statistical Modeling (F18, S20)&lt;/li&gt;
+						&lt;li&gt;STAT 253: Statistical Machine Learning (S19)&lt;/li&gt;
+						&lt;li&gt;STAT 394: Causal Inference (S20)&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Cloud-Based Data Science Specialization&lt;/h2&gt;
+					&lt;i&gt;Content developer&lt;/i&gt;
+					&lt;br /&gt;
+					&lt;p&gt;A massive open online course on the Leanpub platform for providing a highly accessible data science education. Content developer for the following courses:&lt;/p&gt;
+					&lt;ul&gt;
+						&lt;li&gt;&lt;a href=&#34;https://leanpub.com/course_admin/jhu/cbds-organizing&#34;&gt;Organizing Data Science Projects&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&#34;https://leanpub.com/course_admin/jhu/cbds-version-control&#34;&gt;Version Control&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&#34;https://leanpub.com/course_admin/jhu/cbds-intro-r&#34;&gt;Introduction to R&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&#34;https://leanpub.com/course_admin/jhu/cbds-tidying&#34;&gt;Data Tidying&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Johns Hopkins Bloomberg School of Public Health&lt;/h2&gt;
+					&lt;i&gt;Instructor&lt;/i&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							Statistical Thinking for Informed Decision Making (2 semesters)&lt;br /&gt;
+							I developed this course as part of the &lt;a href=&#34;http://krieger.jhu.edu/publichealth/gordis-teaching-fellowship/&#34;&gt;Gordis Teaching Fellowship&lt;/a&gt;, a school-wide award that provides funds to design and teach an undergraduate class. A news article-motivated introduction to major biostatistical areas, including causal inference, survey sampling, and survival analysis.
+						&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;br /&gt;
+					&lt;i&gt;Teaching Assistant&lt;/i&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Public Health Biostatistics (3 semesters)&lt;/li&gt;
+						&lt;li&gt;Introduction to R for Public Health Researchers (1 course)&lt;/li&gt;
+						&lt;li&gt;Statistical Methods in Public Health (3 quarters)&lt;/li&gt;
+						&lt;li&gt;Data Analysis Workshop (2 courses)&lt;/li&gt;
+						&lt;li&gt;Statistics for Genomics (1 quarter)&lt;/li&gt;
+						&lt;li&gt;Statistics for Laboratory Scientists (2 quarters)&lt;/li&gt;
+						&lt;li&gt;Summer Institute: Statistical Reasoning in Public Health (2 courses)&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;br /&gt;
+					&lt;i&gt;Tutor&lt;/i&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Statistical Methods in Public Health (2 quarters)&lt;/li&gt;
+						&lt;li&gt;
+							Mentor for Center for Talented Youth Cogito Research Award Recipient (3 months)
+						&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Johns Hopkins University&lt;/h2&gt;
+					&lt;i&gt;Teaching Assistant&lt;/i&gt;
+					&lt;br /&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Introduction to Java (1 semester)&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Awards&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Helen Abbey Award&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;May 2017&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Excellence in teaching (&lt;a href=&#34;http://www.jhsph.edu/departments/biostatistics/about-us/honors-and-awards/index.html#helen-abbey&#34;&gt;website&lt;/a&gt;)&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+			&lt;br /&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Professional Service&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Memberships&lt;/h2&gt;
+					&lt;ul&gt;
+						&lt;li&gt;American Statistical Association&lt;/li&gt;
+						&lt;li&gt;Eastern North American Region of the International Biometric Society&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Conferences&lt;/h2&gt;
+					&lt;ul&gt;
+						&lt;li&gt;2020: Organizer and Chair for an invited session for the &lt;a href=&#34;https://ww2.amstat.org/meetings/sdss/2020/onlineprogram/Program.cfm?TrackID=37&#34;&gt;Education Track&lt;/a&gt; at the Symposium on Data Science and Statistics&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Reviewer&lt;/h2&gt;
+					&lt;ul&gt;
+						&lt;li&gt;2020: &lt;a href=&#34;https://opencasestudies.github.io/&#34;&gt;Open Case Studies&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;2020: Journal of Statistics Education&lt;/li&gt;
+						&lt;li&gt;2019: Nature Human Behaviour&lt;/li&gt;
+						&lt;li&gt;2019: Technology Innovations in Statistics Education&lt;/li&gt;
+						&lt;li&gt;2019: Journal of Statistics Education&lt;/li&gt;
+						&lt;li&gt;2018: &lt;a href=&#34;https://www.bioverlay.org/post/2018-05-human-5primeutr-protein-mpra/&#34;&gt;BiOverlay&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;2018: American Journal of Epidemiology&lt;/li&gt;
+						&lt;li&gt;2017: Observational Studies&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+			&lt;br /&gt;
+		&lt;/section&gt;
+		
+		&lt;!-- &lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Technical Skills&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;b&gt;Programming languages&lt;/b&gt;
+				&lt;ul class=&#34;keySkills&#34;&gt;
+					&lt;li&gt;R&lt;/li&gt;
+					&lt;li&gt;Stata&lt;/li&gt;
+					&lt;li&gt;Python&lt;/li&gt;
+					&lt;li&gt;Java&lt;/li&gt;
+					&lt;li&gt;Matlab&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;b&gt;Application development&lt;/b&gt;
+				&lt;ul class=&#34;keySkills&#34;&gt;
+					&lt;li&gt;Shiny&lt;/li&gt;
+					&lt;li&gt;HTML&lt;/li&gt;
+					&lt;li&gt;CSS&lt;/li&gt;
+					&lt;li&gt;Javascript&lt;/li&gt;
+					&lt;li&gt;d3.js&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;b&gt;Other&lt;/b&gt;
+				&lt;ul class=&#34;keySkills&#34;&gt;
+					&lt;li&gt;Git&lt;/li&gt;
+					&lt;li&gt;RMarkdown&lt;/li&gt;
+					&lt;li&gt;Adobe Photoshop&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt; --&gt;
+		
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template --&gt;</description>
     </item>
     
   </channel>
