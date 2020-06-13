@@ -2,24 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Likelihood on Jinsong Zhang</title>
-    <link>/tags/likelihood/</link>
+    <link>https://zhangj5.github.io/tags/likelihood/</link>
     <description>Recent content in Likelihood on Jinsong Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Tue, 09 Feb 2016 03:13:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2020 03:13:43 +0000</lastBuildDate>
     
-	<atom:link href="/tags/likelihood/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhangj5.github.io/tags/likelihood/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>What is likelihood?</title>
-      <link>/post/what-is-likelihood/</link>
-      <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
+      <title>Project Report</title>
+      <link>https://zhangj5.github.io/post/final-project-kzhang917/project-report/</link>
+      <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
       
-      <guid>/post/what-is-likelihood/</guid>
-      <description>I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What is likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.
-I found my answer to the question to be rather unsatisfying: “Likelihood refers to how probable our collected data would be given the regression model that we’re currently fitting.</description>
+      <guid>https://zhangj5.github.io/post/final-project-kzhang917/project-report/</guid>
+      <description>library(tidyverse) library(keras) library(modelr) library(tensorflow) library(caret) library(janitor) library(lubridate) library(glmnet) library(glmnetUtils) library(kernlab) library(gridExtra) library(ggdendro) library(magrittr) library(corrplot) library(usmap) set.seed(9254853) # Load Data --------------------------------------------------------------- # 5/9/20 Daily report: daily_report &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/05-09-2020.csv&amp;quot;) %&amp;gt;% clean_names() # Time series: confirmed_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv&amp;quot;) %&amp;gt;% clean_names() deaths_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv&amp;quot;) %&amp;gt;% clean_names() recovered_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv&amp;quot;) %&amp;gt;% clean_names() Executive Summary The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state.</description>
     </item>
     
   </channel>

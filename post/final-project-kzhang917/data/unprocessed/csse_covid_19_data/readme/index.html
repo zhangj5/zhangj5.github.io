@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.42" />
+  <meta name="author" content="Jinsong Zhang">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="JHU CSSE COVID-19 Dataset Table of contents  Daily reports (csse_covid_19_daily_reports) USA daily state reports (csse_covid_19_daily_reports_us) Time series summary (csse_covid_19_time_series) Data modification records UID Lookup Table Logic &mdash;  Daily reports (csse_covid_19_daily_reports) This folder contains daily case reports. All timestamps are in UTC (GMT&#43;0).
+File naming convention MM-DD-YYYY.csv in UTC.
+Field description  FIPS: US only. Federal Information Processing Standards code that uniquely identifies counties within the USA. Admin2: County name.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#328cc1">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow-night-eighties.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-126128799-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="https://zhangj5.github.io/index.xml" type="application/rss+xml" title="Jinsong Zhang">
+  <link rel="feed" href="https://zhangj5.github.io/index.xml" type="application/rss+xml" title="Jinsong Zhang">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Jinsong Zhang">
+  <meta property="og:url" content="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/">
+  <meta property="og:title" content=" | Jinsong Zhang">
+  <meta property="og:description" content="JHU CSSE COVID-19 Dataset Table of contents  Daily reports (csse_covid_19_daily_reports) USA daily state reports (csse_covid_19_daily_reports_us) Time series summary (csse_covid_19_time_series) Data modification records UID Lookup Table Logic &mdash;  Daily reports (csse_covid_19_daily_reports) This folder contains daily case reports. All timestamps are in UTC (GMT&#43;0).
+File naming convention MM-DD-YYYY.csv in UTC.
+Field description  FIPS: US only. Federal Information Processing Standards code that uniquely identifies counties within the USA. Admin2: County name.">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+  
+
+  <title> | Jinsong Zhang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Jinsong Zhang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name"></h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Jan 1, 0001
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jinsong Zhang">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="https://zhangj5.github.io/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/#disqus_thread"></a>
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=&amp;url=https%3a%2f%2fzhangj5.github.io%2fpost%2ffinal-project-kzhang917%2fdata%2funprocessed%2fcsse_covid_19_data%2freadme%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fzhangj5.github.io%2fpost%2ffinal-project-kzhang917%2fdata%2funprocessed%2fcsse_covid_19_data%2freadme%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fzhangj5.github.io%2fpost%2ffinal-project-kzhang917%2fdata%2funprocessed%2fcsse_covid_19_data%2freadme%2f&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fzhangj5.github.io%2fpost%2ffinal-project-kzhang917%2fdata%2funprocessed%2fcsse_covid_19_data%2freadme%2f&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=&amp;body=https%3a%2f%2fzhangj5.github.io%2fpost%2ffinal-project-kzhang917%2fdata%2funprocessed%2fcsse_covid_19_data%2freadme%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="jhu-csse-covid-19-dataset">JHU CSSE COVID-19 Dataset</h1>
+
+<h2 id="table-of-contents">Table of contents</h2>
+
+<ul>
+<li><a href="#daily-reports-csse_covid_19_daily_reports">Daily reports (csse_covid_19_daily_reports)</a></li>
+<li><a href="#usa-daily-state-reports-csse_covid_19_daily_reports_us">USA daily state reports (csse_covid_19_daily_reports_us)</a></li>
+<li><a href="#time-series-summary-csse_covid_19_time_series">Time series summary (csse_covid_19_time_series)</a></li>
+<li><a href="#data-modification-records">Data modification records</a></li>
+<li><a href="#uid-lookup-table-logic">UID Lookup Table Logic</a>
+&mdash;</li>
+</ul>
+
+<h2 id="daily-reports-csse-covid-19-daily-reports-https-github-com-cssegisanddata-covid-19-tree-master-csse-covid-19-data-csse-covid-19-daily-reports"><a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports" target="_blank">Daily reports (csse_covid_19_daily_reports)</a></h2>
+
+<p>This folder contains daily case reports. All timestamps are in UTC (GMT+0).</p>
+
+<h3 id="file-naming-convention">File naming convention</h3>
+
+<p>MM-DD-YYYY.csv in UTC.</p>
+
+<h3 id="field-description">Field description</h3>
+
+<ul>
+<li><b>FIPS</b>: US only. Federal Information Processing Standards code that uniquely identifies counties within the USA.</li>
+<li><b>Admin2</b>: County name. US only.</li>
+<li><b>Province_State</b>: Province, state or dependency name.</li>
+<li><b>Country_Region</b>: Country, region or sovereignty name. The names of locations included on the Website correspond with the official designations used by the U.S. Department of State.</li>
+<li><b>Last Update</b>: MM/DD/YYYY HH:mm:ss  (24 hour format, in UTC).</li>
+<li><b>Lat</b> and <b>Long_</b>: Dot locations on the dashboard. All points (except for Australia) shown on the map are based on geographic centroids, and are not representative of a specific address, building or any location at a spatial scale finer than a province/state. Australian dots are located at the centroid of the largest city in each state.</li>
+<li><b>Confirmed</b>: Confirmed cases include presumptive positive cases  and probable cases, in accordance with CDC guidelines as of April 14.</li>
+<li><b>Deaths</b>: Death totals in the US include confirmed and probable, in accordance with <a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html" target="_blank">CDC</a> guidelines as of April 14.</li>
+<li><b>Recovered</b>: Recovered cases outside China are estimates based on local media reports, and state and local reporting when available, and therefore may be substantially lower than the true number. US state-level recovered cases are from <a href="https://covidtracking.com/" target="_blank">COVID Tracking Project</a>.</li>
+<li><b>Active:</b> Active cases = total confirmed - total recovered - total deaths.</li>
+<li><b>Incidence_Rate</b>: Admin2 + Province_State + Country_Region.</li>
+<li><b>Case-Fatality Ratio (%)</b>: = confirmed cases per 100,000 persons.</li>
+<li><b>US Testing Rate</b>: = total test results per 100,000 persons. The &ldquo;total test results&rdquo; is equal to &ldquo;Total test results
+(Positive + Negative)&rdquo; from <a href="https://covidtracking.com/" target="_blank">COVID Tracking Project</a>.</li>
+<li><b>US Hospitalization Rate (%)</b>: = Total number hospitalized / Number confirmed cases. The &ldquo;Total number hospitalized&rdquo; is the &ldquo;Hospitalized – Cumulative&rdquo; count from <a href="https://covidtracking.com/" target="_blank">COVID Tracking Project</a>. The &ldquo;hospitalization rate&rdquo; and &ldquo;hospitalized - Cumulative&rdquo; data is only presented for those states which provide cumulative hospital data.</li>
+</ul>
+
+<h3 id="update-frequency">Update frequency</h3>
+
+<ul>
+<li>Files on and after April 23, once per day between 03:30 and 04:00 UTC.</li>
+<li>Files from February 2 to April 22: once per day around 23:59 UTC.</li>
+<li>Files on and before February 1: the last updated files before 23:59 UTC. Sources: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/archived_data" target="_blank">archived_data</a> and dashboard.</li>
+</ul>
+
+<h3 id="data-sources">Data sources</h3>
+
+<p>Refer to the <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank">mainpage</a>.</p>
+
+<h3 id="why-create-this-new-folder">Why create this new folder?</h3>
+
+<ol>
+<li>Unifying all timestamps to UTC, including the file name and the &ldquo;Last Update&rdquo; field.</li>
+<li>Pushing only one file every day.</li>
+<li>All historic data is archived in <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/archived_data" target="_blank">archived_data</a>.</li>
+</ol>
+
+<hr />
+
+<h2 id="usa-daily-state-reports-csse-covid-19-daily-reports-us-https-github-com-cssegisanddata-covid-19-tree-master-csse-covid-19-data-csse-covid-19-daily-reports-us"><a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports_us" target="_blank">USA daily state reports (csse_covid_19_daily_reports_us)</a></h2>
+
+<p>This table contains an aggregation of each USA State level data.</p>
+
+<h3 id="file-naming-convention-1">File naming convention</h3>
+
+<p>MM-DD-YYYY.csv in UTC.</p>
+
+<h3 id="field-description-1">Field description</h3>
+
+<ul>
+<li><b>Province_State</b> - The name of the State within the USA.</li>
+<li><b>Country_Region</b> - The name of the Country (US).</li>
+<li><b>Last_Update</b> - The most recent date the file was pushed.</li>
+<li><b>Lat</b> - Latitude.</li>
+<li><b>Long_</b> - Longitude.</li>
+<li><b>Confirmed</b> - Aggregated confirmed case count for the state.</li>
+<li><b>Deaths</b> - Aggregated Death case count for the state.</li>
+<li><b>Recovered</b> - Aggregated Recovered case count for the state.</li>
+<li><b>Active</b> - Aggregated confirmed cases that have not been resolved (Active = Confirmed - Recovered - Deaths).</li>
+<li><b>FIPS</b> - Federal Information Processing Standards code that uniquely identifies counties within the USA.</li>
+<li><b>Incident_Rate</b> - confirmed cases per 100,000 persons.</li>
+<li><b>People_Tested</b> - Total number of people who have been tested.</li>
+<li><b>People_Hospitalized</b> - Total number of people hospitalized.</li>
+<li><b>Mortality_Rate</b> - Number recorded deaths * 100/ Number confirmed cases.</li>
+<li><b>UID</b> - Unique Identifier for each row entry.</li>
+<li><b>ISO3</b> - Officialy assigned country code identifiers.</li>
+<li><b>Testing_Rate</b> - Total number of people tested per 100,000 persons.</li>
+<li><b>Hospitalization_Rate</b> - Total number of people hospitalized * 100/ Number of confirmed cases.</li>
+</ul>
+
+<h3 id="update-frequency-1">Update frequency</h3>
+
+<ul>
+<li>Once per day between 03:30 and 04:00 UTC.</li>
+</ul>
+
+<h3 id="data-sources-1">Data sources</h3>
+
+<p>Refer to the <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank">mainpage</a>.</p>
+
+<hr />
+
+<h2 id="time-series-summary-csse-covid-19-time-series-https-github-com-cssegisanddata-covid-19-tree-master-csse-covid-19-data-csse-covid-19-time-series"><a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" target="_blank">Time series summary (csse_covid_19_time_series)</a></h2>
+
+<p>See <a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/README.md" target="_blank">here</a>.</p>
+
+<hr />
+
+<h2 id="data-modification-records">Data modification records</h2>
+
+<p>We are also monitoring the curve change. Any errors made by us will be corrected in the dataset. Any possible errors from the original data sources will be listed here as a reference.
+* NHC <sup>2</sup>&frasl;<sub>14</sub>: Hubei Province deducted 108 prior deaths from the death toll due to double counting.
+* For Hubei Province: from Feb 13 (GMT +8), we report both clinically diagnosed and lab-confirmed cases. For lab-confirmed cases only (Before Feb 17), please refer to <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/who_covid_19_situation_reports" target="_blank">who_covid_19_situation_reports</a>.
+* On Feb 27 Italy made a change in their testing protocols, to limit coronavirus testing to at-risk people showing symptoms of COVID-19. (<a href="https://apnews.com/6c7e40fbec09858a3b4dbd65fe0f14f5" target="_blank">Source</a>)
+* About DP <sup>3</sup>&frasl;<sub>1</sub>: All cases of COVID-19 in repatriated US citizens from the Diamond Princess are grouped together, and their location is currently designated at the ship’s port location off the coast of Japan. These individuals have been assigned to various quarantine locations (in military bases and hospitals) around the US. This grouping is consistent with the CDC.
+* Hainan Province active cases update (<sup>4</sup>&frasl;<sub>13</sub>): We responded to the error from <sup>3</sup>&frasl;<sub>24</sub> to <sup>4</sup>&frasl;<sub>1</sub> we had incorrect data for Hainan Province.  We had -6 active cases (168 6 168 -6). We applied the correction (168 6 162 0) that was applied on <sup>4</sup>&frasl;<sub>2</sub> for this period (<sup>3</sup>&frasl;<sub>24</sub> to <sup>4</sup>&frasl;<sub>1</sub>).
+* Florida in the daily report US (<sup>4</sup>&frasl;<sub>13</sub>): Source data error. Correction 123,019 -&gt; 21,019.
+* Okaloosa, Florida in the dail report (<sup>4</sup>&frasl;<sub>13</sub>): Source data error. Correction 102,103 -&gt; 103.
+* The death toll in Wuhan was revised from 2579 to 3869 (<sup>4</sup>&frasl;<sub>17</sub>). (<a href="http://www.china.org.cn/china/Off_the_Wire/2020-04/17/content_75943843.htm" target="_blank">Source1</a>, <a href="http://www.nhc.gov.cn/yjb/s7860/202004/51706a79b1af4349b99264420f2cee54.shtml" target="_blank">Source2</a>)
+* About France confirmed cases (<sup>4</sup>&frasl;<sub>16</sub>): after communicating with solidarites-sante.gouv.fr, we decided to make these adjustments based on public available information. From April 4 to April 11, only &ldquo;cas confirmés&rdquo; are counted as confirmed cases in our dashboard. Starting from April 12, both &ldquo;cas confirmés&rdquo; and &ldquo;cas possibles en ESMS&rdquo; (probable cases from ESMS) are counted into confirmed cases in our dashboard. (<a href="https://github.com/CSSEGISandData/COVID-19/issues/2094" target="_blank">More details</a>)
+* Benton and Franklin, WA on April 21 and 22. Data were adjusted/added to match the WA DOH report. See <a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/Errata.csv" target="_blank">errata</a> for details.
+* April 28, for consistency, we no longer report the hospitalization data as the max of &ldquo;current - hospitalized&rdquo; and &ldquo;cumulative - hospitalized&rdquo;, and instead only report &lsquo;cumulative - hospitalized&rsquo; from <a href="https://covidtracking.com/" target="_blank">Covid Tracking Project</a>. For states that do not provide cumulative hospital counts no hospital data will be shown.
+* April 28, Lithuania: The number of confirmed infection cases. Until 28 April, information has been provided on positive laboratory test results rather than on positive cases (people). (<a href="https://lietuva.lt/wp-content/uploads/2020/04/UPDATE-April-28.pdf" target="_blank">Source</a>).
+* May 2, clarification of the handling of data in France (<a href="https://github.com/CSSEGISandData/COVID-19/issues/2459" target="_blank">GitHub Issue</a>).
+* May 15, clairification of the handling of data for Spain (<a href="https://github.com/CSSEGISandData/COVID-19/issues/2522" target="_blank">GitHub Issue</a>).
+* May 20, the drop of cumulative confirmed cases in the UK. &ldquo;This is due to historical data revisions across all pillars.&rdquo; (<a href="https://www.gov.uk/guidance/coronavirus-covid-19-information-for-the-public" target="_blank">Source</a>, <a href="https://twitter.com/DHSCgovuk/status/1263159710892638208" target="_blank">DHSCgovuk Twitter</a>).
+* May 27, removal of recovered data from Netherlands due to lack of data reporting by national health ministry.
+* June 2, France: Reduction in confirmed cases due to a change in calculation method. Since June 2, patients who test positive are only counted once. (Baisse des cas confirmés due à un changement de méthode de calcul. Depuis le 2 juin, les patients testés positifs ne sont plus comptés qu’une seule fois.) <a href="https://dashboard.covid19.data.gouv.fr/vue-d-ensemble?location=FRA" target="_blank">Source</a></p>
+
+<hr />
+
+<h2 id="uid-lookup-table-logic-https-github-com-cssegisanddata-covid-19-blob-master-csse-covid-19-data-uid-iso-fips-lookup-table-csv"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/UID_ISO_FIPS_LookUp_Table.csv" target="_blank">UID Lookup Table Logic</a></h2>
+
+<ol>
+<li>All countries without dependencies (entries with only Admin0).
+
+<ul>
+<li>None cruise ship Admin0: UID = code3. (e.g., Afghanistan, UID = code3 = 4)</li>
+<li>Cruise ships in Admin0: Diamond Princess UID = 9999, MS Zaandam UID = 8888.</li>
+</ul></li>
+<li>All countries with only state-level dependencies (entries with Admin0 and Admin1).
+
+<ul>
+<li>Demark, France, Netherlands: mother countries and their dependencies have different code3, therefore UID = code 3. (e.g., Faroe Islands, Denmark, UID = code3 = 234; Denmark UID = 208)</li>
+<li>United Kingdom: the mother country and dependencies have different code3s, therefore UID = code 3. One exception: Channel Islands is using the same code3 as the mother country (826), and its artificial UID = 8261.</li>
+<li>Australia: alphabetically ordered all states, and their UIDs are from 3601 to 3608. Australia itself is 36.</li>
+<li>Canada: alphabetically ordered all provinces (including cruise ships and recovered entry), and their UIDs are from 12401 to 12415. Canada itself is 124.</li>
+<li>China: alphabetically ordered all provinces, and their UIDs are from 15601 to 15631. China itself is 156. Hong Kong, Macau and Taiwan have their own code3.</li>
+<li>Germany: alphabetically ordered all admin1 regions (including Unknown), and their UIDs are from 27601 to 27617. Germany itself is 276.</li>
+<li>Italy: UIDs are combined country code (380) with <code>codice_regione</code>, which is from <a href="https://github.com/pcm-dpc/COVID-19" target="_blank">Dati COVID-19 Italia</a>. Exceptions: P.A. Bolzano is 38041 and P.A. Trento is 38042.</li>
+</ul></li>
+<li>The US (most entries with Admin0, Admin1 and Admin2).
+
+<ul>
+<li>US by itself is 840 (UID = code3).</li>
+<li>US dependencies, American Samoa, Guam, Northern Mariana Islands, Virgin Islands and Puerto Rico, UID = code3. Their FIPS codes are different from code3.</li>
+<li>US states: UID = 840 (country code3) + 000XX (state FIPS code). Ranging from 8400001 to 84000056.</li>
+<li>Out of [State], US: UID = 840 (country code3) + 800XX (state FIPS code). Ranging from 8408001 to 84080056.</li>
+<li>Unassigned, US: UID = 840 (country code3) + 900XX (state FIPS code). Ranging from 8409001 to 84090056.</li>
+<li>US counties: UID = 840 (country code3) + XXXXX (5-digit FIPS code).</li>
+<li>Exception type 1, such as recovered and Kansas City, ranging from 8407001 to 8407999.</li>
+<li>Exception type 2, only the New York City, which is replacing New York County and its FIPS code.</li>
+<li>Exception type 3, Diamond Princess, US: 84088888; Grand Princess, US: 84099999.</li>
+</ul></li>
+<li>Population data sources.
+
+<ul>
+<li>United Nations, Department of Economic and Social Affairs, Population Division (2019). World Population Prospects 2019, Online Edition. Rev. 1. <a href="https://population.un.org/wpp/Download/Standard/Population/" target="_blank">https://population.un.org/wpp/Download/Standard/Population/</a></li>
+<li>eurostat: <a href="https://ec.europa.eu/eurostat/web/products-datasets/product?code=tgs00096" target="_blank">https://ec.europa.eu/eurostat/web/products-datasets/product?code=tgs00096</a></li>
+<li>The U.S. Census Bureau: <a href="https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html" target="_blank">https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html</a></li>
+<li>Mexico population 2020 projection: <a href="http://sniiv.conavi.gob.mx/(X(1)S(kqitzysod5qf1g00jwueeklj))/demanda/poblacion_proyecciones.aspx?AspxAutoDetectCookieSupport=1" target="_blank">Proyecciones de población</a></li>
+</ul></li>
+<li>Brazil 2019 projection: <a href="ftp://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/" target="_blank">ftp://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/</a></li>
+<li>Peru 2020 projection: <a href="https://www.citypopulation.de/en/peru/cities/" target="_blank">https://www.citypopulation.de/en/peru/cities/</a></li>
+</ol>
+
+<p>Disclaimer: *The names of locations included on the Website correspond with the official designations used by the U.S. Department of State. The presentation of material therein does not imply the expression of any opinion whatsoever on the part of JHU concerning the legal status of any country, area or territory or of its authorities. The depiction and use of boundaries, geographic names and related data shown on maps and included in lists, tables, documents, and databases on this website are not warranted to be error free nor do they necessarily imply official endorsement or acceptance by JHU.</p>
+
+    </div>
+
+    
+
+
+    
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-lmyint-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2020 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script id="dsq-count-scr" src="//https-lmyint-github-io.disqus.com/count.js" async></script>
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/cs.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/xml.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

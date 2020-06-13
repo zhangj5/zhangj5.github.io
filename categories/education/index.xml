@@ -2,150 +2,1073 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education on Jinsong Zhang</title>
-    <link>/categories/education/</link>
+    <link>https://zhangj5.github.io/categories/education/</link>
     <description>Recent content in Education on Jinsong Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Tue, 09 Feb 2016 03:13:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2020 03:13:43 +0000</lastBuildDate>
     
-        <atom:link href="/categories/education/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://zhangj5.github.io/categories/education/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>What is likelihood?</title>
-      <link>/post/what-is-likelihood/</link>
-      <pubDate>Tue, 09 Feb 2016 03:13:43 +0000</pubDate>
-      
-      <guid>/post/what-is-likelihood/</guid>
-      <description>&lt;p&gt;I am currently a TA for an introductory biostatistics sequence at JHSPH where we teach students about the essentials of regression analysis. A great question that came up at office hours last week was, “What &lt;em&gt;is&lt;/em&gt; likelihood?” I love this question because it is so fundamental to statistical thought, seems very intuitive, but actually abounds in nuance.&lt;/p&gt;
-&lt;p&gt;I found my answer to the question to be rather unsatisfying: “Likelihood refers to how probable our collected data would be given the regression model that we’re currently fitting. The higher the likelihood that Stata reports, the more likely it is that we observe our data under the specified regression model.” Still not seeing the click, I added, “So essentially the higher the likelihood, the better the model is at fitting, at predicting the data. We’re using likelihood here as a means of measuring the predictive power of a regression model.” Some nodding.&lt;/p&gt;
-&lt;p&gt;I’ve been thinking about this more, and the standard explanation of likelihood as being “under a certain model” is rather confusing. At least phrased in this way. Students are actually quite familiar with this idea in other settings. So if I could go back and answer the question again, I would want the conversation to go something like this:&lt;/p&gt;
-&lt;p&gt;“So what &lt;em&gt;is&lt;/em&gt; likelihood?”&lt;/p&gt;
-&lt;p&gt;“Good question! Let me ask you this: what’s the probability of rolling a one on a six-sided die?”&lt;/p&gt;
-&lt;p&gt;“One-sixth…”&lt;/p&gt;
-&lt;p&gt;“Ah - what if I told you that it was actually 90%?”&lt;/p&gt;
-&lt;p&gt;Silence or contemplation.&lt;/p&gt;
-&lt;p&gt;“So why did you say one-sixth?”&lt;/p&gt;
-&lt;p&gt;“Because there’s a single one out of the six sides.”&lt;/p&gt;
-&lt;p&gt;“Right - so you assumed a &lt;strong&gt;model&lt;/strong&gt; of a fair die. And using a model for a fair die, each number has a one-sixth chance of being rolled. I assumed a model of an exquisitely crafted loaded die where the chance of getting a one is 90% and the other five numbers is 2% each.”&lt;/p&gt;
-&lt;p&gt;“Ok…”&lt;/p&gt;
-&lt;p&gt;“We’re getting close to the meat of it! So I have a model in mind, and you have a model in mind…who’s right? The only way to hope to answer this is with data. Say I rolled this hypothetical die and got a 2, 3, 4, 6, and then a 2. What die model do you think is better?”&lt;/p&gt;
-&lt;p&gt;“The fair one.”&lt;/p&gt;
-&lt;p&gt;“Right - why?”&lt;/p&gt;
-&lt;p&gt;“There wasn’t even a single one rolled, and your loaded die is supposed to have a 90% chance to roll a one.”&lt;/p&gt;
-&lt;p&gt;“Excellent! So the &lt;strong&gt;likelihood&lt;/strong&gt; of our data is higher for the fair die than for my loaded die, which is what led you to prefer the fair die model. Specifically you can calculate the likelihood of the data under your fair die model as &lt;span class=&#34;math inline&#34;&gt;\(\left(\frac{1}{6}\right)^5\)&lt;/span&gt;, and I can calculate the likelihood of the data under my loaded die model as &lt;span class=&#34;math inline&#34;&gt;\((0.02)^5\)&lt;/span&gt;, which is way lower. We can apply the thinking for this scenario analogously to regression! In regression, we are proposing models for the data just like we were in this dice scenario. It’s just that we’re using a different probability model. Specifically, we assume that the outcomes come from a normal distribution and that the mean of the distribution is some linear combination of covariates. Knowing the covariate information for everyone in our data is just like knowing the sequence of die rolls, and knowing the density function for the normal distribution is just like knowing the probabilities for the six sides of the die!”&lt;/p&gt;
-&lt;p&gt;The last bit of this would vary depending on the student’s understanding of the assumptions and setup of linear regression, but I like this line of explanation more than my original one for two teaching strategies that it employs.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Setting the student up to be contradicted.&lt;/strong&gt; Arguably lessons are more memorable for students when they are fairly confident in an answer but end up being told otherwise. Here I wanted to make them think intuitively about a common situation but bring to light their unconscious assumptions by bringing in unusual but plausible assumptions of my own. One of the main points of the explanation, the key dependence of likelihood on the model being proposed, hinges on this awareness of the connection between having a model in mind and being able to calculate probabilities. So making this memorable is key.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Framing the unfamiliar in the familiar.&lt;/strong&gt; Abstract concepts are often so because students are not accustomed to the language that we instructors are using to describe them. However, by framing the concept in a familiar context, students can more easily make the leap. It’s also a nice way to explain something twice without just repeating yourself twice. Essentially, analogies are the way to go when explaining something complex.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
-      <title>Teaching real math with computers</title>
-      <link>/post/teaching-real-math-with-computers/</link>
-      <pubDate>Fri, 20 Mar 2015 17:03:46 +0000</pubDate>
+      <title>Project Report</title>
+      <link>https://zhangj5.github.io/post/final-project-kzhang917/project-report/</link>
+      <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
       
-      <guid>/post/teaching-real-math-with-computers/</guid>
-      <description>
+      <guid>https://zhangj5.github.io/post/final-project-kzhang917/project-report/</guid>
+      <description>&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+library(keras)
+library(modelr)
+library(tensorflow)
+library(caret)
+library(janitor)
+library(lubridate)
+library(glmnet)
+library(glmnetUtils)
+library(kernlab)
+library(gridExtra)
+library(ggdendro)
+library(magrittr)
+library(corrplot)
+library(usmap)
 
-&lt;p&gt;As per a friend’s suggestion, I watched Conrad Wolfram’s &lt;a href=&#34;http://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers&#34; target=&#34;_blank&#34;&gt;TED talk&lt;/a&gt; on reforming mathematics education. He advocates increased use of computers in the classroom and, in particular, champions the idea of teaching math via programming. There were a lot of ideas both in and missing from his talk that I found interesting to think about.&lt;/p&gt;
+set.seed(9254853)
 
-&lt;h1 id=&#34;mathematics-can-be-taught-via-programming&#34;&gt;Mathematics can be taught via programming&lt;/h1&gt;
+# Load Data ---------------------------------------------------------------
 
-&lt;p&gt;Mr. Wolfram points to the procedural and algorithmic nature of mathematics to say that a fuller understanding of mathematics can be achieved by having students write programs that implement concepts. I completely agree that if you truly understand a concept, you can program it, but it’s worthwhile trying to consider how this might actually play out in middle and high school curricula.&lt;/p&gt;
+# 5/9/20 Daily report:
+daily_report &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/05-09-2020.csv&amp;quot;) %&amp;gt;%
+  clean_names()
 
-&lt;p&gt;It is useful to think about why this was such an interesting idea to many people in the first place. (It did get a TED talk after all.) The main point is that programming is not something that most people have any real idea of until they try it. I really didn’t understand what programming was about until I took an introductory class in college. I ended up loving it because I enjoyed the thorough and organized type of thinking that it encouraged, and I saw how useful it could be. People who are programmers or use programming regularly, like Mr. Wolfram, are very much convinced of its utility and are naturally excited about introducing this type of thinking earlier on in the education process. There are a few points that came to mind when weighing the pros and cons of a programming-oriented mathematics education:&lt;/p&gt;
+# Time series:
+confirmed_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv&amp;quot;) %&amp;gt;%
+  clean_names()
 
-&lt;h2 id=&#34;programming-can-be-a-great-way-to-reinforce-concepts&#34;&gt;Programming can be a great way to &lt;strong&gt;reinforce&lt;/strong&gt; concepts&lt;/h2&gt;
+deaths_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv&amp;quot;) %&amp;gt;%
+  clean_names()
 
-&lt;p&gt;I remember learning how to solve the tower of Hanoi puzzle in the children’s section of museums and in puzzle games long before I saw it again in my freshman year programming class. If placed before me, I probably would have been able to go through the motions from rough recollections or intuition, but the task at hand was to write a program that would solve an arbitrary tower of Hanoi puzzle (i.e. with any number of discs). Suddenly rough intuition needed to be transformed into a precise set of instructions, and it was the fact that I was seeing a familiar problem recast in a more general way that made the exercise relevant and memorable.&lt;/p&gt;
+recovered_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv&amp;quot;) %&amp;gt;%
+  clean_names()&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;executive-summary&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Executive Summary&lt;/h1&gt;
+&lt;p&gt;The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made. Although various data was analyzed to be potentially used as predictors, much of the data didn’t show much relation to the death totals from the pandemic.&lt;/p&gt;
+&lt;p&gt;From the predictors chosen, models were trained using Deep Learning (Keras), Random Forests, Ridge Regression (glmnet), and Boosting (xgboost). One ensemble model was created using the other four trained models. The models were then evaluated based on how well they could predict future death counts on both a national and state level. The graphic below shows each model’s performance on a national level.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rf &amp;lt;- read_csv(&amp;quot;outcomes/rf.csv&amp;quot;) %&amp;gt;%
+  mutate(
+    model = rep(&amp;quot;RF&amp;quot;, nrow(.))
+  )
 
-&lt;p&gt;With standard pre-college mathematics education, a similar strategy could be adopted. As a specific example, solving systems of two equations with two unknowns is a standard algebra topic that could benefit from programming-type exercises. After students learn the technique of solving these problems, they hone their skills on practice problems and ideally are able to develop intuition on how to solve them by sight. Making this intuition more precise is where a programming exercise could come in. After students gain facility with solving the problems, we have them make their understanding more rigorous by asking them to write a very specific set of instructions to solve any such system of equations. Suddenly they must think about how &lt;em&gt;exactly&lt;/em&gt; they choose the scaling numbers for the equations and how they choose to add or subtract the two equations.&lt;/p&gt;
+deep_learning &amp;lt;- read_csv(&amp;quot;outcomes/deep_learning.csv&amp;quot;) %&amp;gt;%
+  mutate(
+    model = rep(&amp;quot;Keras&amp;quot;, nrow(.))
+  )
 
-&lt;h2 id=&#34;programming-is-probably-not-the-best-way-to-introduce-a-topic&#34;&gt;Programming is probably not the best way to &lt;strong&gt;introduce&lt;/strong&gt; a topic&lt;/h2&gt;
+ridge &amp;lt;- read_csv(&amp;quot;outcomes/ridge.csv&amp;quot;) %&amp;gt;%
+  mutate(
+    model = rep(&amp;quot;Ridge&amp;quot;, nrow(.))
+  )
 
-&lt;p&gt;Just because an activity truly assesses understanding doesn’t mean that it automatically lays the foundation for a lesson plan. If all of my algebra lessons had been formatted as a series of instructions in the way that a programming perspective would emphasize, I know I would have enjoyed my math class a lot less. And I definitely would not have been ready to write a program to solve arbitrary systems of equations the day the topic was introduced. When material is presented as formulaic, as a procedure, students are compelled to simply memorize the steps involved in solving problems. The intuition is removed, and the concepts don’t stick past the next test. I still think that teachers should strive to motivate the material as much as possible—whether that be through telling a story or getting students to see how useful the concept can be. This is important in both a classroom instructional setting and in a homework design setting.&lt;/p&gt;
+boosting &amp;lt;- read_csv(&amp;quot;outcomes/boosting.csv&amp;quot;) %&amp;gt;%
+  mutate(
+    model = rep(&amp;quot;xgboost&amp;quot;, nrow(.))
+  )
 
-&lt;h2 id=&#34;some-features-of-programming-can-be-useful-for-structuring-material&#34;&gt;Some features of programming can be useful for &lt;strong&gt;structuring&lt;/strong&gt; material&lt;/h2&gt;
+real_values &amp;lt;- rf %&amp;gt;%
+  mutate(pred_change = change,
+         pred_total = total_deaths,
+         model = &amp;quot;Reported Deaths&amp;quot;)
 
-&lt;p&gt;One of the main reasons why people write code is to organize groups of related procedures and perform them in a consistent way in many different occasions. I can see this being useful in a geometry classroom, for example. Students could organize their knowledge of geometrical formulas by having classes containing functions used for computing perimeters, areas, and volumes. Also, the process of writing the actual functions is an exercise in helping students remember precisely what quantities are needed to calculate others. The way that students would end up using these functions is another source of excitement for people who code regularly. Students would use their library of geometry functions to solve more involved problems by creating an organized sequence of function calls to solve each step of the problem in sequence. Programmers love being able to clearly see the overall flow of a complex procedure as a sequence of smaller tasks. Essentially, the function-oriented nature of programming enables students to put &lt;a href=&#34;http://simplystatistics.org/2015/02/04/knowledge-units-the-atoms-of-statistical-education/&#34; target=&#34;_blank&#34;&gt;knowledge units&lt;/a&gt; into a documented story-like framework, which hopefully would encourage big picture understanding.&lt;/p&gt;
 
-&lt;h1 id=&#34;technology-can-enrich-education-not-dumb-it-down&#34;&gt;Technology can enrich education, not &amp;ldquo;dumb it down&amp;rdquo;&lt;/h1&gt;
+outcomes &amp;lt;- rf %&amp;gt;%
+  bind_rows(deep_learning, ridge, boosting, real_values)
 
-&lt;p&gt;While Mr. Wolfram’s big idea was to use programming to teach math, I think the main subtheme of his talk was the increased incorporation of technology in math classrooms. Not &amp;ldquo;&lt;a href=&#34;http://www.informationweek.com/mobile/ipads-in-the-classroom-worth-doing-right/d/d-id/1110490?&#34; target=&#34;_blank&#34;&gt;technology for technology’s sake&lt;/a&gt;&amp;rdquo; in terms of gadgets like &lt;a href=&#34;http://theinnovativeeducator.blogspot.com/2010/05/why-smartboards-are-dumb-initiative.html&#34; target=&#34;_blank&#34;&gt;Smartboards&lt;/a&gt; and iPads, but thoughtfully constructed, computer-oriented lesson-plans, assignments, and activities. Technology, when appropriately used, can enrich education, and I think that the main avenue for this is through simulation and exploration.&lt;/p&gt;
+# Create Ensemble model:
+ensemble &amp;lt;- outcomes %&amp;gt;%
+  filter(model != &amp;quot;Reported Deaths&amp;quot;) %&amp;gt;%
+  group_by(state, date) %&amp;gt;%
+  summarise(pred_change = mean(pred_change),
+            pred_total = mean(pred_total)) %&amp;gt;%
+  ungroup() %&amp;gt;%
+  mutate(total_deaths = rf$total_deaths,
+         change = rf$change,
+         model = &amp;quot;Ensemble&amp;quot;) %&amp;gt;%
+  select(state, date, total_deaths, change, pred_change, pred_total, model)
 
-&lt;p&gt;Simulation can be an amazing activity for getting students to think about real-world applications of what they are learning. For example, a lot of the simulations provided on &lt;a href=&#34;http://serc.carleton.edu/sp/library/simulations/examples.html&#34; target=&#34;_blank&#34;&gt;this site&lt;/a&gt; have to do with the very practical task of learning about economics and could quite feasibly fit into an algebra curriculum. Just covered equations of lines? Well how about reinforcing those concepts and showing their utility by exploring linear trends that pop up in economics? If it is not common already, simulations should be more seriously considered by educators as add-on exercises to enhance a curriculum. I find simulations appealing as a teaching tool because they allow students to quickly try lots of things, allowing them to see a wide variety of phenomena in a short span of time. Most importantly, this allows them to &lt;strong&gt;discuss&lt;/strong&gt; and &lt;strong&gt;write&lt;/strong&gt; much more just because they have observed so much that they can comment on. Talking, and even more so writing due to its slower and more structured nature, is a &lt;a href=&#34;http://files.eric.ed.gov/fulltext/ED544239.pdf&#34; target=&#34;_blank&#34;&gt;great way&lt;/a&gt; to assess the extent to which students understand a topic, and if high quality writing is emphasized, it can really get students to internalize ideas. So in short, technology should be used as a means of facilitating a high volume of &lt;strong&gt;exploration&lt;/strong&gt; so as to facilitate more &lt;strong&gt;writing&lt;/strong&gt; and &lt;strong&gt;discussion&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+outcomes &amp;lt;- outcomes %&amp;gt;%
+  bind_rows(ensemble)
+ 
+outcomes %&amp;gt;%
+  group_by(date, model) %&amp;gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&amp;gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &amp;quot;Model Performance - Predicted National Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;From the current results, it looks as if Ridge Regression performed the best on both a state and national level; still, all models showed a trend of overpredicting the number of deaths, and models were susceptible to sometimes predicting negative daily death counts. These are the current issues with the models. Further interpretation of the data, as well as incorporating additional data which captures trends that the models are currently unable to accurately predict for, may help improve the models.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;main-report&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Main Report&lt;/h1&gt;
+&lt;div id=&#34;data-overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Data Overview&lt;/h2&gt;
+&lt;p&gt;For the purposes of model-building, I drew data from two sources: Johns Hopkins University’s COVID-19 repository, and Google’s COVID-19 Community Mobility Reports. Apple’s Mobility Trends Reports were also read in during data processing, but were ultimately discarded during the model-building process.&lt;/p&gt;
+&lt;p&gt;Additional data sources were used in the EDA. These will be listed in the EDA section in the appendix.&lt;/p&gt;
+&lt;p&gt;Within the JHU repository, the only dataset used for model-building purposes was the US death total time-series dataset.&lt;/p&gt;
+&lt;p&gt;Additional details on the data will be discussed in the data processing section in the appendix.&lt;/p&gt;
+&lt;p&gt;When processed and setup for model-building, the data consisted of 32 variables. Each observation represents data for a given state and day. The data was split into a training and testing set, with the training set containing dates ranging from March 7th to May 18th (3723 observations in total), and the testing set containing dates ranging from May 19th to June 1st(714 observations in total).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;model-building&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Model Building&lt;/h2&gt;
+&lt;p&gt;Five candidate models were developed for this project. The five methods used were Neural Networks(Keras), Random Forests(ranger), Ridge Regression(glmnet), Boosting(xgboost), and an ensemble model using these four methods, equally weighted.&lt;/p&gt;
+&lt;p&gt;The response variable for the data was the number of deaths reported in a given date and state (&lt;code&gt;change&lt;/code&gt;), and the same 28 predictors were used for each model: The day of the week, the 1-14 day lag on &lt;code&gt;change&lt;/code&gt;, the 2-3 week lagged mean for the six Google mobility predictors: retail and recreation, workplace, transit, grocery and pharmacy, parks, and residential, the 3-4 week lagged mean for these six predictor, and finally a count on how many days have passed since the given state reported its first COVID-19 death.&lt;/p&gt;
+&lt;div id=&#34;neural-networks&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Neural Networks&lt;/h3&gt;
+&lt;p&gt;The process of model building with Keras began with scaling the training and testing set using means and standard deviations from the training data. Then, two networks were trained. A validation set comprising of 20% of the training data was used to evaluate the networks:&lt;/p&gt;
+&lt;p&gt;Finding a good network for training the data was largely done through trial and error. Various numbers of hidden units were used to train networks, and the two networks described below were two of the best performing networks.&lt;/p&gt;
+&lt;p&gt;The first network used 3 layers with the first two layers using 8 hidden units. As usual with regression problems, MSE was used as the loss function and MAE as the accuracy metric. The results are shown below, when training with a batch size of 32 and 500 epochs:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;history_keras &amp;lt;- read_rds(&amp;quot;deep_learning/history_keras.rds&amp;quot;)
 
-&lt;p&gt;Programming can definitely enrich math education by helping students organize concepts and reinforce their understanding of the material. However, we still have to make sure that we motivate material and put it into a memorable context for students. Regarding the broader goal of increasing the presence of technology in education, expensive and ineffective approaches should be abandoned for activities that can be performed on computers and equipment already available in schools. Activities such as simulations can markedly deepen investigation of a topic and are easily performed with the materials available in most classrooms. Amending curricula to incorporate these ideas and activities might involve some time investment, but it could definitely improve the quality of student learning.&lt;/p&gt;
-</description>
-    </item>
+print(history_keras)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Trained on NULL samples (batch_size=NULL, epochs=200)
+## Final epoch (plot to see history):
+##     loss: 524.7
+##      mae: 8.687
+## val_loss: 2,288
+##  val_mae: 9.784&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The second network used 16 hidden units for the first two layers. The results for the same batch size and 500 epochs are shown below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;history_keras &amp;lt;- read_rds(&amp;quot;deep_learning/history_keras_2.rds&amp;quot;)
+
+print(history_keras)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Trained on NULL samples (batch_size=NULL, epochs=150)
+## Final epoch (plot to see history):
+##     loss: 509.4
+##      mae: 8.288
+## val_loss: 2,266
+##  val_mae: 9.758&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;From these two plots, the final selected model was trained using 16 hidden units and 40 epochs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;random-forests&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Random Forests&lt;/h3&gt;
+&lt;p&gt;Random forest models were trained using cross-validation. The training data was split into 5 folds, and 10 values of &lt;code&gt;mtry&lt;/code&gt; between 1 and 28, as well as 10 values of &lt;code&gt;num.trees&lt;/code&gt; between 200 and 1000 were evaluated with cross validation. After cross-validation, the results were as follows:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rf_cv_err &amp;lt;- read_csv(&amp;quot;outcomes/rf_cv_err.csv&amp;quot;)
+
+# find cv error means:
+rf_cv_err &amp;lt;- rf_cv_err %&amp;gt;%
+  group_by(mtry, num.trees) %&amp;gt;%
+  summarise(
+    mean_train_err = mean(train_err),
+    mean_test_err = mean(test_err)
+  ) %&amp;gt;%
+  arrange(mean_test_err)
+
+rf_cv_err %&amp;gt;% 
+  ggplot(aes(mtry, num.trees)) +
+  geom_tile(aes(fill = mean_test_err)) +
+  labs(title = &amp;quot;Heatmap of tuning parameters: Darker shades indicate better test error!&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The best parameters were found to be &lt;code&gt;mtry&lt;/code&gt; = 7 and &lt;code&gt;num.trees&lt;/code&gt; = 300. Using these parameters, the final model was trained.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ridge-regression&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Ridge Regression&lt;/h2&gt;
+&lt;p&gt;Using glmnet cross validation, the training set was trained on 400 different lambda values from 1e-10 to 1e10. The results of cross validation are as shown below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Load Data ---------------------------------------------------------------
+
+data &amp;lt;- read_csv(&amp;quot;data/processed/modelling_data.csv&amp;quot;) %&amp;gt;%
+  clean_names()
+
+# Cut off early dates for which data is not fully available, and filter out states/territories w/ missing data:
+data &amp;lt;- data %&amp;gt;% filter(date &amp;gt;= &amp;quot;2020-03-07&amp;quot;) %&amp;gt;%
+  filter(!(state %in% c(&amp;quot;Virgin Islands&amp;quot;,
+                        &amp;quot;Northern Mariana Islands&amp;quot;,
+                        &amp;quot;American Samoa&amp;quot;,
+                        &amp;quot;Diamond Princess&amp;quot;,
+                        &amp;quot;Grand Princess&amp;quot;,
+                        &amp;quot;Guam&amp;quot;,
+                        &amp;quot;Puerto Rico&amp;quot;))) %&amp;gt;%
+  mutate(weekday = as.factor(weekday))
+
+data &amp;lt;- data %&amp;gt;%
+  select(-driving, -driving_lag14, -driving_lag21, -rollmean_driving, -(20:32), -first_death)
+
+train &amp;lt;- data %&amp;gt;%
+  filter(date &amp;lt;= &amp;quot;2020-05-18&amp;quot;)
+
+test &amp;lt;- data %&amp;gt;%
+  filter(date &amp;gt; &amp;quot;2020-05-18&amp;quot;)
+
+
+# Ridge Regression --------------------------------------------------------
+
+# lambda grid to search -- use for ridge regression (400 values)
+lambda_grid &amp;lt;- 10^seq(-10, 10, length = 400)
+
+# ridge regression: 10-fold cv
+ridge_cv &amp;lt;- train %&amp;gt;% 
+  cv.glmnet(
+    formula = change ~ . - state - date - total_deaths, 
+    data = ., 
+    alpha = 0, 
+    nfolds = 10,
+    lambda = lambda_grid
+  )
+
+plot(ridge_cv)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;From this cross-validation a minimum lambda value of 10.6554 was chosen and a 1se lambda value of 120.282 was chosen. Two final models were chosen based on these lambda values. Ultimately, the minimum lambda model performed better on the test set and was thus chosen to be used in the final model comparison.&lt;/p&gt;
+&lt;div id=&#34;boosting&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Boosting:&lt;/h3&gt;
+&lt;p&gt;Model-building for boosting followed a similar pattern to Random Forests, but only one parameter was tuned a time due to training times being unreasonably high for cross-validating on multiple parameters at a time. The parameters tuned were &lt;code&gt;eta&lt;/code&gt;, &lt;code&gt;max_depth&lt;/code&gt; &lt;code&gt;min_child_weight&lt;/code&gt;, &lt;code&gt;gamma&lt;/code&gt;, and &lt;code&gt;colsample_bytree&lt;/code&gt; in their respective order, and tuning for the optimal &lt;code&gt;nrounds&lt;/code&gt; at the end. These parameters were used to build the final model.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ensemble-model&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Ensemble Model&lt;/h2&gt;
+&lt;p&gt;An ensemble model was built using the evenly-weighted mean of each model for every prediction. This approach aims to increase predictive power by using the predictions of all models together. Often this sort of an approach can improve predictive power beyond any of the individual models, so it should certainly be tried.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;model-predictions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Model Predictions:&lt;/h2&gt;
+&lt;p&gt;Given that we are predicting future observations while using lag variables, we need to assume that from the period from May 19th to June 1st, no data is known about the daily reported deaths. This means that, for example, on May 21st, we know every lag variable corresponding to data from before May 19th (which would be lag data from 3-14 days ago), but we don’t know the 2 day lag and 1 day lag. However, in the testing dataset, the 2 day lag and 1 day lag from the actual number of reported deaths on May 19th and 20th were present in the data.&lt;/p&gt;
+&lt;p&gt;To solve this issue, I wrote code that iterated through the test data starting from May 19th. The code generated a prediction, then updated the 1 day lag on May 20th with that prediction, the 2 day lag on May 21st, etc., iterating through 13 of the 14 lag columns. Predictions generated for successive days used real data from days before May 19th, and predicted data from May 19th and after.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;final-model-selection&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Final Model Selection&lt;/h2&gt;
+&lt;p&gt;To compare final models, I first visualized each model by comparing the predicted total deaths over the 2 week period from May 19th to June 1st to the actual number of reported deaths. Here are the results:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
+  group_by(date, model) %&amp;gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&amp;gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &amp;quot;Model Performance - Predicted National Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, I created the same plot, but on a state level, for a few states:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
+  filter(state == &amp;quot;New York&amp;quot;) %&amp;gt;%
+  group_by(date, model) %&amp;gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&amp;gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &amp;quot;Model Performance - New York Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
+  filter(state == &amp;quot;Minnesota&amp;quot;) %&amp;gt;%
+  group_by(date, model) %&amp;gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&amp;gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &amp;quot;Model Performance - Minnesota Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
+  filter(state == &amp;quot;Florida&amp;quot;) %&amp;gt;%
+  group_by(date, model) %&amp;gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&amp;gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &amp;quot;Model Performance - Florida Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
+  filter(state == &amp;quot;Alabama&amp;quot;) %&amp;gt;%
+  group_by(date, model) %&amp;gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&amp;gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &amp;quot;Model Performance - Alabama Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
+  filter(state == &amp;quot;California&amp;quot;) %&amp;gt;%
+  group_by(date, model) %&amp;gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&amp;gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &amp;quot;Model Performance - California Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-5.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
+  filter(state == &amp;quot;Montana&amp;quot;) %&amp;gt;%
+  group_by(date, model) %&amp;gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&amp;gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &amp;quot;Model Performance - Montana Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-6.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
+  filter(state == &amp;quot;Kansas&amp;quot;) %&amp;gt;%
+  group_by(date, model) %&amp;gt;%
+  summarise(pred_change = sum(pred_change),
+            pred_total = sum(pred_total)) %&amp;gt;%
+  ggplot(aes(date, pred_total)) +
+  geom_line(aes(color = model)) +
+  labs(title = &amp;quot;Model Performance - Kansas Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-7.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;As can be seen in the state models, there are some problems with the models predicting total deaths to decrease. I’ll discuss this issue in a later section.&lt;/p&gt;
+&lt;p&gt;When choosing a final model, we need to consider whether or not it will be used to predict state totals or national totals. To differentiate, I calculated two types of MSE - a state level MSE which calculates each individual observation, and a national level MSE which sums the predicted daily death counts for every state together to produce a national day-by-day predicted death count. The national and state level MSEs are shown for each model on the scatterplot below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Calculate national and state level MSE
+# National MSE
+mean_state_mse &amp;lt;- outcomes %&amp;gt;%
+  group_by(model) %&amp;gt;%
+  summarise(state_mse = mean((pred_change - change)^2))
+
+national_mse &amp;lt;- outcomes %&amp;gt;%
+  group_by(model, date) %&amp;gt;%
+  summarise(change = sum(change),
+            pred_change = sum(pred_change)) %&amp;gt;%
+  ungroup() %&amp;gt;%
+  group_by(model) %&amp;gt;%
+  summarise(national_mse = mean((pred_change - change) ^2))
+
+national_mse %&amp;gt;%
+  left_join(mean_state_mse, by = &amp;quot;model&amp;quot;) %&amp;gt;%
+  ggplot(aes(national_mse, state_mse)) +
+  geom_point(aes(color = model))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;From the current results, it appears that Ridge Regression performs the best on both a state and national level. As such, it should be chosen as the final model, since the goal of this project is to forecast the number of COVID-19 deaths in the US as accurately as possible. Ridge Regression performs the best in this aspect on both a state and national level.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary-insights&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Summary &amp;amp; Insights&lt;/h2&gt;
+&lt;p&gt;Our original problem was predicting future death counts of the COVID-19 across the United States and its individual states. The methodology used is capable of predicting real future death counts, since it wouldn’t need to rely on future data. The results of the models, although flawed in many ways, did a reasonable job of predicting within a 2 week interval given the unpredictability of the COVID-19 pandemic.&lt;/p&gt;
+&lt;p&gt;The flaws with the models were clear. First of all, there was a clear pattern of overpredicting the number of deaths nationally - every model did it. There are some possible explanations for this: the overall trend nationwide has been a decrease in death counts. Perhaps the models didn’t capture this fully. Additionally, the usual trend is that death counts usually dip in the weekend then increase on Monday. However, May 25th was Memorial Day and saw a continued decrease from Sunday.&lt;/p&gt;
+&lt;p&gt;Additionally, the models sometimes predicted a negative change in total deaths for some states. This may be in part due to the presence of such negative counts in the training set - these might be caused by reporting errors, but the models do not know that. One way to address this issue might be using rolling averages of death counts, but whether or not the models would be better off overall when using those is unclear.&lt;/p&gt;
+&lt;p&gt;Finally, one major shortcoming with the model is that it can only predict up to two weeks into the future. This is because the model relies on mobility data which is lagged 2-4 weeks behind the current data. Any predictions beyond two weeks would require future mobility data, which obviously is not available when making actual future predictions. This problem might be addressed by making assumptions about how mobility will change going into the future, or even trying to predict future mobility data. So far I have not attempted to do these things in my project.&lt;/p&gt;
+&lt;p&gt;Overall, the biggest challenge with this problem is trying to capture as much useful data as possible to be used in the modeling, since there is a lot of things we don’t know - how does climate affect the spread of the virus? We don’t find a great deal of variation in climate with only US data. What are the optimal conditions for virus spreading? What’s the current hospital usage and capacity for each state (this data was present in the daily_reports dataset but was incomplete, so I decided not to use it). How much more relevant information can be captured by using data on a county level? I may experiment with using county level data in the future; however, this will greatly increase the size of the datasets, and some procedures such as cross-validation tuning of multiple parameters at once, will certainly be near impossible. Ultimately, there was plenty of information which could be fed into the models but I ultimately excluded. I will likely continue experimenting with how this data affects the predictions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;appendix&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Appendix&lt;/h1&gt;
+&lt;div id=&#34;eda&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;EDA&lt;/h2&gt;
+&lt;div id=&#34;introduction&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;With the ongoing COVID-19 pandemic, many are relying on predictive models to better understand the future trajectory of the disease’s impact on countries across the world. Since there is a great deal of data available on the pandemic, I decided to try and use these resources to create my own predictive model, and, in the process, hopefully come to better understand how COVID-19 impacts different communities and populations.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;about-the-data&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;About the Data&lt;/h3&gt;
+&lt;p&gt;The main source of data regarding COVID-19 was obtained from the Johns Hopkins University CSSE. The data from this repository which I used included daily reports and time series data for the US and all other affected countries. For global data, the daily reports contained 3232 observations of 12 variables, the confirmed cases time series data contained 266 observations of 113 variables, the deaths time series data had 266 observations of 113 variables, and the recovered time series data contained 252 observations of 113 variables.&lt;/p&gt;
+&lt;p&gt;The patterns of missingness in each of these datasets are as follows:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Missing data:
+daily_report %&amp;gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&amp;gt;%
+  pivot_longer(cols = 1:12, names_to = &amp;quot;var&amp;quot;, values_to = &amp;quot;percent_missing&amp;quot;) %&amp;gt;%
+  ggplot(aes(percent_missing, var)) +
+  geom_bar(stat = &amp;quot;identity&amp;quot;, aes(fill = var)) +
+  labs(title = &amp;quot;Missing data: Daily Report&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;confirmed_ts %&amp;gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&amp;gt;%
+  pivot_longer(cols = 1:113, names_to = &amp;quot;var&amp;quot;, values_to = &amp;quot;percent_missing&amp;quot;) %&amp;gt;%
+  filter(percent_missing &amp;gt; 0) %&amp;gt;% # There are a lot of variables, so I&amp;#39;m only choosing the ones with any missing data
+  ggplot(aes(percent_missing, var)) +
+  geom_bar(stat = &amp;quot;identity&amp;quot;, aes(fill = var)) +
+  labs(title = &amp;quot;Missing data: Confirmed Cases Time Series&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;deaths_ts %&amp;gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&amp;gt;%
+  pivot_longer(cols = 1:113, names_to = &amp;quot;var&amp;quot;, values_to = &amp;quot;percent_missing&amp;quot;) %&amp;gt;%
+  filter(percent_missing &amp;gt; 0) %&amp;gt;% # There are a lot of variables, so I&amp;#39;m only choosing the ones with any missing data
+  ggplot(aes(percent_missing, var)) +
+  geom_bar(stat = &amp;quot;identity&amp;quot;, aes(fill = var)) +
+  labs(title = &amp;quot;Missing data: Deaths Time Series&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;recovered_ts %&amp;gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&amp;gt;%
+  pivot_longer(cols = 1:113, names_to = &amp;quot;var&amp;quot;, values_to = &amp;quot;percent_missing&amp;quot;) %&amp;gt;%
+  filter(percent_missing &amp;gt; 0) %&amp;gt;% # There are a lot of variables, so I&amp;#39;m only choosing the ones with any missing data
+  ggplot(aes(percent_missing, var)) +
+  geom_bar(stat = &amp;quot;identity&amp;quot;, aes(fill = var)) +
+  labs(title = &amp;quot;Missing data: Recovered Time Series&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In general, there was not much actual missing data in the datasets; for example, &lt;code&gt;admin2&lt;/code&gt; was used for US county names, so other countries had a missing value for it. The same is true for other missing values, except for &lt;code&gt;lat&lt;/code&gt; and &lt;code&gt;long&lt;/code&gt;, which indicated latitude and longitude–however, I do not plan on using these two variables.&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;div id=&#34;other-data&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Other Data&lt;/h4&gt;
+&lt;p&gt;Many other data sources were used in this data analysis. Four datasets were retrieved from the American Community Survey (ACS) on the US Census Bureau’s COVID-19 website. These datasets contained various statistics about population, income, health insurance, and internet usage, all on a state level. The purpose of this data for my analyses is to try and find any statistics that may be correlated with COVID-19 statistics.&lt;/p&gt;
+&lt;p&gt;Additionally, I used a dataset giving statistics on each state’s population numbers. This was used to supplement the ACS data.&lt;/p&gt;
+&lt;p&gt;Finally, I used data from Google on mobility trends across the United States during the COVID-19 pandemic. I used this data to analyze how reduced mobility affects the trajectory of the pandemic.&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;analysis-of-primary-dataset&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Analysis of Primary Dataset&lt;/h3&gt;
+&lt;p&gt;My data analysis of the primary JHU CSSE dataset involved looking at distributions of response variables such as confirmed cases. I used linear and logarithmic scales to visualize the data, but given the shape of the data, logarithmic scales show the data much better, which can be seen in these visualizations, showing the distribution of the latest numbers of cases, deaths, and recoveries by country:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;daily_report %&amp;gt;% # All Response
+  group_by(country_region) %&amp;gt;%
+  summarise(total_confirmed = sum(confirmed),
+            total_deaths = sum(deaths),
+            total_recovered = sum(recovered)) %&amp;gt;%
+  pivot_longer(cols = c(2:4), names_to = &amp;quot;var&amp;quot;) %&amp;gt;%
+  ggplot(aes(value)) +
+  geom_histogram() +
+  facet_wrap(~var) +
+  labs(title = &amp;quot;Distribution of Confirmed Cases, Deaths, and Recoveries by Country - Linear&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;daily_report %&amp;gt;% # All response variables on a log-10 scale
+  group_by(country_region) %&amp;gt;%
+  summarise(log_confirmed = log10(sum(confirmed)),
+            log_deaths = log10(sum(deaths)),
+            log_recovered = log10(sum(recovered))) %&amp;gt;%
+  pivot_longer(cols = 2:4, names_to = &amp;quot;var&amp;quot;) %&amp;gt;%
+  ggplot(aes((value))) +
+  geom_freqpoly(aes(color = var)) +
+  labs(title = &amp;quot;Distribution of Confirmed Cases, Deaths, and Recoveries by country - Logarithmic&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-11-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, I plotted time series data on a global scale:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Putting all time series info into one graphic:
+confirmed_all_countries &amp;lt;- confirmed_ts %&amp;gt;% # Total cases over time
+  select(-province_state, -lat, -long) %&amp;gt;%
+  pivot_longer(cols = c(2:110), names_to = &amp;quot;date&amp;quot;, values_to = &amp;quot;cases&amp;quot;) %&amp;gt;%
+  mutate(date = as_date(date, format = &amp;quot;x%m_%d_%y&amp;quot;)) %&amp;gt;% # Convert date to a date variable
+  group_by(date) %&amp;gt;%
+  summarise(total_cases = sum(cases))
+
+deaths_all_countries &amp;lt;- deaths_ts %&amp;gt;% # Total deaths over time
+  select(-province_state, -lat, -long) %&amp;gt;%
+  pivot_longer(cols = c(2:110), names_to = &amp;quot;date&amp;quot;, values_to = &amp;quot;deaths&amp;quot;) %&amp;gt;%
+  mutate(date = as_date(date, format = &amp;quot;x%m_%d_%y&amp;quot;)) %&amp;gt;% # Convert date to a date variable
+  group_by(date) %&amp;gt;%
+  summarise(total_deaths = sum(deaths))
+
+recovered_all_countries &amp;lt;- recovered_ts %&amp;gt;% # Total recovered over time
+  select(-province_state, -lat, -long) %&amp;gt;%
+  pivot_longer(cols = c(2:110), names_to = &amp;quot;date&amp;quot;, values_to = &amp;quot;recovered&amp;quot;) %&amp;gt;%
+  mutate(date = as_date(date, format = &amp;quot;x%m_%d_%y&amp;quot;)) %&amp;gt;% # Convert date to a date variable
+  group_by(date) %&amp;gt;%
+  summarise(total_recovered = sum(recovered))
+
+worldwide_ts &amp;lt;- confirmed_all_countries %&amp;gt;%
+  left_join(deaths_all_countries, by = &amp;quot;date&amp;quot;) %&amp;gt;%
+  left_join(recovered_all_countries, by = &amp;quot;date&amp;quot;)
+
+worldwide_ts %&amp;gt;% pivot_longer(cols = 2:4, names_to = &amp;quot;type&amp;quot;) %&amp;gt;% # Linear scale
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = type)) +
+  labs(title = &amp;quot;Worldwide cases, deaths, and recoveries over time - Linear&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;worldwide_ts %&amp;gt;% pivot_longer(cols = 2:4, names_to = &amp;quot;type&amp;quot;) %&amp;gt;% # Log scale
+  ggplot(aes(date, log10(value))) +
+  geom_line(aes(color = type)) +
+  labs(title = &amp;quot;Worldwide cases, deaths and recoveries over time - Logarithmic&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-12-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, I wanted to look at some of the countries most impacted by COVID-19. The confirmed cases over time are displayed for the 10 countries with the most current cases on a linear and logarithmic scale as follows:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Time - series for top 10 countries by confirmed cases
+top10 &amp;lt;- daily_report %&amp;gt;% group_by(country_region) %&amp;gt;% # 10 countries with most cases
+  summarise(total_cases = sum(confirmed)) %&amp;gt;%
+  arrange(desc(total_cases)) %&amp;gt;%
+  mutate(rank = min_rank(-total_cases)) %&amp;gt;%
+  filter(rank &amp;lt;= 10) %&amp;gt;%
+  pull(country_region)
+
+confirmed_ts %&amp;gt;% # Total cases over time - top 10 countries - linear scale
+  select(-province_state, -lat, -long) %&amp;gt;%
+  pivot_longer(cols = c(2:110), names_to = &amp;quot;date&amp;quot;, values_to = &amp;quot;cases&amp;quot;) %&amp;gt;%
+  mutate(date = as_date(date, format = &amp;quot;x%m_%d_%y&amp;quot;)) %&amp;gt;% # Convert date to a date variable
+  filter(country_region %in% top10) %&amp;gt;%
+  group_by(country_region, date) %&amp;gt;%
+  summarise(total_cases = sum(cases)) %&amp;gt;%
+  ggplot(aes(date, total_cases)) +
+  geom_line(aes(color = country_region)) +
+  labs(title = &amp;quot;10 Countries with most cases - linear time series&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;confirmed_ts %&amp;gt;% # Total cases over time - top 10 countries - log scale
+  select(-province_state, -lat, -long) %&amp;gt;%
+  pivot_longer(cols = c(2:110), names_to = &amp;quot;date&amp;quot;, values_to = &amp;quot;cases&amp;quot;) %&amp;gt;%
+  mutate(date = as_date(date, format = &amp;quot;x%m_%d_%y&amp;quot;)) %&amp;gt;% # Convert date to a date variable
+  filter(country_region %in% top10) %&amp;gt;%
+  group_by(country_region, date) %&amp;gt;%
+  summarise(total_cases = sum(cases)) %&amp;gt;%
+  ggplot(aes(date, log10(total_cases))) +
+  geom_line(aes(color = country_region)) +
+  labs(title = &amp;quot;10 countries with most cases - logarithmic time series&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-13-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The data here shows that the US is adding more cases at a relatively linear rate, while most other countries are slowing down, with the exception of Russia and Brazil, which are seeing increasing numbers of new cases per day.&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;div id=&#34;analysis-of-us-data&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Analysis of US Data&lt;/h4&gt;
+&lt;p&gt;From this point on in the data analysis, I decided to focus on US data. This decision was made in part because US data is more consistently available, and data such as that from the ACS is very consistent and does not have much missing data. I first plotted the time series cases and deaths for the US as a whole:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# US Focused analysis
+covid_us_report &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports_us/05-09-2020.csv&amp;quot;) %&amp;gt;%
+  clean_names()
+
+us_confirmed_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv&amp;quot;) %&amp;gt;%
+  clean_names()
+
+us_deaths_ts &amp;lt;- read_csv(&amp;quot;data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv&amp;quot;) %&amp;gt;%
+  clean_names()
+
+# Cases, fatalities
+us_confirmed_ts &amp;lt;- us_confirmed_ts %&amp;gt;% pivot_longer(cols = 12:120, names_to = &amp;quot;date&amp;quot;, values_to = &amp;quot;confirmed&amp;quot;) %&amp;gt;%
+  mutate(date = as_date(date, format = &amp;quot;x%m_%d_%y&amp;quot;)) # Convert to a more usable format
+
+us_deaths_ts &amp;lt;- us_deaths_ts %&amp;gt;% pivot_longer(cols = 13:121, names_to = &amp;quot;date&amp;quot;, values_to = &amp;quot;deaths&amp;quot;) %&amp;gt;%
+  mutate(date = as_date(date, format = &amp;quot;x%m_%d_%y&amp;quot;))
+
+us_ts &amp;lt;- us_confirmed_ts %&amp;gt;%
+  group_by(date) %&amp;gt;%
+  summarise(total_cases = sum(confirmed)) %&amp;gt;% left_join(
+    us_deaths_ts %&amp;gt;%
+      
+      group_by(date) %&amp;gt;%
+      
+      summarise(total_deaths = sum(deaths)),
     
-    <item>
-      <title>Adapting education style to improve relevance and practical skills</title>
-      <link>/post/adapting-education-style/</link>
-      <pubDate>Wed, 24 Dec 2014 17:41:30 +0000</pubDate>
-      
-      <guid>/post/adapting-education-style/</guid>
-      <description>&lt;p&gt;Part of my educational duties this past semester was as a teaching assistant for an undergraduate introductory biostatistics course. We went over the usual topics—calculating probabilities from tables, test statistics, hypothesis testing, linear and logistic regression—and I felt that the curriculum made a great effort to contextualize the material by organizing the content into goal-oriented modules. For example, linear regression was introduced as a tool for the specific goal of explaining college students’ GPA based on alcohol consumption-related characteristics. Whether or not the dataset that we gave to the students was the best source of information for investigating this relationship, I felt that there were two pedagogical ideas behind this module that were well implemented. First, the relationship being explored (I would guess) is one that piques the interest of a large percentage of the students. A lot of college students drink and almost everyone knows someone who drinks. It was great that the theme for this module was self-motivating. Second, the structure of the main assignment for the module forced students to write in a substantive way. The students had to come up with their own linear regression models to explore the relationship between GPA and drinking-related characteristics, and they were asked to write a report of their process, findings, and model interpretations—all things that are essential to understand when reading, writing, and discussing research findings.&lt;/p&gt;
+    by = &amp;quot;date&amp;quot;)
 
-&lt;p&gt;I want to focus on these two teaching ideas for a bit and give my perspective on what we might need to do to adapt education for the future. Current events have precipitated a lot of intense and particularly emotion-backed discussion about racial injustice and inequality in general. From discussions with people much more knowledgeable and well-spoken than I am, I would have to say that perhaps the most essential asset that a lot of people don’t get from their education is an ability to think critically and argue rationally. These are hard things to do, and I think that school is the place to get people to practice.&lt;/p&gt;
+# Plot cumulative cases and deaths:
+us_ts %&amp;gt;% # Linear
+  pivot_longer(cols = 2:3, names_to = &amp;quot;report&amp;quot;, values_to = &amp;quot;num&amp;quot;) %&amp;gt;%
+  ggplot(aes(date, num)) +
+  geom_line(aes(color = report)) +
+  labs(title = &amp;quot;US Cases and Deaths - Linear&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;us_ts %&amp;gt;% # Log
+  pivot_longer(cols = 2:3, names_to = &amp;quot;report&amp;quot;, values_to = &amp;quot;num&amp;quot;) %&amp;gt;%
+  ggplot(aes(date, log10(num))) +
+  geom_line(aes(color = report)) +
+  labs(title = &amp;quot;US Cases and Deaths - Logarithmic&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-14-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;I also included a time series plot which displayed each state as a separate line, but I omitted it as it was very difficult to read.&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;creating-new-variables&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Creating New Variables&lt;/h3&gt;
+&lt;p&gt;Given the nature of the data, investigating the relationship between response and predictor variables can be quite difficult. The total number of cases in a given state, for example, relies heavily on the testing capacity of that state. The mortality rate depends on how many of the actual number of people who have contracted COVID-19 are actually being tested and reported as a confirmed case. Variables such as hospitalization and incident rate are provided exclusively for US data, but there are more missing values in these variables.&lt;/p&gt;
+&lt;p&gt;I chose to create a new variable to measure as a response variable: the daily change in the total number of deaths for each given state. This, I believed, would provide a cleaner measure of the degree to which COVID-19 is impacting each state.&lt;/p&gt;
+&lt;p&gt;From this daily rate of change variable, I created two more summary variables–the average rate of increase in deaths for each state following the 30 days after each state’s first reported death, and the average rate of increase in deaths for all states in the past 10 days. The purpose for creating these summary statistics was to then compare them with various ACS variables and then see whether or not there were any significant correlations.&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;div id=&#34;analysis-of-the-relationship-between-response-variables-and-acs-predictors&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Analysis of the relationship between response variables and ACS predictors&lt;/h4&gt;
+&lt;p&gt;After calculating the new summary statistics described above, I loaded four different ACS datasets on a state level - population, income, internet access, and health insurance. The analysis I did with this data could have been more thorough (i.e. county level analysis and more variables investigated), but for the purposes of this EDA I started off looking at state level data.&lt;/p&gt;
+&lt;p&gt;For each dataset, I joined together previously existing response variables and new predictor variables by state names. Then, I calculated a correlation matrix and sorted each response variable to view the most correlated predictors. I took five predictors from each of the four datasets which had a correlation of over 0.5, and added them to another dataset.&lt;/p&gt;
+&lt;p&gt;I also repeated this process for a dataset containing total state level population counts and densities.&lt;/p&gt;
+&lt;p&gt;After taking these steps, I decided analyze the data via clustering. The initial results were very poor, due to all the predictors being highly correlated with population numbers, as they were in the form of totals (of an entire state population) rather than percentages. I converted them into percentages and the proceeded with the clustering.&lt;/p&gt;
+&lt;p&gt;First, here is a correlation matrix:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Creating a percent change variable: -------------------------------------
 
-&lt;p&gt;As I’ve explained in previous posts, case-based learning is a great way to motivate the concepts being taught in class so that students can see their practical uses and therefore remember the ideas for the long-term. In creating examples and giving context to classroom content, we need to think hard about what those examples will be. Perhaps the best way to really engage students and get them to care about what they’re learning is to use the most current issues possible. For example, I think that someone who decided to create a case-based statistics course for the current generation might have a lot of success using both news and research articles about social inequality. I think the key is to relate what is being presented in the news to what research has actually been performed and get students to closely examine the relationship between these sources of information.&lt;/p&gt;
+# Calculates percentage change in deaths for a given date
+percent_change_deaths &amp;lt;- function(data){
+  data %&amp;gt;%
+    group_by(date) %&amp;gt;%
+    summarise(deaths = sum(deaths)) %&amp;gt;%
+    mutate(pct_change = (deaths - lag(deaths)) / lag(deaths) * 100)
+}
 
-&lt;p&gt;Rational argumentation is another skill that is lacking in our generation. Very often we tend to talk to and become friends with like-minded people, and we are not as easily forced to question our views and see fallacies in the bases for our opinions. Forcing conversation in an educational setting is a great way to break that comfort zone because there is such a diversity of opinion. I love that the statistics course that I taught for emphasized writing because it forced students to at least put some words behind what they were learning. Just having those words is several steps above rote calculation and memorization in terms of really embedding meaning and understanding. But the way to truly make the most of those words is to construct them carefully to tell a story, to make a point. Words as a list of facts do little to reinforce understanding. To this end, I think that educators should elevate the role of writing to the level of speech and debate. I see this having great potential in mathematics and statistics classrooms. Throughout a statistics course we teach students about tools and the assumptions behind them that are used to draw conclusions from data. To truly assess their understanding of statistical concepts and to put these concepts in a meaningful context, perhaps one of the key assignments or activities of the course would be to read scientific papers and have a debate. In this way, we can prepare students for the types of discussions that they’ll have throughout their life by helping them recognize reasoning flaws in the arguments of others as well as their own.&lt;/p&gt;
-</description>
-    </item>
+# Run percent change function for all states
+percent_change_death &amp;lt;- us_deaths_ts %&amp;gt;% group_nest(province_state) %&amp;gt;% 
+  mutate(change = map(data, percent_change_deaths)) %&amp;gt;%
+  select(province_state, change) %&amp;gt;%
+  unnest(cols = c(change)) 
+
+# Change all non-number values to NA
+percent_change_death &amp;lt;- percent_change_death %&amp;gt;% 
+  mutate(pct_change = ifelse(is.nan(pct_change), NA, pct_change)) %&amp;gt;%
+  mutate(pct_change = ifelse(pct_change == Inf, NA, pct_change)) 
+
+# Create variable for earliest death, 30 days after 
+deaths_dates &amp;lt;- percent_change_death %&amp;gt;%
+  filter(deaths &amp;gt; 0) %&amp;gt;%
+  group_by(province_state) %&amp;gt;%
+  summarise(first_death = min(date),
+            day_30 = first_death + days(30))
+
+# Use earliest death and 30 day period to calculate 30 day avg rate of change:
+first_30 &amp;lt;- percent_change_death %&amp;gt;%
+  left_join(deaths_dates, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  filter(date &amp;gt; first_death, date &amp;lt;= day_30) %&amp;gt;%
+  group_by(province_state) %&amp;gt;%
+  summarise(first30 = mean(pct_change, na.rm = TRUE)) %&amp;gt;%
+  arrange(desc(first30))
+
+# Average growth in deaths in past 10 days:
+past_10 &amp;lt;- percent_change_death %&amp;gt;%
+  filter(date &amp;gt;= as_date(&amp;quot;05-01-20&amp;quot;, format = &amp;quot;%m-%d-%y&amp;quot;)) %&amp;gt;%
+  group_by(province_state) %&amp;gt;%
+  summarise(past10 = mean(pct_change, na.rm = TRUE)) %&amp;gt;%
+  mutate(past10 = ifelse(is.nan(past10), 0, past10)) %&amp;gt;%
+  arrange(desc(past10))
+
+# Overall mean growth
+overall_change &amp;lt;- percent_change_death %&amp;gt;%
+  group_by(province_state) %&amp;gt;%
+  summarise(mean_change = mean(pct_change, na.rm = TRUE)) %&amp;gt;%
+  mutate(mean_change = ifelse(is.nan(mean_change), 0, mean_change)) %&amp;gt;%
+  arrange(desc(mean_change))
+
+# Add summary percent change statistics to the main dataset:
+covid_us_report &amp;lt;- covid_us_report %&amp;gt;% 
+  left_join(first_30, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  left_join(past_10, by = &amp;quot;province_state&amp;quot;)
+
+# Analysis of Predictor Variables -----------------------------------------
+
+# Get US Data From ACS:
+
+
+# Population Data ---------------------------------------------------------
+
+
+acs_population &amp;lt;- read_csv(&amp;quot;data/unprocessed/ACS/ACS_Total_Population_-_State.csv&amp;quot;) %&amp;gt;%
+  clean_names()
+
+covid_data_pop &amp;lt;- covid_us_report %&amp;gt;%
+  filter(province_state %in% acs_population$name) %&amp;gt;%
+  rename(name = province_state) %&amp;gt;%
+  left_join(acs_population, by = &amp;quot;name&amp;quot;)
+
+pop_corr &amp;lt;- covid_data_pop %&amp;gt;%
+  select(confirmed, deaths, incident_rate, people_tested, people_hospitalized, mortality_rate,
+         testing_rate, hospitalization_rate, first30, past10, 25:140) %&amp;gt;%
+  cor() %&amp;gt;%
+  as_tibble()
+
+# Store most correlated variables:
+covid_all_vars &amp;lt;- covid_data_pop %&amp;gt;%
+  select(1:22, b01001_049e, b01001_042e, b01001_041e, b01001_040e, b01001_018e) 
+
+
+
+
+
+# Internet Connectivity Data ----------------------------------------------
+
+acs_internet &amp;lt;- read_csv(&amp;quot;data/unprocessed/ACS/ACS_Internet_Connectivity_-_State.csv&amp;quot;) %&amp;gt;%
+  clean_names()
+
+covid_data_internet &amp;lt;- covid_us_report %&amp;gt;%
+  filter(province_state %in% acs_internet$name) %&amp;gt;%
+  rename(name = province_state) %&amp;gt;%
+  left_join(acs_internet, by = &amp;quot;name&amp;quot;)
+
+internet_corr &amp;lt;- covid_data_internet %&amp;gt;%
+  select(confirmed, deaths, incident_rate, people_tested, people_hospitalized, mortality_rate,
+         testing_rate, hospitalization_rate, first30, past10, 25:78) %&amp;gt;%
+  cor() %&amp;gt;%
+  as_tibble()
+
+covid_all_vars &amp;lt;- covid_all_vars %&amp;gt;% bind_cols(
+  covid_data_internet %&amp;gt;%
+    select(b28001_008e, b28001_011e, b28001_004e, b28002_008e, b28001_010e))
+
+# Income Data -------------------------------------------------------------
+
+acs_income &amp;lt;- read_csv(&amp;quot;data/unprocessed/ACS/ACS_Household_Income_Distribution_-_State.csv&amp;quot;) %&amp;gt;%
+  clean_names()
+
+covid_data_income &amp;lt;- covid_us_report %&amp;gt;%
+  filter(province_state %in% acs_income$name) %&amp;gt;%
+  rename(name = province_state) %&amp;gt;%
+  left_join(acs_income, by = &amp;quot;name&amp;quot;)
+
+income_corr &amp;lt;- covid_data_income %&amp;gt;%
+  select(confirmed, deaths, incident_rate, people_tested, people_hospitalized, mortality_rate,
+         testing_rate, hospitalization_rate, first30, past10, 25:72) %&amp;gt;%
+  cor() %&amp;gt;%
+  as_tibble()
+
+covid_all_vars &amp;lt;- covid_all_vars %&amp;gt;% bind_cols(
+  covid_data_income %&amp;gt;%
+    select(b19001_015e, b19001_002e, b19001_014e, b19001_016e, b19001_calc_num_ge100e))
+
+
+# Insurance Data ----------------------------------------------------------
+
+acs_insurance &amp;lt;- read_csv(&amp;quot;data/unprocessed/ACS/ACS_Health_Insurance_Coverage_-_State.csv&amp;quot;) %&amp;gt;%
+  clean_names()
+
+covid_data_insurance &amp;lt;- covid_us_report %&amp;gt;%
+  filter(province_state %in% acs_income$name) %&amp;gt;%
+  rename(name = province_state) %&amp;gt;%
+  left_join(acs_insurance, by = &amp;quot;name&amp;quot;)
+
+insurance_corr &amp;lt;- covid_data_insurance %&amp;gt;%
+  select(confirmed, deaths, incident_rate, people_tested, people_hospitalized, mortality_rate,
+         testing_rate, hospitalization_rate, first30, past10, 25:93) %&amp;gt;%
+  cor() %&amp;gt;%
+  as_tibble()
+
+covid_all_vars &amp;lt;- covid_all_vars %&amp;gt;% bind_cols(
+  covid_data_insurance %&amp;gt;%
+    select(b27010_036e, b27010_042e, b27010_010e, b27010_026e,
+           b27010_004e))
+
+
+# State Population Data ---------------------------------------------------
+
+state_pop &amp;lt;- read_csv(&amp;quot;data/unprocessed/state_population.csv&amp;quot;) %&amp;gt;%
+  clean_names() %&amp;gt;%
+  rename(name = state)
+
+covid_data_pop2 &amp;lt;- covid_us_report %&amp;gt;%
+  filter(province_state %in% state_pop$name) %&amp;gt;%
+  rename(name = province_state) %&amp;gt;%
+  left_join(state_pop, by = &amp;quot;name&amp;quot;)
+
+pop2_corr &amp;lt;- covid_data_pop2 %&amp;gt;%
+  select(confirmed, deaths, incident_rate, people_tested, people_hospitalized, mortality_rate,
+         testing_rate, hospitalization_rate, first30, past10, 22:28) %&amp;gt;%
+  cor() %&amp;gt;%
+  as_tibble()
+
+covid_all_vars &amp;lt;- covid_all_vars %&amp;gt;%
+  bind_cols(covid_data_pop2 %&amp;gt;% select(pop))
+
+# Change all variables into a percentage of population
+covid_all_vars &amp;lt;- covid_all_vars %&amp;gt;% mutate_at(23:42, funs(./pop))
+
+# Looking at all saved variables: -----------------------------------------
+
+covid_all_vars %&amp;gt;%
+  select(first30, past10, 23:42) %&amp;gt;%
+  cor() %&amp;gt;%
+  corrplot()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;There are correlations between some of these variables, but they are not overwhelmingly correlated, as was the case before predictors were converted from totals to percentages.&lt;/p&gt;
+&lt;p&gt;Importantly, all of these predictors were moderately correlated with the &lt;code&gt;first30&lt;/code&gt; variable, which is the mean growth rate in deaths during the first 30 days following the first death in each state. None of them were even moderately correlated with &lt;code&gt;past10&lt;/code&gt;, which is the average rate of growth in the psat 10 days.&lt;/p&gt;
+&lt;p&gt;Also, it is important to note that the variables were originally chosen based on how they correlated with response variables in their total, not percentage, form. Once the conversion was done, much of the correlations with the &lt;code&gt;first30&lt;/code&gt; variable were eliminated. Although I did not do it in this EDA, a good next step to take might be to analyze the predictors again after converting all of them to percentages.&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;analysis-using-clustering&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Analysis using Clustering&lt;/h4&gt;
+&lt;p&gt;I performed hierarchical, K-Means, and spectral clustering on the states using only the predictors. Some of the results I obtained are shown below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Clustering --------------------------------------------------------------
+
+# Helper Functions --------------------------------------------------------
+
+# run_hclust: runs hierarchical clustering with the given method
+# args: x - data used for clustering; meth - method of clustering
+run_hclust &amp;lt;- function(x, meth){
+  return(hclust(dist(x), method = meth)) # hclust runs the clustering algorithm.
+}
+
+# cut_hclust: gives desired number of clusters for an hclust() object
+# args: hclust_obj - an hclust() object; ncuts - number of clusters desired
+cut_hclust &amp;lt;- function(hclust_obj, ncuts){
+  return(cutree(hclust_obj, ncuts))
+}
+
+# get_within_ss: Get within-cluster SS from a K-means object
+# args: kmean_obj - a K-means obj
+get_within_ss &amp;lt;- function(kmean_obj){
+  return(kmean_obj$tot.withinss)
+}
+
+# get_cluster: get cluster labels for data
+# args: x - data; clust_obj - a cluster object
+get_cluster &amp;lt;- function(x, clust_obj){
+  
+  if(class(clust_obj) == &amp;quot;kmeans&amp;quot;){
+    clust = clust_obj$cluster
+  }
+  else{
+    clust = clust_obj
+  }
+  
+  out = x %&amp;gt;%
     
-    <item>
-      <title>Motivating the question</title>
-      <link>/post/motivating-the-question/</link>
-      <pubDate>Sun, 05 Oct 2014 23:42:25 +0000</pubDate>
-      
-      <guid>/post/motivating-the-question/</guid>
-      <description>&lt;p&gt;Apathy is the cancer of today’s classroom. Once it plants its nasty little head in a student’s mind, it can be one tough beast to eradicate. Complaints like “I don’t care about this” and “When would I even use this?” are frighteningly common in higher education and indicate a malady far worse than boredom: time wasted. Not only are students wasting time being in class, cranking out hours of work to learn material that won’t be retained or appreciated, but teachers are also wasting their time preparing mechanical, need-agnostic material that will ultimately make no impact on their students’ interaction with the world.&lt;/p&gt;
+    mutate(cluster = clust)
+  
+  return(out)
+}
 
-&lt;p&gt;In one way or another, the point of education is to learn how to live in this world—whether to learn specific skills for a job that will pay for our livelihoods or to learn ideas that shape how we react to the people, laws, and situations around us. And one of the most important ways in which education applies in real life is in being able to recognize when and how different concepts pertain to the situation at hand. Too often in classrooms are we given the punch line before the build-up. As education blogger Dan Meyer &lt;a href=&#34;http://blog.mrmeyer.com/2014/developing-the-question-needs-improvement/&#34; target=&#34;_blank&#34;&gt;puts it&lt;/a&gt;, teachers are too excited to present the concept without spending an adequate enough time &lt;em&gt;motivating&lt;/em&gt; the question behind the concept. And the result is a lack of internalization of ideas, a failure to understand why the material being taught is relevant.&lt;/p&gt;
 
-&lt;p&gt;As I explained in my &lt;a href=&#34;../imp-perspectives&#34;&gt;last post&lt;/a&gt;, the Interactive Mathematics Program (IMP) puts in an admirable effort to motivate the need for mathematical concepts. It presents a tough multi-faceted problem at the beginning of each unit and develops the need for various math topics as it pertains to this overarching problem. I felt that one of the most memorable and instructive units was one in which we attempted to solve the unit problem on the very first day without any formal tools whatsoever. The best part (though frustrating at the time for me) was that this was &lt;em&gt;really hard&lt;/em&gt;. There is definitely something that can be said for having students try to do things inefficiently to learn the &lt;em&gt;merits&lt;/em&gt; of the concepts that teachers are so excited to get to. Or in Dan’s words, there is definitely something that can be said for &amp;ldquo;being less helpful&amp;rdquo;—not jumping straight to teaching students about power tools but momentarily convincing them that the logs on their desks can only be cut with butter knives.&lt;/p&gt;
+# Hierarchical Clustering -------------------------------------------------
 
-&lt;p&gt;Introductory statistics courses can definitely benefit from a more problem-oriented and &amp;ldquo;less helpful&amp;rdquo; mentality. For one, I think there is a deluge of formulae for students to learn, and most of the time, the reasons for using them were never really developed or lost in the memorization process. The topic of confidence intervals serves as a great example here. We drill into students’ minds that the formula for a confidence interval is an estimate plus or minus some multiple of the standard error. And we can tell them that the interval gives us a range of possible values for the true population mean. But why are these possible values good ones? Why do we even have to give a confidence interval? Why isn’t it enough to just say that the mean is &lt;em&gt;around&lt;/em&gt; 5, say? When do I ever see confidence intervals in real life?&lt;/p&gt;
 
-&lt;p&gt;A better way to teach this idea than to present a formula and give a two-minute interpretation is to make students see how the idea of a confidence interval is one they are exposed to frequently but in disguise. One way to do this is to present the students with common types of advertisement tricks.&lt;/p&gt;
+covid_cluster_data &amp;lt;- covid_all_vars %&amp;gt;%
+  select(name, 23:42)
 
-&lt;p&gt;&lt;img src=&#34;http://images.teamsugar.com/files/upl2/1/15259/20_2009/ce49a981caec0edd_cheerios.preview.jpg&#34; width=550&gt;
-&lt;p class=&#34;caption&#34;&gt;&lt;a href=&#34;http://www.popsugar.com/food/FDA-Packaged-Foods-Health-Claims-Make-Them-Drugs-3147756&#34;&gt;Image credit&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+scaled_cluster_data &amp;lt;- covid_cluster_data %&amp;gt;%
+  select(2:21) %&amp;gt;%
+  as.matrix() %&amp;gt;%
+  scale() %&amp;gt;%
+  as_tibble()
 
-&lt;p&gt;&lt;img src=&#34;http://lesliemyint.files.wordpress.com/2014/10/c7ae7-colgate.jpg&#34; width=550&gt;
-&lt;p class=&#34;caption&#34;&gt;&lt;a href=&#34;http://www.bitedowndeals.com/blog/category/preventive-dentistry&#34;&gt;Image credit&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+covid_cluster_data_scaled &amp;lt;- 
+  covid_cluster_data %&amp;gt;%
+  select(name) %&amp;gt;%
+  bind_cols(scaled_cluster_data)
 
-&lt;p&gt;The statistics presented on these ads are instinctively somewhat convincing. Hey a 4% reduction in cholesterol is pretty good. Wow, 90% of doctors recommend this product! These are definitely worth buying! But we can also think about what numbers on these ads would make us less convinced of the products&amp;rsquo; worth. A cholesterol reduction of 0 to 1% would definitely not make me want to buy Cheerios. And I would be much less impressed by this Colgate toothpaste if 50% or less of doctors recommended it.&lt;/p&gt;
+covid_hclust &amp;lt;- tibble(
+  dat = covid_cluster_data_scaled %&amp;gt;% list()
+)
 
-&lt;p&gt;Now we give the students data—several sets of data that support or fail to substantiate the Cheerios claim to varying degrees—and ask them to make their own conclusions based on this data. I would expect many of them to take the average lowering of cholesterol as a summary measure; some might look at the median or mode; some might look at the percentage of people who had their cholesterol lowered by some minimal percentage level. No matter how they choose to look at the data the key idea is that the students see how their chosen summary measure(s) vary from dataset to dataset. Sometimes the claims in the ad are supported, and other times they are definitely not. It’s just that companies often only report their summary measures and not how much that measure would vary had they tested their product on different groups of individuals.&lt;/p&gt;
+covid_hclust &amp;lt;- covid_hclust %&amp;gt;%
+  mutate(
+    hcl = map2(dat, &amp;quot;complete&amp;quot;, run_hclust), # Create clusters
+    dendo = map(hcl, ggdendrogram), # Create dendrogram,
+  )
 
-&lt;p&gt;After this point, I think that students would be a little more ready to learn about confidence intervals because they have seen how advertisements, something they encounter all the time, can use (or really conceal) them in misleading ways. And no one likes being duped.&lt;/p&gt;
 
-&lt;p&gt;This is by far not the best way of motivating confidence intervals, but it is a lot more than can be said for the majority of introductory statistics classes. Just taking a little bit more time to think about the everyday applications of statistics can go a long way in making lessons less formulaic and more engaging, and this is something that the statistics community should strive for.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Perspectives on the Interactive Mathematics Program</title>
-      <link>/post/imp-perspectives/</link>
-      <pubDate>Tue, 23 Sep 2014 02:57:45 +0000</pubDate>
-      
-      <guid>/post/imp-perspectives/</guid>
-      <description>&lt;p&gt;My pre-college mathematics education was probably different from most others. Instead of adopting the standard approach of teaching Algebra I and II, Geometry, and Trigonometry, my school district took up the Interactive Mathematics Program (IMP), a problem-centric approach to learning the essential material from these subjects. The program was split into 4 courses, each the equivalent of a middle school year or high school semester, and each course was split into approximately 5 units. Each unit introduced a mathematically-oriented story, which gave rise to a guiding question that we sought to be able to answer over the course of the unit. For example, in the second year unit “Cookies”, we are introduced to the Woo’s, a family of bakers who wish to optimize their cookie baking choices to maximize their profits. The challenge though is that they have several constraints on their available ingredients and sales capabilities. Over the course of the unit, we learned several ideas related to systems of equations and inequalities that helped us answer this question.&lt;/p&gt;
+covid_hclust &amp;lt;- covid_hclust %&amp;gt;%
+  crossing(ncuts = c(2:6)) %&amp;gt;%
+  mutate(
+    clusters = map2(hcl, ncuts, cut_hclust),
+    clust_dat = map2(dat, clusters, get_cluster)
+  )
 
-&lt;p&gt;Although I didn’t appreciate it at the time, IMP was attempting to do something that is rarely seen in education these days but is extremely important: motivating the concepts. At the beginning of the “Cookies” unit, I remember that class immediately started off with an attempt to solve the unit problem—no instruction on the best mathematical techniques, just a lot of pain, backtracking, and guesswork. I remember being overwhelmed just after organizing the information provided on the family’s ingredient and sales constraints. And guessing potential solutions was memorably laborious: does it work to make 100 chocolate chip and 170 oatmeal raisin? Rats! That violates constraint 4! What about 150 oatmeal raisin? Nice! That’s allowed! Aw shoot, that makes less money than my 150 chocolate chip, 130 oatmeal raisin combo! Fifty minutes of this and I was pulling my hair out. There must be an easier way to do this! And there was! Which we came to learn over the course of the next month or so that we spent on the unit. This particular unit sticks out in my memory primarily because it did such a good job at motivating the need for the main mathematical tools that we were learning during the unit. Had I taken a standard algebra course, I know I would not have truly internalized the utility of what we learned during that unit. For the most part, IMP did a decent job at contextualizing math concepts, and I think that this is a quality that is lacking in higher education in general. In designing curricula, we are not doing enough to motivate the content of the course, and I plan to explore this idea much further in a future post relating to introductory statistics curricula.&lt;/p&gt;
+covid_hclust_6cut &amp;lt;- covid_hclust %&amp;gt;%
+  filter(ncuts == 6) %&amp;gt;%
+  select(clust_dat) %&amp;gt;%
+  unnest(cols = c(clust_dat)) %&amp;gt;%
+  rename(state = name) %&amp;gt;%
+  mutate(cluster = as_factor(cluster))
 
-&lt;p&gt;Another aspect of IMP that is particularly well suited to higher education is its emphasis on summarizing and organizing knowledge gained over the course of a unit. At the end of every unit, students are required to create a portfolio of reflections, class notes, and assignments that were instrumental in their comprehension of the main topics. So for example, in my “Cookies” portfolio, I included the first day of class activity that had us take a stab at the unit problem. I also included my class notes on feasible regions and solving systems of linear inequalities. I also wrote a cover letter summarizing the goals of the unit, what I learned from the assignments that I included in the portfolio, and my impressions of how these concepts were useful in everyday life. Portfolio time was always a laborious and dreadful experience for me during middle and high school, but I recognize now how useful a practice it is for being serious about retaining knowledge. As a graduate student, I have been exposed to several fundamental concepts time and time again in different courses, and I have found myself consciously wishing that I had put together portfolios for many of the classes that I took during college. Not only is the act of putting together a portfolio an invaluable synthesis activity, but the portfolio also serves as a one-of-a-kind reference manual. Because it is a collection of notes, homeworks, etc. created, curated, and edited by you, it can be infinitely more readable then a textbook. If you want it to, it can contain all of the steps in the proofs of key theorems, all of the exhaustive explanation that you worked through on your own, all of the fine details that finally made a concept click. A portfolio is a mini-textbook written in the language of your mind and can thus potentially serve as a reference for a very long time. It is a wonderful idea for IMP to introduce this concept to younger students, and I feel that it would be very useful for many high school and college classes to adopt.&lt;/p&gt;
+# Plot 6 cluster cut on map:
+plot_usmap(data = covid_hclust_6cut, values = &amp;quot;cluster&amp;quot;, color = &amp;quot;white&amp;quot;) +
+  scale_fill_discrete(name = &amp;quot;Cluster&amp;quot;, na.translate = FALSE) +
+  labs(title = &amp;quot;Hierarchical Clustering, 6 clusters&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# K-Means Clustering ------------------------------------------------------
 
-&lt;p&gt;So essentially the Interactive Mathematics Program, though by no means flawless, takes steps beyond traditional education practices that definitely have merit. Its case-based structuring of learning and its emphasis on creating concept portfolios can really impact the depth of learning and are ideas that nearly all higher education courses can benefit from.&lt;/p&gt;
+covid_kmeans &amp;lt;- tibble(xmat = list(covid_cluster_data_scaled %&amp;gt;% select(-name))) %&amp;gt;%
+  crossing(nclust = 2:6)
+
+covid_kmeans &amp;lt;- covid_kmeans %&amp;gt;% 
+  mutate(
+    kmean = map2(xmat, nclust, kmeans, nstart = 20),
+    within_ss = map_dbl(kmean, get_within_ss),
+    clusters = map2(xmat, kmean, get_cluster)
+  )
+
+covid_kmeans_5clust &amp;lt;- covid_kmeans %&amp;gt;%
+  filter(nclust == 5) %&amp;gt;%
+  select(clusters) %&amp;gt;%
+  unnest(cols = c(clusters))
+
+covid_kmeans_5clust &amp;lt;- covid_kmeans_5clust %&amp;gt;%
+  bind_cols(covid_cluster_data_scaled %&amp;gt;% select(name)) %&amp;gt;%
+  select(name, everything()) %&amp;gt;%
+  rename(state = name) %&amp;gt;%
+  mutate(cluster = as_factor(cluster))
+
+# 5 Clusters
+plot_usmap(data = covid_kmeans_5clust, values = &amp;quot;cluster&amp;quot;, color = &amp;quot;white&amp;quot;) +
+  scale_fill_discrete(name = &amp;quot;Cluster&amp;quot;, na.translate = FALSE) +
+  labs(title = &amp;quot;K-Means Clustering, 5 clusters&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Spectral Clustering -----------------------------------------------------
+
+covid_spectral &amp;lt;- tibble(data = list(covid_cluster_data_scaled %&amp;gt;% select(-name)))
+
+# Create spectral clusters--nclus = 5
+covid_spectral &amp;lt;- covid_spectral %&amp;gt;% mutate(
+  spec = map(.x = data,
+             .f = function(x) specc(as.matrix(x), centers = 5)),
+  spec_data = map2(data, spec, get_cluster)
+)
+
+covid_spectral_data &amp;lt;- covid_spectral %&amp;gt;%
+  select(spec_data) %&amp;gt;%
+  unnest(cols = c(spec_data)) %&amp;gt;%
+  bind_cols(covid_cluster_data_scaled %&amp;gt;% select(name)) %&amp;gt;%
+  select(name, everything()) %&amp;gt;%
+  rename(state = name) %&amp;gt;%
+  mutate(cluster = as_factor(as.character(cluster)))
+
+plot_usmap(data = covid_spectral_data, values = &amp;quot;cluster&amp;quot;, color = &amp;quot;white&amp;quot;) +
+  scale_fill_discrete(name = &amp;quot;Cluster&amp;quot;, na.translate = FALSE) +
+  labs(title = &amp;quot;Spectral Clustering, 5 clusters&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Note that Puerto Rico, which was not on the map, was contained in its own cluster for hierarchical and K-Means clustering. Otherwise, the results seem to be much better for K-Means and spectral than for hierarchical, which did a poor job of distinguishing between most states.&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comparing-cluster-results-to-response-variables&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Comparing Cluster Results to Response Variables&lt;/h4&gt;
+&lt;p&gt;In the next step, I compared various response variables separated by cluster for the K-Means and spectral methods:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# K-Means
+covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(log10(confirmed), log10(deaths))) +
+  geom_point(aes(color = cluster)) +
+  labs(title = &amp;quot;confirmed cases vs deaths by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(first30, past10)) +
+  geom_point(aes(color = cluster)) +
+  labs(title = &amp;quot;first 30 vs past 10 average rates by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(incident_rate, mortality_rate)) +
+  geom_point(aes(color = cluster)) +
+  labs(title = &amp;quot;incident_rate vs mortality rates by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(incident_rate, cluster)) +
+  geom_boxplot() +
+  labs(title = &amp;quot;incident rate by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(past10, cluster)) +
+  geom_boxplot() +
+  labs(title = &amp;quot;past10 by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-5.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(first30, cluster)) +
+  geom_boxplot() +
+  labs(title = &amp;quot;first30 by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-6.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Spectral
+covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(log10(confirmed), log10(deaths))) +
+  geom_point(aes(color = cluster)) +
+  labs(title = &amp;quot;confirmed cases vs deaths by cluster, spectral&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-7.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(first30, past10)) +
+  geom_point(aes(color = cluster)) +
+  labs(title = &amp;quot;first30 vs past10 by cluster, spectral&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-8.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(incident_rate, cluster)) +
+  geom_boxplot() +
+  labs(title = &amp;quot;incident rate by cluster, spectral&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-9.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(past10, cluster)) +
+  geom_boxplot() +
+  labs(title = &amp;quot;past10 by cluster, spectral&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-10.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
+  rename(province_state = state) %&amp;gt;%
+  left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
+  ggplot(aes(first30, cluster)) +
+  geom_boxplot() +
+  labs(title = &amp;quot;first30 by cluster, spectral&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-11.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;It appears that the clustering does not necessarily have a clear, significant effect on the response outcomes for either type of clustering. No immediate conclusions can be drawn from the results. It is likely, though, that the predictors chosen for the cluster have at most a slight effect on the response variables, based on the effects of converting the predictors from totals to percentages.&lt;/p&gt;
+&lt;p&gt;Furthermore, there is no complete, thoroughly investigated conclusion as to why some states, such as New York and New Jersey, had much worse outbreaks than others. Unless we can identify these factors and adjust the data to account for their impact, it will be difficult to truly measure the effect of the ACS predictors on the data without deeper analysis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;analysis-of-the-relationship-between-googles-mobility-data-and-covid-19-deaths&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Analysis of the Relationship between Google’s Mobility Data and COVID-19 Deaths&lt;/h4&gt;
+&lt;p&gt;In the next step of my EDA, I investigated whether or not Google’s Community Mobility Reports might be related to day-to-day percent changes in death totals. To do this, I converted the dataset and joined it with the time-series percent change in death rates which I computed earlier. I also looked at the overall trend for the US as a whole:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Looking at Lockdown Data ------------------------------------------------
+
+mobility &amp;lt;- read_csv(&amp;quot;data/unprocessed/Global_Mobility_Report.csv&amp;quot;, col_types = list(
+  col_character(),
+  col_character(),
+  col_character(),
+  col_character(),
+  col_date(format = &amp;quot;&amp;quot;),
+  col_double(),
+  col_double(),
+  col_double(),
+  col_double(),
+  col_double(),
+  col_double()
+)) %&amp;gt;%
+  clean_names()
+
+mobility_by_state &amp;lt;- mobility %&amp;gt;%
+  filter(country_region == &amp;quot;United States&amp;quot;, is.na(sub_region_2)) %&amp;gt;%
+  group_by(sub_region_1, date) %&amp;gt;%
+  summarise(retail_rec = mean(retail_and_recreation_percent_change_from_baseline, na.rm = TRUE),
+            grocery_pharmacy = mean(grocery_and_pharmacy_percent_change_from_baseline, na.rm = TRUE),
+            parks = mean(parks_percent_change_from_baseline, na.rm = TRUE),
+            transit = mean(transit_stations_percent_change_from_baseline, na.rm = TRUE),
+            workplace = mean(workplaces_percent_change_from_baseline, na.rm = TRUE), 
+            residential = mean(residential_percent_change_from_baseline, na.rm = TRUE)) %&amp;gt;%
+  rename(province_state = sub_region_1)
+
+mobility_us &amp;lt;- mobility %&amp;gt;%
+  filter(country_region == &amp;quot;United States&amp;quot;, is.na(sub_region_1))
+
+# Overall trend for US:
+mobility_us %&amp;gt;%
+  pivot_longer(cols = 6:11, names_to = &amp;quot;cat&amp;quot;) %&amp;gt;%
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = cat))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;There are some interesting patterns in the data. The lines show the percentage difference from baseline (i.e. under normal conditions) in how often data is coming from various locations, such as at home (residential) or workplaces. Clearly, location data is showing more people at home and much less at workplaces or on transit. However, these overall trends are accompanied by fluctuations, which can be most clearly seen in the residential and workplace lines. I have not investigated these fluctuations in this EDA, but I plan to do so as a next step.&lt;/p&gt;
+&lt;p&gt;After joining together the state data, I looked at some visualizations for a few states: each plot shows the transit and residential data from Google as two separate lines, and a third line shows the daily percent change in deaths:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Analysis by state:
+mobility_analysis_states &amp;lt;- percent_change_death %&amp;gt;%
+  left_join(mobility_by_state, by = c(&amp;quot;province_state&amp;quot;, &amp;quot;date&amp;quot;))
+
+# Look at some states:
+mobility_analysis_states %&amp;gt;% # Washington
+  filter(province_state == &amp;quot;Washington&amp;quot;) %&amp;gt;%
+  pivot_longer(cols = c(pct_change, transit, residential), names_to = &amp;quot;var&amp;quot;) %&amp;gt;%
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = var)) +
+  xlim(as_date(&amp;quot;13-02-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;), as_date(&amp;quot;07-05-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;)) +
+  ylim(-80, 50) + 
+  labs(title = &amp;quot;Washington State&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mobility_analysis_states %&amp;gt;% # New York
+  filter(province_state == &amp;quot;New York&amp;quot;) %&amp;gt;%
+  pivot_longer(cols = c(pct_change, transit, residential), names_to = &amp;quot;var&amp;quot;) %&amp;gt;%
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = var)) +
+  xlim(as_date(&amp;quot;13-02-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;), as_date(&amp;quot;07-05-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;)) +
+  ylim(-80, 50) +
+  labs(title = &amp;quot;New York State&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mobility_analysis_states %&amp;gt;% # Mississippi
+  filter(province_state == &amp;quot;Mississippi&amp;quot;) %&amp;gt;%
+  pivot_longer(cols = c(pct_change, transit, residential), names_to = &amp;quot;var&amp;quot;) %&amp;gt;%
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = var)) +
+  xlim(as_date(&amp;quot;13-02-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;), as_date(&amp;quot;07-05-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;)) +
+  ylim(-80, 50) + 
+  labs(title = &amp;quot;Mississippi&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mobility_analysis_states %&amp;gt;% # Illinois
+  filter(province_state == &amp;quot;Illinois&amp;quot;) %&amp;gt;%
+  pivot_longer(cols = c(pct_change, transit, residential), names_to = &amp;quot;var&amp;quot;) %&amp;gt;%
+  ggplot(aes(date, value)) +
+  geom_line(aes(color = var)) +
+  xlim(as_date(&amp;quot;13-02-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;), as_date(&amp;quot;07-05-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;)) +
+  ylim(-80, 50) +
+  labs(title = &amp;quot;Illinois&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;There’s a clear trend in the plots: all four states showed signs of people going to work less and staying home more. This is accompanied by a decrease in the percent change in death rates. Mississippi, which has shown somewhat of an increase in mobility recently, also sees a spike in death rates towards the most recent dates displayed. This data certainly supports the hypothesis that lockdowns can slow down the amount of deaths caused by COVID-19, and as some states ease lockdown policies, more data will be available in the coming weeks which provides more insight as to whether or not the easing of lockdowns can cause deaths to spike again.&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusion&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Although I end the EDA here, there is still much to be investigated. Most of this EDA was dedicated to finding variables which show promise in possibly explaining the trends in how COVID-19 affects the US and its communities. I have found that, on a state level, there is no strong evidence to suggest that any of the variables from the four ACS datasets which I used have a significant relationship with COVID-19 statistics. However, to be sure, more analyses should be done on a county level. Also, I have found that mobility data could potentially serve as a good predictor of COVID-19 related trends.&lt;/p&gt;
+&lt;p&gt;The next steps involve continuing to search for potential variables that can influence the impact of COVID-19. For example, there have been reports that COVID-19 is affecting Black and Latino communities disproportionally, perhaps due to socioeconomic factors and the presence of more comorbidities. More time should be dedicated to exploring how mobility data can be used to model the future trajectory of COVID-19 deaths, as well as how both of these might be impacted by government.&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-processing&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Data Processing:&lt;/h3&gt;
+&lt;p&gt;The time series data which was used for model-building was formatted such that there were columns for states and dates, and to find the total number of deaths on a certain date, one would need to look under the state column to find the row which corresponded to the desired state, then find the column which corresponded to the desired date.&lt;/p&gt;
+&lt;p&gt;I first changed the format of the data by creating a date column which indicated the date, rather than having one column for each individual date. This converted the data to a much longer form, and helped with visualizations as well as further processing.&lt;/p&gt;
+&lt;p&gt;The data was then summarised from county level to state level. Google and Apple mobility data were also filtered and summarised to US state-level data before being joined to the main dataset. Next, lag variables from 1-14 days were calculated and inserted into the data, and then rolling averages of mobility data were calculated, and then lag variables for these rolling averages.&lt;/p&gt;
+&lt;p&gt;Finally, a tibble containing the name of each state and the date of its first recorded death was constructed. This tibble was then joined to the primary dataset, and a new variable, the difference between the date of the first death and the date of the observation, was added. The primary dataset was then saved to be used for various model-building scripts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-sources&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Data Sources:&lt;/h3&gt;
+&lt;p&gt;Census COVID-19 Data Hub. Retrieved from &lt;a href=&#34;https://covid19.census.gov/&#34; class=&#34;uri&#34;&gt;https://covid19.census.gov/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. (2020, April 24). Retrieved from &lt;a href=&#34;https://github.com/CSSEGISandData/COVID-19&#34; class=&#34;uri&#34;&gt;https://github.com/CSSEGISandData/COVID-19&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;COVID‑19 - Mobility Trends Reports. (2020, June 1). Retrieved from &lt;a href=&#34;https://www.apple.com/covid19/mobility&#34; class=&#34;uri&#34;&gt;https://www.apple.com/covid19/mobility&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Google LLC “Google COVID-19 Community Mobility Reports” Retrieved from &lt;a href=&#34;https://www.google.com/covid19/mobility/&#34; class=&#34;uri&#34;&gt;https://www.google.com/covid19/mobility/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;US States - Ranked by Population 2020. Retrieved from &lt;a href=&#34;https://worldpopulationreview.com/states/&#34; class=&#34;uri&#34;&gt;https://worldpopulationreview.com/states/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
