@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research | data science on Jinsong Zhang</title>
+    <link>/tags/research--data-science/</link>
+    <description>Recent content in Research | data science on Jinsong Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020</copyright>
+    
+	<atom:link href="/tags/research--data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>leukemia prognosis in shiny</title>
+      <link>/post/aml/leukemia-prognosis-in-shiny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/aml/leukemia-prognosis-in-shiny/</guid>
+      <description>I hosted a shiny page which is used to show how expression of any given genes is correlated with the prognosis of acute myeloid leukemia. After reading the post that Blogdown can be used to host a shiny page (https://liuyanguu.github.io/post/2019/02/24/shiny-in-blogdown/), I wanted to test if this works for my shiny page as well.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

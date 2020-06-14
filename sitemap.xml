@@ -14,15 +14,6 @@
     
     <url>
     
-      <loc>/post/test/r-markdown/</loc>
-      <lastmod>2020-06-12T03:13:43+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/post/covid_19/</loc>
       <lastmod>2020-06-12T00:00:00+00:00</lastmod>
     </url>
@@ -454,94 +445,6 @@
     
     <url>
     
-      <loc>/post/final-project-kzhang917/eda/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/final-project-kzhang917/readme/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/final-project-kzhang917/data/readme/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/final-project-kzhang917/data/processed/readme/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/final-project-kzhang917/data/unprocessed/census-data-api_-_data_2018_acs_acs5_variables/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/final-project-kzhang917/data/unprocessed/readme/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/readme/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports/readme/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_daily_reports_us/readme/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/final-project-kzhang917/data/unprocessed/csse_covid_19_data/csse_covid_19_time_series/readme/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/final-project-kzhang917/results/readme/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication_types/2/</loc>
       <lastmod>2020-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -552,8 +455,25 @@
     
     <url>
     
+      <loc>/tags/bioinformatics/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/</loc>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/exploring-the-relationship-between-gene-expression-and-leukemia-prognosis-in-shiny/</loc>
     </url>
     
   
