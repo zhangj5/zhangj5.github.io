@@ -13,11 +13,11 @@
     
     <item>
       <title>Exploring leukemia prognosis using Shiny</title>
-      <link>/post/exploring-the-relationship-between-gene-expression-and-leukemia-prognosis-in-shiny/</link>
+      <link>/post/aml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/post/exploring-the-relationship-between-gene-expression-and-leukemia-prognosis-in-shiny/</guid>
-      <description>The acute myeloid leukemia (AML) is one the most devastating form of cancer. AML prognosis is influenced by many factors. The goal of this shiny application is to explore the relationship between AML prognosis and gene expression.
+      <guid>/post/aml/</guid>
+      <description>The acute myeloid leukemia (AML) is one of the most devastating forms of cancer. AML prognosis is influenced by many factors. The goal of this shiny application is to explore the relationship between AML prognosis and gene expression.
  </description>
     </item>
     
