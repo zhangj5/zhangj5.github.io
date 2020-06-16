@@ -1216,44 +1216,55 @@ mobility_analysis_states %&amp;gt;% # Washington
     </item>
     
     <item>
-      <title>COVID-19 situation in the US (3/1/2020-6/12/2020)</title>
-      <link>/post/covid_19/</link>
+      <title>COVID-19 situation in the US (3/1/2020-6/15/2020)</title>
+      <link>/post/covid_19_recent/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/covid_19/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import os
+      <guid>/post/covid_19_recent/</guid>
+      <description>
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;We download the most updated Cases in the US from the &amp;ldquo;COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE)&amp;rdquo; at Johns Hopkins University. These include (i) confirmed cases and (ii) deaths, since 1/23/20 till the preceding day of the current date.&lt;/p&gt;
+&lt;h2 id=&#34;monitoring-covid-19-situation-across-us-and-the-world&#34;&gt;Monitoring COVID-19 Situation Across US and the World&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;! git pull origin master
+&lt;p&gt;We downloaded the COVID-19 data from the Johns Hopkins University repository, &amp;ldquo;COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE)&amp;rdquo;. The datasets included time series collection of the confirmed cases and deaths for each state starting from 1/23/20 until the preceding day of the current date.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;os.getcwd()
+%cd ../COVID-19/
+! git pull origin master
 ! git remote -v
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;From https://github.com/CSSEGISandData/COVID-19
+&lt;pre&gt;&lt;code&gt;/media/data_analysis5/apps/git_repository/jupyter_notebook/kaggle/covid_19/COVID-19
+From https://github.com/CSSEGISandData/COVID-19
  * branch              master     -&amp;gt; FETCH_HEAD
 Already up to date.
 origin  https://github.com/CSSEGISandData/COVID-19.git (fetch)
 origin  https://github.com/CSSEGISandData/COVID-19.git (push)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df_death=pd.read_csv(&amp;quot;csse_covid_19_data\
+&lt;p&gt;Both confirmed and deaths were read into a pandas dataframe.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df_death=pd.read_csv(&amp;quot;/media/data_analysis5/apps/git_repository/jupyter_notebook/kaggle/covid_19/COVID-19/csse_covid_19_data\
 /csse_covid_19_time_series/time_series_covid19_deaths_US.csv&amp;quot;)
 
 
-df_confirmed=pd.read_csv(&amp;quot;csse_covid_19_data\
+df_confirmed=pd.read_csv(&amp;quot;/media/data_analysis5/apps/git_repository/jupyter_notebook/kaggle/covid_19/COVID-19/csse_covid_19_data\
 /csse_covid_19_time_series/time_series_covid19_confirmed_US.csv&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since we wanted to display statistics both for each state and for the whole country, we stored the name of each state and an &amp;ldquo;all&amp;rdquo; string into a list. We looped the list to calculate the statistics, whereas &amp;ldquo;all&amp;rdquo;  shows that the entire dataframe will be used to calculate the statistics for the whole country.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;state_name=df_death[&amp;quot;Province_State&amp;quot;].unique()
 state_name=state_name.tolist()
 state_name.append(&amp;quot;all&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;We define a class &amp;ldquo;covid19&amp;rdquo; to store the case data and the derived statistics. It includes accumulated and daily confirmed cases and deaths, methods to calculate these numbers and to plot the statistics.&lt;/p&gt;
+&lt;p&gt;We define a class named &amp;ldquo;covid19&amp;rdquo; to store all case-related data and the statistics calculated for every state and the US.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class covid19:
     country=&amp;quot;US&amp;quot;
@@ -1265,6 +1276,8 @@ state_name.append(&amp;quot;all&amp;quot;)
         self.df_confirm_dccu=None
         self.df_death_daily=None
         self.df_confirm_daily=None
+        self.df_confirm_2w=None
+        self.df_death_2w=None
         
     def update_df(self):
         if self.state_name==&amp;quot;all&amp;quot;:
@@ -1286,11 +1299,17 @@ state_name.append(&amp;quot;all&amp;quot;)
         self.df_death_accu.index=pd.to_datetime(self.df_death_accu.index)
         self.df_death_daily=self.df_death_accu.diff().fillna(self.df_death_accu[0]).astype(np.int64)
         self.df_death_daily.index=pd.to_datetime(self.df_death_daily.index)
+    def two_week_runing(self):
+        self.df_confirm_2w=self.df_confirm_daily.rolling(window=7,axis=0).mean()
+        self.df_confirm_2w.index=pd.to_datetime(self.df_confirm_2w.index)
+        self.df_death_2w=self.df_death_daily.rolling(window=7,axis=0).mean()
+        self.df_death_2w.index=pd.to_datetime(self.df_death_2w.index)
     
     def update_all_plots(self):
         self.update_df()
         self.get_accu()
         self.get_death()
+        self.two_week_runing()
         self.get_plots()
     def get_plots(self):
         figure, axes = plt.subplots(ncols=4,nrows=1,figsize=(20, 5))
@@ -1301,10 +1320,13 @@ state_name.append(&amp;quot;all&amp;quot;)
         axes[0].set_ylabel(&amp;quot;accumulated confirmed cases&amp;quot;)
         axes[1].plot(self.df_death_accu)
         axes[1].set_ylabel(&amp;quot;daily confirmed cases&amp;quot;)
-        axes[2].plot(self.df_confirm_daily)
+        axes[2].plot(self.df_confirm_daily,color=&amp;quot;gray&amp;quot;, linewidth=1)
+        axes[2].plot(self.df_confirm_2w,color=&amp;quot;red&amp;quot;, linewidth=3, linestyle=&amp;quot;--&amp;quot;)
         axes[2].set_ylabel(&amp;quot;accumulated deaths&amp;quot;)
-        axes[3].plot(self.df_death_daily)
+        axes[3].plot(self.df_death_daily,color=&amp;quot;gray&amp;quot;, linewidth=1)
+        axes[3].plot(self.df_death_2w,color=&amp;quot;red&amp;quot;, linewidth=3, linestyle=&amp;quot;--&amp;quot;)
         axes[3].set_ylabel(&amp;quot;daily deaths&amp;quot;)
+        
         figure.autofmt_xdate(rotation=45)
         figure.tight_layout()
 &lt;/code&gt;&lt;/pre&gt;

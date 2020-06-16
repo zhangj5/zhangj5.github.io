@@ -22,13 +22,12 @@
     </item>
     
     <item>
-      <title>COVID-19 situation in the US (3/1/2020-6/12/2020)</title>
-      <link>/post/covid_19/</link>
+      <title>COVID-19 situation in the US (3/1/2020-6/15/2020)</title>
+      <link>/post/covid_19_recent/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/covid_19/</guid>
-      <description>import os import pandas as pd import numpy as np import matplotlib.pyplot as plt  We download the most updated Cases in the US from the &amp;ldquo;COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE)&amp;rdquo; at Johns Hopkins University. These include (i) confirmed cases and (ii) deaths, since 1/23/20 till the preceding day of the current date.
-! git pull origin master ! git remote -v  From https://github.</description>
+      <guid>/post/covid_19_recent/</guid>
+      <description>import os import pandas as pd import numpy as np import matplotlib.pyplot as plt  Monitoring COVID-19 Situation Across US and the World We downloaded the COVID-19 data from the Johns Hopkins University repository, &amp;ldquo;COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE)&amp;rdquo;. The datasets included time series collection of the confirmed cases and deaths for each state starting from 1/23/20 until the preceding day of the current date.</description>
     </item>
     
     <item>
