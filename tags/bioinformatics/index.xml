@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bioinformatics on Jinsong Zhang</title>
-    <link>/tags/bioinformatics/</link>
+    <link>https://zhangj5.github.io/tags/bioinformatics/</link>
     <description>Recent content in Bioinformatics on Jinsong Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     
-	<atom:link href="/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhangj5.github.io/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Exploring leukemia prognosis using Shiny</title>
-      <link>/post/aml/</link>
+      <link>https://zhangj5.github.io/post/aml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/post/aml/</guid>
+      <guid>https://zhangj5.github.io/post/aml/</guid>
       <description>The acute myeloid leukemia (AML) is one of the most devastating forms of cancer. AML prognosis is influenced by many factors. The goal of this shiny application is to explore the relationship between AML prognosis and gene expression.
  </description>
     </item>

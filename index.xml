@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jinsong Zhang</title>
-    <link>/</link>
+    <link>https://zhangj5.github.io/</link>
     <description>Recent content on Jinsong Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://zhangj5.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Academic</title>
-      <link>/home/hero/</link>
+      <link>https://zhangj5.github.io/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
       
-      <guid>/home/hero/</guid>
+      <guid>https://zhangj5.github.io/home/hero/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://zhangj5.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://zhangj5.github.io/home/about/</guid>
       <description>
 
 &lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
@@ -37,37 +37,37 @@
     
     <item>
       <title>Recent Posts</title>
-      <link>/home/posts/</link>
+      <link>https://zhangj5.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://zhangj5.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>https://zhangj5.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>https://zhangj5.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/home/projects/</link>
+      <link>https://zhangj5.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/projects/</guid>
+      <guid>https://zhangj5.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/home/talks/</link>
+      <link>https://zhangj5.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/talks/</guid>
+      <guid>https://zhangj5.github.io/home/talks/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Graphs Galore! Representing Knowledge in the Sciences and Humanities&lt;/strong&gt;&lt;br /&gt;
 &lt;em&gt;Carleton College. October 22, 2019.&lt;/em&gt; (&lt;a href=&#34;https://docs.google.com/presentation/d/1gh2qpDZhjUDgV-Qo2QZrADnGxwaD2qU7k-zNSHAjvOE/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;)&lt;br /&gt;
@@ -78,19 +78,19 @@
     
     <item>
       <title>Recent Publications</title>
-      <link>/home/publications/</link>
+      <link>https://zhangj5.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://zhangj5.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/home/teaching/</link>
+      <link>https://zhangj5.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/teaching/</guid>
+      <guid>https://zhangj5.github.io/home/teaching/</guid>
       <description>&lt;p&gt;I teach the following courses at Macalester. Some of my courses have course websites which you can navigate to below. For many of my classes I make videos, which can be found on my &lt;a href=&#34;https://www.youtube.com/channel/UCgW3LCQ623sUjprV8EbtVoA&#34; target=&#34;_blank&#34;&gt;YouTube channel&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -117,20 +117,20 @@
     
     <item>
       <title>CV</title>
-      <link>/home/cv/</link>
+      <link>https://zhangj5.github.io/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/cv/</guid>
+      <guid>https://zhangj5.github.io/home/cv/</guid>
       <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form. (Last updated: June 6, 2020)&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Fun</title>
-      <link>/home/fun/</link>
+      <link>https://zhangj5.github.io/home/fun/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/fun/</guid>
+      <guid>https://zhangj5.github.io/home/fun/</guid>
       <description>&lt;p&gt;I am an avid &lt;a href=&#34;http://dnd.wizards.com/&#34; target=&#34;_blank&#34;&gt;Dungeons and Dragons&lt;/a&gt; player and game enthusiast, and I love finding ways to bring coding and analysis into these beloved hobbies of mine. As a result, I have a few side projects devoted entirely to fun!&lt;/p&gt;
 
 &lt;ul&gt;
@@ -142,28 +142,28 @@
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>https://zhangj5.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://zhangj5.github.io/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>/home/tags/</link>
+      <link>https://zhangj5.github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
       
-      <guid>/home/tags/</guid>
+      <guid>https://zhangj5.github.io/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>COVID-19 Forcast</title>
-      <link>/post/final-project-kzhang917/covid-19-forcast/</link>
+      <link>https://zhangj5.github.io/post/final-project-kzhang917/covid-19-forcast/</link>
       <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
       
-      <guid>/post/final-project-kzhang917/covid-19-forcast/</guid>
+      <guid>https://zhangj5.github.io/post/final-project-kzhang917/covid-19-forcast/</guid>
       <description>&lt;p&gt;The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made. Although various data was analyzed to be potentially used as predictors, much of the data didn’t show much relation to the death totals from the pandemic.&lt;/p&gt;
 &lt;p&gt;From the predictors chosen, models were trained using Deep Learning (Keras), Random Forests, Ridge Regression (glmnet), and Boosting (xgboost). One ensemble model was created using the other four trained models. The models were then evaluated based on how well they could predict future death counts on both a national and state level. The graphic below shows each model’s performance on a national level.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
@@ -251,7 +251,7 @@ outcomes %&amp;gt;%
   ggplot(aes(date, pred_total)) +
   geom_line(aes(color = model)) +
   labs(title = &amp;quot;Model Performance - Predicted National Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;From the current results, it looks as if Ridge Regression performed the best on both a state and national level; still, all models showed a trend of overpredicting the number of deaths, and models were susceptible to sometimes predicting negative daily death counts. These are the current issues with the models. Further interpretation of the data, as well as incorporating additional data which captures trends that the models are currently unable to accurately predict for, may help improve the models.&lt;/p&gt;
 &lt;div id=&#34;main-report&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Main Report&lt;/h1&gt;
@@ -311,7 +311,7 @@ rf_cv_err %&amp;gt;%
   ggplot(aes(mtry, num.trees)) +
   geom_tile(aes(fill = mean_test_err)) +
   labs(title = &amp;quot;Heatmap of tuning parameters: Darker shades indicate better test error!&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The best parameters were found to be &lt;code&gt;mtry&lt;/code&gt; = 7 and &lt;code&gt;num.trees&lt;/code&gt; = 300. Using these parameters, the final model was trained.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -360,7 +360,7 @@ ridge_cv &amp;lt;- train %&amp;gt;%
   )
 
 plot(ridge_cv)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;From this cross-validation a minimum lambda value of 10.6554 was chosen and a 1se lambda value of 120.282 was chosen. Two final models were chosen based on these lambda values. Ultimately, the minimum lambda model performed better on the test set and was thus chosen to be used in the final model comparison.&lt;/p&gt;
 &lt;div id=&#34;boosting&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Boosting:&lt;/h3&gt;
@@ -386,7 +386,7 @@ plot(ridge_cv)&lt;/code&gt;&lt;/pre&gt;
   ggplot(aes(date, pred_total)) +
   geom_line(aes(color = model)) +
   labs(title = &amp;quot;Model Performance - Predicted National Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Next, I created the same plot, but on a state level, for a few states:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
   filter(state == &amp;quot;New York&amp;quot;) %&amp;gt;%
@@ -396,7 +396,7 @@ plot(ridge_cv)&lt;/code&gt;&lt;/pre&gt;
   ggplot(aes(date, pred_total)) +
   geom_line(aes(color = model)) +
   labs(title = &amp;quot;Model Performance - New York Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
   filter(state == &amp;quot;Minnesota&amp;quot;) %&amp;gt;%
   group_by(date, model) %&amp;gt;%
@@ -405,7 +405,7 @@ plot(ridge_cv)&lt;/code&gt;&lt;/pre&gt;
   ggplot(aes(date, pred_total)) +
   geom_line(aes(color = model)) +
   labs(title = &amp;quot;Model Performance - Minnesota Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
   filter(state == &amp;quot;Florida&amp;quot;) %&amp;gt;%
   group_by(date, model) %&amp;gt;%
@@ -414,7 +414,7 @@ plot(ridge_cv)&lt;/code&gt;&lt;/pre&gt;
   ggplot(aes(date, pred_total)) +
   geom_line(aes(color = model)) +
   labs(title = &amp;quot;Model Performance - Florida Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
   filter(state == &amp;quot;Alabama&amp;quot;) %&amp;gt;%
   group_by(date, model) %&amp;gt;%
@@ -423,7 +423,7 @@ plot(ridge_cv)&lt;/code&gt;&lt;/pre&gt;
   ggplot(aes(date, pred_total)) +
   geom_line(aes(color = model)) +
   labs(title = &amp;quot;Model Performance - Alabama Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
   filter(state == &amp;quot;California&amp;quot;) %&amp;gt;%
   group_by(date, model) %&amp;gt;%
@@ -432,7 +432,7 @@ plot(ridge_cv)&lt;/code&gt;&lt;/pre&gt;
   ggplot(aes(date, pred_total)) +
   geom_line(aes(color = model)) +
   labs(title = &amp;quot;Model Performance - California Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-5.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-5.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
   filter(state == &amp;quot;Montana&amp;quot;) %&amp;gt;%
   group_by(date, model) %&amp;gt;%
@@ -441,7 +441,7 @@ plot(ridge_cv)&lt;/code&gt;&lt;/pre&gt;
   ggplot(aes(date, pred_total)) +
   geom_line(aes(color = model)) +
   labs(title = &amp;quot;Model Performance - Montana Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-6.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-6.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;outcomes %&amp;gt;%
   filter(state == &amp;quot;Kansas&amp;quot;) %&amp;gt;%
   group_by(date, model) %&amp;gt;%
@@ -450,7 +450,7 @@ plot(ridge_cv)&lt;/code&gt;&lt;/pre&gt;
   ggplot(aes(date, pred_total)) +
   geom_line(aes(color = model)) +
   labs(title = &amp;quot;Model Performance - Kansas Death Totals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-7.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-8-7.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;As can be seen in the state models, there are some problems with the models predicting total deaths to decrease. I’ll discuss this issue in a later section.&lt;/p&gt;
 &lt;p&gt;When choosing a final model, we need to consider whether or not it will be used to predict state totals or national totals. To differentiate, I calculated two types of MSE - a state level MSE which calculates each individual observation, and a national level MSE which sums the predicted daily death counts for every state together to produce a national day-by-day predicted death count. The national and state level MSEs are shown for each model on the scatterplot below:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Calculate national and state level MSE
@@ -471,7 +471,7 @@ national_mse %&amp;gt;%
   left_join(mean_state_mse, by = &amp;quot;model&amp;quot;) %&amp;gt;%
   ggplot(aes(national_mse, state_mse)) +
   geom_point(aes(color = model))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;From the current results, it appears that Ridge Regression performs the best on both a state and national level. As such, it should be chosen as the final model, since the goal of this project is to forecast the number of COVID-19 deaths in the US as accurately as possible. Ridge Regression performs the best in this aspect on both a state and national level.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;summary-insights&#34; class=&#34;section level2&#34;&gt;
@@ -501,28 +501,28 @@ daily_report %&amp;gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&amp;gt;%
   ggplot(aes(percent_missing, var)) +
   geom_bar(stat = &amp;quot;identity&amp;quot;, aes(fill = var)) +
   labs(title = &amp;quot;Missing data: Daily Report&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;confirmed_ts %&amp;gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&amp;gt;%
   pivot_longer(cols = 1:113, names_to = &amp;quot;var&amp;quot;, values_to = &amp;quot;percent_missing&amp;quot;) %&amp;gt;%
   filter(percent_missing &amp;gt; 0) %&amp;gt;% # There are a lot of variables, so I&amp;#39;m only choosing the ones with any missing data
   ggplot(aes(percent_missing, var)) +
   geom_bar(stat = &amp;quot;identity&amp;quot;, aes(fill = var)) +
   labs(title = &amp;quot;Missing data: Confirmed Cases Time Series&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;deaths_ts %&amp;gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&amp;gt;%
   pivot_longer(cols = 1:113, names_to = &amp;quot;var&amp;quot;, values_to = &amp;quot;percent_missing&amp;quot;) %&amp;gt;%
   filter(percent_missing &amp;gt; 0) %&amp;gt;% # There are a lot of variables, so I&amp;#39;m only choosing the ones with any missing data
   ggplot(aes(percent_missing, var)) +
   geom_bar(stat = &amp;quot;identity&amp;quot;, aes(fill = var)) +
   labs(title = &amp;quot;Missing data: Deaths Time Series&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;recovered_ts %&amp;gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&amp;gt;%
   pivot_longer(cols = 1:113, names_to = &amp;quot;var&amp;quot;, values_to = &amp;quot;percent_missing&amp;quot;) %&amp;gt;%
   filter(percent_missing &amp;gt; 0) %&amp;gt;% # There are a lot of variables, so I&amp;#39;m only choosing the ones with any missing data
   ggplot(aes(percent_missing, var)) +
   geom_bar(stat = &amp;quot;identity&amp;quot;, aes(fill = var)) +
   labs(title = &amp;quot;Missing data: Recovered Time Series&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-10-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;In general, there was not much actual missing data in the datasets; for example, &lt;code&gt;admin2&lt;/code&gt; was used for US county names, so other countries had a missing value for it. The same is true for other missing values, except for &lt;code&gt;lat&lt;/code&gt; and &lt;code&gt;long&lt;/code&gt;, which indicated latitude and longitude–however, I do not plan on using these two variables.&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;div id=&#34;other-data&#34; class=&#34;section level4&#34;&gt;
@@ -546,7 +546,7 @@ daily_report %&amp;gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&amp;gt;%
   geom_histogram() +
   facet_wrap(~var) +
   labs(title = &amp;quot;Distribution of Confirmed Cases, Deaths, and Recoveries by Country - Linear&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;daily_report %&amp;gt;% # All response variables on a log-10 scale
   group_by(country_region) %&amp;gt;%
   summarise(log_confirmed = log10(sum(confirmed)),
@@ -556,7 +556,7 @@ daily_report %&amp;gt;% summarise_all(funs(mean(is.na(.)) * 100)) %&amp;gt;%
   ggplot(aes((value))) +
   geom_freqpoly(aes(color = var)) +
   labs(title = &amp;quot;Distribution of Confirmed Cases, Deaths, and Recoveries by country - Logarithmic&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-11-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-11-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Next, I plotted time series data on a global scale:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Putting all time series info into one graphic:
 confirmed_all_countries &amp;lt;- confirmed_ts %&amp;gt;% # Total cases over time
@@ -588,12 +588,12 @@ worldwide_ts %&amp;gt;% pivot_longer(cols = 2:4, names_to = &amp;quot;type&amp;q
   ggplot(aes(date, value)) +
   geom_line(aes(color = type)) +
   labs(title = &amp;quot;Worldwide cases, deaths, and recoveries over time - Linear&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;worldwide_ts %&amp;gt;% pivot_longer(cols = 2:4, names_to = &amp;quot;type&amp;quot;) %&amp;gt;% # Log scale
   ggplot(aes(date, log10(value))) +
   geom_line(aes(color = type)) +
   labs(title = &amp;quot;Worldwide cases, deaths and recoveries over time - Logarithmic&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-12-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-12-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Next, I wanted to look at some of the countries most impacted by COVID-19. The confirmed cases over time are displayed for the 10 countries with the most current cases on a linear and logarithmic scale as follows:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Time - series for top 10 countries by confirmed cases
 top10 &amp;lt;- daily_report %&amp;gt;% group_by(country_region) %&amp;gt;% # 10 countries with most cases
@@ -613,7 +613,7 @@ confirmed_ts %&amp;gt;% # Total cases over time - top 10 countries - linear scal
   ggplot(aes(date, total_cases)) +
   geom_line(aes(color = country_region)) +
   labs(title = &amp;quot;10 Countries with most cases - linear time series&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;confirmed_ts %&amp;gt;% # Total cases over time - top 10 countries - log scale
   select(-province_state, -lat, -long) %&amp;gt;%
   pivot_longer(cols = c(2:110), names_to = &amp;quot;date&amp;quot;, values_to = &amp;quot;cases&amp;quot;) %&amp;gt;%
@@ -624,7 +624,7 @@ confirmed_ts %&amp;gt;% # Total cases over time - top 10 countries - linear scal
   ggplot(aes(date, log10(total_cases))) +
   geom_line(aes(color = country_region)) +
   labs(title = &amp;quot;10 countries with most cases - logarithmic time series&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-13-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-13-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The data here shows that the US is adding more cases at a relatively linear rate, while most other countries are slowing down, with the exception of Russia and Brazil, which are seeing increasing numbers of new cases per day.&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;div id=&#34;analysis-of-us-data&#34; class=&#34;section level4&#34;&gt;
@@ -664,13 +664,13 @@ us_ts %&amp;gt;% # Linear
   ggplot(aes(date, num)) +
   geom_line(aes(color = report)) +
   labs(title = &amp;quot;US Cases and Deaths - Linear&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;us_ts %&amp;gt;% # Log
   pivot_longer(cols = 2:3, names_to = &amp;quot;report&amp;quot;, values_to = &amp;quot;num&amp;quot;) %&amp;gt;%
   ggplot(aes(date, log10(num))) +
   geom_line(aes(color = report)) +
   labs(title = &amp;quot;US Cases and Deaths - Logarithmic&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-14-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-14-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I also included a time series plot which displayed each state as a separate line, but I omitted it as it was very difficult to read.&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -866,7 +866,7 @@ covid_all_vars %&amp;gt;%
   select(first30, past10, 23:42) %&amp;gt;%
   cor() %&amp;gt;%
   corrplot()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;There are correlations between some of these variables, but they are not overwhelmingly correlated, as was the case before predictors were converted from totals to percentages.&lt;/p&gt;
 &lt;p&gt;Importantly, all of these predictors were moderately correlated with the &lt;code&gt;first30&lt;/code&gt; variable, which is the mean growth rate in deaths during the first 30 days following the first death in each state. None of them were even moderately correlated with &lt;code&gt;past10&lt;/code&gt;, which is the average rate of growth in the psat 10 days.&lt;/p&gt;
 &lt;p&gt;Also, it is important to note that the variables were originally chosen based on how they correlated with response variables in their total, not percentage, form. Once the conversion was done, much of the correlations with the &lt;code&gt;first30&lt;/code&gt; variable were eliminated. Although I did not do it in this EDA, a good next step to take might be to analyze the predictors again after converting all of them to percentages.&lt;/p&gt;
@@ -962,7 +962,7 @@ covid_hclust_6cut &amp;lt;- covid_hclust %&amp;gt;%
 plot_usmap(data = covid_hclust_6cut, values = &amp;quot;cluster&amp;quot;, color = &amp;quot;white&amp;quot;) +
   scale_fill_discrete(name = &amp;quot;Cluster&amp;quot;, na.translate = FALSE) +
   labs(title = &amp;quot;Hierarchical Clustering, 6 clusters&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# K-Means Clustering ------------------------------------------------------
 
 covid_kmeans &amp;lt;- tibble(xmat = list(covid_cluster_data_scaled %&amp;gt;% select(-name))) %&amp;gt;%
@@ -990,7 +990,7 @@ covid_kmeans_5clust &amp;lt;- covid_kmeans_5clust %&amp;gt;%
 plot_usmap(data = covid_kmeans_5clust, values = &amp;quot;cluster&amp;quot;, color = &amp;quot;white&amp;quot;) +
   scale_fill_discrete(name = &amp;quot;Cluster&amp;quot;, na.translate = FALSE) +
   labs(title = &amp;quot;K-Means Clustering, 5 clusters&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Spectral Clustering -----------------------------------------------------
 
 covid_spectral &amp;lt;- tibble(data = list(covid_cluster_data_scaled %&amp;gt;% select(-name)))
@@ -1013,7 +1013,7 @@ covid_spectral_data &amp;lt;- covid_spectral %&amp;gt;%
 plot_usmap(data = covid_spectral_data, values = &amp;quot;cluster&amp;quot;, color = &amp;quot;white&amp;quot;) +
   scale_fill_discrete(name = &amp;quot;Cluster&amp;quot;, na.translate = FALSE) +
   labs(title = &amp;quot;Spectral Clustering, 5 clusters&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-16-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Note that Puerto Rico, which was not on the map, was contained in its own cluster for hierarchical and K-Means clustering. Otherwise, the results seem to be much better for K-Means and spectral than for hierarchical, which did a poor job of distinguishing between most states.&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1027,42 +1027,42 @@ covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
   ggplot(aes(log10(confirmed), log10(deaths))) +
   geom_point(aes(color = cluster)) +
   labs(title = &amp;quot;confirmed cases vs deaths by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
   rename(province_state = state) %&amp;gt;%
   left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
   ggplot(aes(first30, past10)) +
   geom_point(aes(color = cluster)) +
   labs(title = &amp;quot;first 30 vs past 10 average rates by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
   rename(province_state = state) %&amp;gt;%
   left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
   ggplot(aes(incident_rate, mortality_rate)) +
   geom_point(aes(color = cluster)) +
   labs(title = &amp;quot;incident_rate vs mortality rates by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
   rename(province_state = state) %&amp;gt;%
   left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
   ggplot(aes(incident_rate, cluster)) +
   geom_boxplot() +
   labs(title = &amp;quot;incident rate by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
   rename(province_state = state) %&amp;gt;%
   left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
   ggplot(aes(past10, cluster)) +
   geom_boxplot() +
   labs(title = &amp;quot;past10 by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-5.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-5.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_kmeans_5clust %&amp;gt;% select(state, cluster) %&amp;gt;%
   rename(province_state = state) %&amp;gt;%
   left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
   ggplot(aes(first30, cluster)) +
   geom_boxplot() +
   labs(title = &amp;quot;first30 by cluster, K-Means&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-6.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-6.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Spectral
 covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
   rename(province_state = state) %&amp;gt;%
@@ -1070,35 +1070,35 @@ covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
   ggplot(aes(log10(confirmed), log10(deaths))) +
   geom_point(aes(color = cluster)) +
   labs(title = &amp;quot;confirmed cases vs deaths by cluster, spectral&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-7.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-7.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
   rename(province_state = state) %&amp;gt;%
   left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
   ggplot(aes(first30, past10)) +
   geom_point(aes(color = cluster)) +
   labs(title = &amp;quot;first30 vs past10 by cluster, spectral&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-8.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-8.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
   rename(province_state = state) %&amp;gt;%
   left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
   ggplot(aes(incident_rate, cluster)) +
   geom_boxplot() +
   labs(title = &amp;quot;incident rate by cluster, spectral&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-9.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-9.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
   rename(province_state = state) %&amp;gt;%
   left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
   ggplot(aes(past10, cluster)) +
   geom_boxplot() +
   labs(title = &amp;quot;past10 by cluster, spectral&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-10.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-10.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;covid_spectral_data %&amp;gt;% select(state, cluster) %&amp;gt;%
   rename(province_state = state) %&amp;gt;%
   left_join(covid_us_report, by = &amp;quot;province_state&amp;quot;) %&amp;gt;%
   ggplot(aes(first30, cluster)) +
   geom_boxplot() +
   labs(title = &amp;quot;first30 by cluster, spectral&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-11.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-17-11.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;It appears that the clustering does not necessarily have a clear, significant effect on the response outcomes for either type of clustering. No immediate conclusions can be drawn from the results. It is likely, though, that the predictors chosen for the cluster have at most a slight effect on the response variables, based on the effects of converting the predictors from totals to percentages.&lt;/p&gt;
 &lt;p&gt;Furthermore, there is no complete, thoroughly investigated conclusion as to why some states, such as New York and New Jersey, had much worse outbreaks than others. Unless we can identify these factors and adjust the data to account for their impact, it will be difficult to truly measure the effect of the ACS predictors on the data without deeper analysis.&lt;/p&gt;
 &lt;/div&gt;
@@ -1141,7 +1141,7 @@ mobility_us %&amp;gt;%
   pivot_longer(cols = 6:11, names_to = &amp;quot;cat&amp;quot;) %&amp;gt;%
   ggplot(aes(date, value)) +
   geom_line(aes(color = cat))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;There are some interesting patterns in the data. The lines show the percentage difference from baseline (i.e. under normal conditions) in how often data is coming from various locations, such as at home (residential) or workplaces. Clearly, location data is showing more people at home and much less at workplaces or on transit. However, these overall trends are accompanied by fluctuations, which can be most clearly seen in the residential and workplace lines. I have not investigated these fluctuations in this EDA, but I plan to do so as a next step.&lt;/p&gt;
 &lt;p&gt;After joining together the state data, I looked at some visualizations for a few states: each plot shows the transit and residential data from Google as two separate lines, and a third line shows the daily percent change in deaths:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Analysis by state:
@@ -1157,7 +1157,7 @@ mobility_analysis_states %&amp;gt;% # Washington
   xlim(as_date(&amp;quot;13-02-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;), as_date(&amp;quot;07-05-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;)) +
   ylim(-80, 50) + 
   labs(title = &amp;quot;Washington State&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mobility_analysis_states %&amp;gt;% # New York
   filter(province_state == &amp;quot;New York&amp;quot;) %&amp;gt;%
   pivot_longer(cols = c(pct_change, transit, residential), names_to = &amp;quot;var&amp;quot;) %&amp;gt;%
@@ -1166,7 +1166,7 @@ mobility_analysis_states %&amp;gt;% # Washington
   xlim(as_date(&amp;quot;13-02-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;), as_date(&amp;quot;07-05-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;)) +
   ylim(-80, 50) +
   labs(title = &amp;quot;New York State&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mobility_analysis_states %&amp;gt;% # Mississippi
   filter(province_state == &amp;quot;Mississippi&amp;quot;) %&amp;gt;%
   pivot_longer(cols = c(pct_change, transit, residential), names_to = &amp;quot;var&amp;quot;) %&amp;gt;%
@@ -1175,7 +1175,7 @@ mobility_analysis_states %&amp;gt;% # Washington
   xlim(as_date(&amp;quot;13-02-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;), as_date(&amp;quot;07-05-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;)) +
   ylim(-80, 50) + 
   labs(title = &amp;quot;Mississippi&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mobility_analysis_states %&amp;gt;% # Illinois
   filter(province_state == &amp;quot;Illinois&amp;quot;) %&amp;gt;%
   pivot_longer(cols = c(pct_change, transit, residential), names_to = &amp;quot;var&amp;quot;) %&amp;gt;%
@@ -1184,7 +1184,7 @@ mobility_analysis_states %&amp;gt;% # Washington
   xlim(as_date(&amp;quot;13-02-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;), as_date(&amp;quot;07-05-20&amp;quot;, format = &amp;quot;%d-%m-%y&amp;quot;)) +
   ylim(-80, 50) +
   labs(title = &amp;quot;Illinois&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/final-project-kzhang917/Report_files/figure-html/unnamed-chunk-19-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;There’s a clear trend in the plots: all four states showed signs of people going to work less and staying home more. This is accompanied by a decrease in the percent change in death rates. Mississippi, which has shown somewhat of an increase in mobility recently, also sees a spike in death rates towards the most recent dates displayed. This data certainly supports the hypothesis that lockdowns can slow down the amount of deaths caused by COVID-19, and as some states ease lockdown policies, more data will be available in the coming weeks which provides more insight as to whether or not the easing of lockdowns can cause deaths to spike again.&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1217,10 +1217,10 @@ mobility_analysis_states %&amp;gt;% # Washington
     
     <item>
       <title>COVID-19 situation in the US (3/1/2020-6/15/2020)</title>
-      <link>/post/covid_19_recent/</link>
+      <link>https://zhangj5.github.io/post/covid_19_recent/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/covid_19_recent/</guid>
+      <guid>https://zhangj5.github.io/post/covid_19_recent/</guid>
       <description>
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import os
@@ -1464,388 +1464,388 @@ plt.show()
     
     <item>
       <title>GPR160 de-orphanization reveals critical roles in neuropathic pain in rodents</title>
-      <link>/publication/2020-01-01_gpr160_de-orphanizat/</link>
+      <link>https://zhangj5.github.io/publication/2020-01-01_gpr160_de-orphanizat/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2020-01-01_gpr160_de-orphanizat/</guid>
+      <guid>https://zhangj5.github.io/publication/2020-01-01_gpr160_de-orphanizat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Histone deacetylase 3 preferentially binds and collaborates with the transcription factor RUNX1 to repress AML1-ETO- dependent transcription in t(8;21) AML</title>
-      <link>/publication/2020-01-01_histone_deacetylase_/</link>
+      <link>https://zhangj5.github.io/publication/2020-01-01_histone_deacetylase_/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2020-01-01_histone_deacetylase_/</guid>
+      <guid>https://zhangj5.github.io/publication/2020-01-01_histone_deacetylase_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The transcriptional corepressor CBFA2T3 inhibits all-trans retinoic acid-induced myeloid gene expression and differentiation in acute myeloid leukemia</title>
-      <link>/publication/2020-01-01_the_transcriptional_/</link>
+      <link>https://zhangj5.github.io/publication/2020-01-01_the_transcriptional_/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2020-01-01_the_transcriptional_/</guid>
+      <guid>https://zhangj5.github.io/publication/2020-01-01_the_transcriptional_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Circadian clock protein Rev-erbα regulates neuroinflammation</title>
-      <link>/publication/2019-01-01_circadian_clock_prot/</link>
+      <link>https://zhangj5.github.io/publication/2019-01-01_circadian_clock_prot/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2019-01-01_circadian_clock_prot/</guid>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_circadian_clock_prot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LXR-inverse agonism stimulates immune-mediated tumor destruction by enhancing CD8 T-cell activity in triple negative breast cancer</title>
-      <link>/publication/2019-01-01_lxr-inverse_agonism_/</link>
+      <link>https://zhangj5.github.io/publication/2019-01-01_lxr-inverse_agonism_/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2019-01-01_lxr-inverse_agonism_/</guid>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_lxr-inverse_agonism_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Low plasma adropin concentrations increase risks of weight gain and metabolic dysregulation in response to a high-sugar diet in male nonhuman primates</title>
-      <link>/publication/2019-01-01_low_plasma_adropin_c/</link>
+      <link>https://zhangj5.github.io/publication/2019-01-01_low_plasma_adropin_c/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2019-01-01_low_plasma_adropin_c/</guid>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_low_plasma_adropin_c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Myeloid translocation gene CBFA2T3 directs a relapse gene program and determines patient-specific outcomes in AML</title>
-      <link>/publication/2019-01-01_myeloid_translocatio/</link>
+      <link>https://zhangj5.github.io/publication/2019-01-01_myeloid_translocatio/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2019-01-01_myeloid_translocatio/</guid>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_myeloid_translocatio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pharmacological activation of the nuclear receptor REV-ERB reverses cognitive deficits and reduces amyloid-β burden in a mouse model of Alzheimer&#39;s disease</title>
-      <link>/publication/2019-01-01_pharmacological_acti/</link>
+      <link>https://zhangj5.github.io/publication/2019-01-01_pharmacological_acti/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2019-01-01_pharmacological_acti/</guid>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_pharmacological_acti/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adropin: An endocrine link between the biological clock and cholesterol homeostasis</title>
-      <link>/publication/2018-01-01_adropin_an_endocrine/</link>
+      <link>https://zhangj5.github.io/publication/2018-01-01_adropin_an_endocrine/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018-01-01_adropin_an_endocrine/</guid>
+      <guid>https://zhangj5.github.io/publication/2018-01-01_adropin_an_endocrine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epigenetic regulator ARID1A and stem cell transcription factor SOX9 in the maintenance of pancreatic ductal cell differentiation state and development of intraductal papillary mucinous neoplasia (IPMN) and pancreatic ductal adenocarcinoma (PDAC)</title>
-      <link>/publication/2018-01-01_epigenetic_regulator/</link>
+      <link>https://zhangj5.github.io/publication/2018-01-01_epigenetic_regulator/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018-01-01_epigenetic_regulator/</guid>
+      <guid>https://zhangj5.github.io/publication/2018-01-01_epigenetic_regulator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A FOXO1-induced oncogenic network defines the AML1-ETO preleukemic program</title>
-      <link>/publication/2017-01-01_a_foxo1-induced_onco/</link>
+      <link>https://zhangj5.github.io/publication/2017-01-01_a_foxo1-induced_onco/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_a_foxo1-induced_onco/</guid>
+      <guid>https://zhangj5.github.io/publication/2017-01-01_a_foxo1-induced_onco/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EZH2-, CHD4-, and IDH-linked epigenetic perturbation and its association with survival in glioma patients</title>
-      <link>/publication/2017-01-01_ezh2-_chd4-_and_id/</link>
+      <link>https://zhangj5.github.io/publication/2017-01-01_ezh2-_chd4-_and_id/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_ezh2-_chd4-_and_id/</guid>
+      <guid>https://zhangj5.github.io/publication/2017-01-01_ezh2-_chd4-_and_id/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Emerging Roles of MTG16 in Cell-Fate Control of Hematopoietic Stem Cells and Cancer</title>
-      <link>/publication/2017-01-01_emerging_roles_of_mt/</link>
+      <link>https://zhangj5.github.io/publication/2017-01-01_emerging_roles_of_mt/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_emerging_roles_of_mt/</guid>
+      <guid>https://zhangj5.github.io/publication/2017-01-01_emerging_roles_of_mt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rev-Erb co-regulates muscle regeneration via tethered interaction with the NF-Y cistrome</title>
-      <link>/publication/2017-01-01_rev-erb_co-regulates/</link>
+      <link>https://zhangj5.github.io/publication/2017-01-01_rev-erb_co-regulates/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_rev-erb_co-regulates/</guid>
+      <guid>https://zhangj5.github.io/publication/2017-01-01_rev-erb_co-regulates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rev-erb regulation of cholesterologenesis</title>
-      <link>/publication/2017-01-01_rev-erb_regulation_o/</link>
+      <link>https://zhangj5.github.io/publication/2017-01-01_rev-erb_regulation_o/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_rev-erb_regulation_o/</guid>
+      <guid>https://zhangj5.github.io/publication/2017-01-01_rev-erb_regulation_o/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transcriptional and Genomic Control of Stem Cells in Development and Cancer</title>
-      <link>/publication/2017-01-01_transcriptional_and_/</link>
+      <link>https://zhangj5.github.io/publication/2017-01-01_transcriptional_and_/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_transcriptional_and_/</guid>
+      <guid>https://zhangj5.github.io/publication/2017-01-01_transcriptional_and_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New insights into transcriptional and leukemogenic mechanisms of AML1-ETO and E2A fusion proteins</title>
-      <link>/publication/2016-01-01_new_insights_into_tr/</link>
+      <link>https://zhangj5.github.io/publication/2016-01-01_new_insights_into_tr/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2016-01-01_new_insights_into_tr/</guid>
+      <guid>https://zhangj5.github.io/publication/2016-01-01_new_insights_into_tr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The optimal corepressor function of nuclear receptor corepressor (NCoR) for peroxisome proliferator-activated receptor γ requires g protein pathway suppressor 2</title>
-      <link>/publication/2015-01-01_the_optimal_corepres/</link>
+      <link>https://zhangj5.github.io/publication/2015-01-01_the_optimal_corepres/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2015-01-01_the_optimal_corepres/</guid>
+      <guid>https://zhangj5.github.io/publication/2015-01-01_the_optimal_corepres/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Differential involvement of E2A-corepressor interactions in distinct leukemogenic pathways</title>
-      <link>/publication/2014-01-01_differential_involve/</link>
+      <link>https://zhangj5.github.io/publication/2014-01-01_differential_involve/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2014-01-01_differential_involve/</guid>
+      <guid>https://zhangj5.github.io/publication/2014-01-01_differential_involve/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A TAF4 coactivator function for E proteins that involves enhanced TFIID binding</title>
-      <link>/publication/2013-01-01_a_taf4_coactivator_f/</link>
+      <link>https://zhangj5.github.io/publication/2013-01-01_a_taf4_coactivator_f/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2013-01-01_a_taf4_coactivator_f/</guid>
+      <guid>https://zhangj5.github.io/publication/2013-01-01_a_taf4_coactivator_f/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DNA Homologous Recombination Factor SFR1 Physically and Functionally Interacts with Estrogen Receptor Alpha</title>
-      <link>/publication/2013-01-01_dna_homologous_recom/</link>
+      <link>https://zhangj5.github.io/publication/2013-01-01_dna_homologous_recom/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2013-01-01_dna_homologous_recom/</guid>
+      <guid>https://zhangj5.github.io/publication/2013-01-01_dna_homologous_recom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The novel interaction between microspherule protein Msp58 and ubiquitin E3 ligase EDD regulates cell cycle progression</title>
-      <link>/publication/2013-01-01_the_novel_interactio/</link>
+      <link>https://zhangj5.github.io/publication/2013-01-01_the_novel_interactio/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2013-01-01_the_novel_interactio/</guid>
+      <guid>https://zhangj5.github.io/publication/2013-01-01_the_novel_interactio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regulated clearance of histone deacetylase 3 protects independent formation of nuclear receptor corepressor complexes</title>
-      <link>/publication/2012-01-01_regulated_clearance_/</link>
+      <link>https://zhangj5.github.io/publication/2012-01-01_regulated_clearance_/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2012-01-01_regulated_clearance_/</guid>
+      <guid>https://zhangj5.github.io/publication/2012-01-01_regulated_clearance_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LMO7 mediates cell-specific activation of the rho-myocardin-related transcription factor-serum response factor pathway and plays an important role in breast cancer cell migration</title>
-      <link>/publication/2011-01-01_lmo7_mediates_cell-s/</link>
+      <link>https://zhangj5.github.io/publication/2011-01-01_lmo7_mediates_cell-s/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2011-01-01_lmo7_mediates_cell-s/</guid>
+      <guid>https://zhangj5.github.io/publication/2011-01-01_lmo7_mediates_cell-s/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The leukemogenicity of AML1-ETO is dependent on site-specific lysine acetylation</title>
-      <link>/publication/2011-01-01_the_leukemogenicity_/</link>
+      <link>https://zhangj5.github.io/publication/2011-01-01_the_leukemogenicity_/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2011-01-01_the_leukemogenicity_/</guid>
+      <guid>https://zhangj5.github.io/publication/2011-01-01_the_leukemogenicity_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Identification of ASF/SF2 as a critical, allele-specific effector of the cyclin D1b oncogene</title>
-      <link>/publication/2010-01-01_identification_of_as/</link>
+      <link>https://zhangj5.github.io/publication/2010-01-01_identification_of_as/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2010-01-01_identification_of_as/</guid>
+      <guid>https://zhangj5.github.io/publication/2010-01-01_identification_of_as/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multivalent binding of the ETO corepressor to E proteins facilitates dual repression controls targeting chromatin and the basal transcription machinery</title>
-      <link>/publication/2009-01-01_multivalent_binding_/</link>
+      <link>https://zhangj5.github.io/publication/2009-01-01_multivalent_binding_/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2009-01-01_multivalent_binding_/</guid>
+      <guid>https://zhangj5.github.io/publication/2009-01-01_multivalent_binding_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vav3 oncogene activates estrogen receptor and its overexpression may be involved in human breast cancer</title>
-      <link>/publication/2008-01-01_vav3_oncogene_activa/</link>
+      <link>https://zhangj5.github.io/publication/2008-01-01_vav3_oncogene_activa/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2008-01-01_vav3_oncogene_activa/</guid>
+      <guid>https://zhangj5.github.io/publication/2008-01-01_vav3_oncogene_activa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The acute myeloid leukemia fusion protein AML1-ETO targets E proteins via a paired amphipathic helix-like TBP-associated factor homology domain</title>
-      <link>/publication/2006-01-01_the_acute_myeloid_le/</link>
+      <link>https://zhangj5.github.io/publication/2006-01-01_the_acute_myeloid_le/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2006-01-01_the_acute_myeloid_le/</guid>
+      <guid>https://zhangj5.github.io/publication/2006-01-01_the_acute_myeloid_le/</guid>
       <description></description>
     </item>
     
     <item>
       <title>E protein silencing by the leukemogenic AML1-ETO fusion protein</title>
-      <link>/publication/2004-01-01_e_protein_silencing_/</link>
+      <link>https://zhangj5.github.io/publication/2004-01-01_e_protein_silencing_/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2004-01-01_e_protein_silencing_/</guid>
+      <guid>https://zhangj5.github.io/publication/2004-01-01_e_protein_silencing_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cooperative function of Aml1-ETO corepressor recruitment domains in the expansion of primary bone marrow cells</title>
-      <link>/publication/2002-01-01_cooperative_function/</link>
+      <link>https://zhangj5.github.io/publication/2002-01-01_cooperative_function/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2002-01-01_cooperative_function/</guid>
+      <guid>https://zhangj5.github.io/publication/2002-01-01_cooperative_function/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The N-CoR-HDAC3 nuclear receptor corepressor complex inhibits the JNK pathway through the integral subunit GPS2</title>
-      <link>/publication/2002-01-01_the_n-cor-hdac3_nucl/</link>
+      <link>https://zhangj5.github.io/publication/2002-01-01_the_n-cor-hdac3_nucl/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2002-01-01_the_n-cor-hdac3_nucl/</guid>
+      <guid>https://zhangj5.github.io/publication/2002-01-01_the_n-cor-hdac3_nucl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oligomerization of ETO is obligatory for corepressor interaction</title>
-      <link>/publication/2001-01-01_oligomerization_of_e/</link>
+      <link>https://zhangj5.github.io/publication/2001-01-01_oligomerization_of_e/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2001-01-01_oligomerization_of_e/</guid>
+      <guid>https://zhangj5.github.io/publication/2001-01-01_oligomerization_of_e/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nuclear receptor corepressors partner with class II histone deacetylases in a Sin3-independent repression pathway</title>
-      <link>/publication/2000-01-01_nuclear_receptor_cor/</link>
+      <link>https://zhangj5.github.io/publication/2000-01-01_nuclear_receptor_cor/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2000-01-01_nuclear_receptor_cor/</guid>
+      <guid>https://zhangj5.github.io/publication/2000-01-01_nuclear_receptor_cor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The mechanism of action of thyroid hormones</title>
-      <link>/publication/2000-01-01_the_mechanism_of_act/</link>
+      <link>https://zhangj5.github.io/publication/2000-01-01_the_mechanism_of_act/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2000-01-01_the_mechanism_of_act/</guid>
+      <guid>https://zhangj5.github.io/publication/2000-01-01_the_mechanism_of_act/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A novel role for helix 12 of retinoid X receptor in regulating repression</title>
-      <link>/publication/1999-01-01_a_novel_role_for_hel/</link>
+      <link>https://zhangj5.github.io/publication/1999-01-01_a_novel_role_for_hel/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
       
-      <guid>/publication/1999-01-01_a_novel_role_for_hel/</guid>
+      <guid>https://zhangj5.github.io/publication/1999-01-01_a_novel_role_for_hel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aberrant recruitment of the nuclear receptor corepressor-histone deacetylase complex by the acute myeloid leukemia fusion partner ETO</title>
-      <link>/publication/1998-01-01_aberrant_recruitment/</link>
+      <link>https://zhangj5.github.io/publication/1998-01-01_aberrant_recruitment/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       
-      <guid>/publication/1998-01-01_aberrant_recruitment/</guid>
+      <guid>https://zhangj5.github.io/publication/1998-01-01_aberrant_recruitment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Proteasomal regulation of nuclear receptor corepressor-mediated repression</title>
-      <link>/publication/1998-01-01_proteasomal_regulati/</link>
+      <link>https://zhangj5.github.io/publication/1998-01-01_proteasomal_regulati/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       
-      <guid>/publication/1998-01-01_proteasomal_regulati/</guid>
+      <guid>https://zhangj5.github.io/publication/1998-01-01_proteasomal_regulati/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Differential recognition of liganded and unliganded thyroid hormone receptor by retinoid X receptor regulates transcriptional repression</title>
-      <link>/publication/1997-01-01_differential_recogni/</link>
+      <link>https://zhangj5.github.io/publication/1997-01-01_differential_recogni/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
       
-      <guid>/publication/1997-01-01_differential_recogni/</guid>
+      <guid>https://zhangj5.github.io/publication/1997-01-01_differential_recogni/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stoichiometric and steric principles governing repression by nuclear hormone receptors</title>
-      <link>/publication/1997-01-01_stoichiometric_and_s/</link>
+      <link>https://zhangj5.github.io/publication/1997-01-01_stoichiometric_and_s/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
       
-      <guid>/publication/1997-01-01_stoichiometric_and_s/</guid>
+      <guid>https://zhangj5.github.io/publication/1997-01-01_stoichiometric_and_s/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DNA-independent and DNA-dependent mechanisms regulate the differential heterodimerization of the isoforms of the thyroid hormone receptor with retinoid X receptor</title>
-      <link>/publication/1996-01-01_dna-independent_and_/</link>
+      <link>https://zhangj5.github.io/publication/1996-01-01_dna-independent_and_/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
       
-      <guid>/publication/1996-01-01_dna-independent_and_/</guid>
+      <guid>https://zhangj5.github.io/publication/1996-01-01_dna-independent_and_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The mechanism of action of trichosanthin on eukaryotic ribosomes - RNA N-glycosidase activity of the cytotoxin</title>
-      <link>/publication/1992-01-01_the_mechanism_of_act/</link>
+      <link>https://zhangj5.github.io/publication/1992-01-01_the_mechanism_of_act/</link>
       <pubDate>Wed, 01 Jan 1992 00:00:00 +0000</pubDate>
       
-      <guid>/publication/1992-01-01_the_mechanism_of_act/</guid>
+      <guid>https://zhangj5.github.io/publication/1992-01-01_the_mechanism_of_act/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/cv/</link>
+      <link>https://zhangj5.github.io/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cv/</guid>
+      <guid>https://zhangj5.github.io/cv/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -2236,10 +2236,10 @@ plt.show()
     
     <item>
       <title>Exploring leukemia prognosis using Shiny</title>
-      <link>/post/aml/</link>
+      <link>https://zhangj5.github.io/post/aml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/post/aml/</guid>
+      <guid>https://zhangj5.github.io/post/aml/</guid>
       <description>&lt;p&gt;The acute myeloid leukemia (AML) is one of the most devastating forms of cancer. AML prognosis is influenced by many factors. The goal of this shiny application is to explore the relationship between AML prognosis and gene expression.&lt;/p&gt;
 &lt;iframe src=&#34;https://zhangj5.shinyapps.io/Acute_Myeloid_Leukemia_Prognosis/&#34; width=&#34;1000&#34; height=&#34;800&amp;quot;&#34;&gt;
 &lt;/iframe&gt;

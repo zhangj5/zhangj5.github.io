@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jinsong Zhang</title>
-    <link>/post/</link>
+    <link>https://zhangj5.github.io/post/</link>
     <description>Recent content in Posts on Jinsong Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhangj5.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>COVID-19 Forcast</title>
-      <link>/post/final-project-kzhang917/covid-19-forcast/</link>
+      <link>https://zhangj5.github.io/post/final-project-kzhang917/covid-19-forcast/</link>
       <pubDate>Fri, 12 Jun 2020 03:13:43 +0000</pubDate>
       
-      <guid>/post/final-project-kzhang917/covid-19-forcast/</guid>
+      <guid>https://zhangj5.github.io/post/final-project-kzhang917/covid-19-forcast/</guid>
       <description>The objective of this project is to develop models which can create forecasts for the future trajectory of total COVID-19 deaths. For this project, I focused on US data for the pandemic, and trained models using daily observations by state. The predictors used were primarily lagged daily death counts as well as lagged rolling means for various mobility indicators during the interval 2-4 weeks prior to each day for which predictions are made.</description>
     </item>
     
     <item>
       <title>COVID-19 situation in the US (3/1/2020-6/15/2020)</title>
-      <link>/post/covid_19_recent/</link>
+      <link>https://zhangj5.github.io/post/covid_19_recent/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/covid_19_recent/</guid>
+      <guid>https://zhangj5.github.io/post/covid_19_recent/</guid>
       <description>import os import pandas as pd import numpy as np import matplotlib.pyplot as plt  Monitoring COVID-19 Situation Across US and the World We downloaded the COVID-19 data from the Johns Hopkins University repository, &amp;ldquo;COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE)&amp;rdquo;. The datasets included time series collection of the confirmed cases and deaths for each state starting from 1/23/20 until the preceding day of the current date.</description>
     </item>
     
     <item>
       <title>Exploring leukemia prognosis using Shiny</title>
-      <link>/post/aml/</link>
+      <link>https://zhangj5.github.io/post/aml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/post/aml/</guid>
+      <guid>https://zhangj5.github.io/post/aml/</guid>
       <description>The acute myeloid leukemia (AML) is one of the most devastating forms of cancer. AML prognosis is influenced by many factors. The goal of this shiny application is to explore the relationship between AML prognosis and gene expression.
  </description>
     </item>
