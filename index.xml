@@ -69,7 +69,7 @@
       <link>https://zhangj5.github.io/post/recent-covid19-outbreak-in-china/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://zhangj5.github.io/post/recent-covid19-outbreak-in-china/</guid>
-      <description>&lt;iframe src=&#34;https://zhangj5.shinyapps.io/COVID19/&#34; width=1000 height=800&#34;&gt;&lt;/iframe&gt;
+      <description>&lt;iframe src=&#34;https://zhangj5.shinyapps.io/COVID19/&#34; width=&#34;100%&#34; height=&#34;800px&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
@@ -1970,7 +1970,7 @@ Three
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://zhangj5.github.io/post/exploring-leukemia-prognosis-using-in-shiny/</guid>
       <description>&lt;p&gt;The acute myeloid leukemia (AML) is one of the most devastating forms of cancer. AML prognosis is determined by many factors. Here, we build a dynamic application in Shiny to explore the relationship between patient prognosis and gene expression.&lt;/p&gt;
-&lt;iframe src=&#34;https://zhangj5.shinyapps.io/Acute_Myeloid_Leukemia_Prognosis/&#34; width=1000 height=800&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://zhangj5.shinyapps.io/Acute_Myeloid_Leukemia_Prognosis/&#34; width=&#34;100%&#34; height=&#34;800px&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
