@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogdown | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/tag/blogdown/</link>
+      <atom:link href="https://zhangj5.github.io/tag/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>blogdown</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Sat, 03 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>blogdown</title>
+      <link>https://zhangj5.github.io/tag/blogdown/</link>
+    </image>
+    
+    <item>
+      <title>Simultaneous detection and quantification of leukemia fusion gene isoforms from RNA-Seq data in AML</title>
+      <link>https://zhangj5.github.io/post/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/</link>
+      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/post/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/</guid>
+      <description>&lt;h2 id=&#34;introduction-and-objective&#34;&gt;Introduction and objective&lt;/h2&gt;
+&lt;p&gt;One of the earliest fusion genes discovered in the history of biomedical science is a fusion between the BCR gene and the ABL gene. This creates the BCR-ABL fusion protein that is the cause of a common type of leukemia known as t(9;22) CML.
+&lt;img src=&#34;https://nci-media.cancer.gov/pdq/media/images/533336.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Since then, many different leukemia fusion proteins have been discovered to act as the drivers of various leukemias. One of these is AML1-ETO, which causes approximately 10-15% of all acute myeloid leukemias (AML). AML1-ETO is a fusion between the AML/RUNX1 gene and the ETO/MTG8/RUNX1T1 gene. ETO is a gene with many exons. ETO has an &amp;ldquo;atypical&amp;rdquo; exon called 9a, which is not annotated in official transcriptome builds such as hg19. Dr. Dong-Er Zhang found that this exon can participate in alternative splicing events. When retained in the spliced product, the fusion gene produces a truncated protein known as AML1-ETO9a. Both full-length (FL) AML1-ETO and AML1-ETO9a have been found in patients. However, it is controversial whether expression of AML1-ETO9a has an impact on prognosis&lt;/p&gt;
+&lt;p&gt;The aim of this study is to develop an algorithm to detect the fusion genes using RNA-Seq data and quantify the expression of their isoforms. For this purpose, we use AML1-ETO as a model for our study.&lt;/p&gt;
+&lt;h1 id=&#34;methods&#34;&gt;Methods&lt;/h1&gt;
+&lt;p&gt;To quantify transcript levels, we used the software &lt;a href=&#34;https://pachterlab.github.io/kallisto/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kallisto&lt;/a&gt;. Kallisto quantifies the expression of a given transcript by aligning the reads to a transcriptomic index created from the sequences of available transcripts in the genome. In our case, we created a custom index by replacing the ETO/RUNX1T1 isoforms with the sequences of FL AML1-ETO and AML1-ETO9a. The RNA-Seq of the patient samples were downloaded from the NCI TARGET AML database.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;h3 id=&#34;aml1-eto9a-expression-is-detected-in-non-t821-amls&#34;&gt;AML1-ETO9a expression is detected in non-t(8;21) AMLs.&lt;/h3&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://zhangj5.github.io/post/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/index.en_files/figure-html/unnamed-chunk-2-1.png&#34; alt=&#34;Expression of AML1-ETO FL and AML1-ETO9a&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Figure 1: Expression of AML1-ETO FL and AML1-ETO9a&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;As you can see, we found that AML1-ETO9a was expressed in non-t(8;21) AMLs, including AMLs with &amp;ldquo;unknown&amp;rdquo; t(8;21) status and AMLs with negative t(8;21) status, as determined by assays such as FISH. One possibility is that these assays were not sensitive enough to detect the presence of fusion genes.&lt;/p&gt;
+&lt;h3 id=&#34;detection-of-aml1-eto-fusion-transcripts-by-star-fusion-and-kallisto-fusion-tools&#34;&gt;Detection of AML1-ETO fusion transcripts by STAR-fusion and Kallisto-fusion tools.&lt;/h3&gt;
+&lt;p&gt;Some algorithms have been developed to detect fusion genes based on RNA-Seq data. We tested two such algorithms, including STAR-fusion and Kallisto-fusion. Both algorithms found that the two AMLs with an &amp;ldquo;unknown&amp;rdquo; t(8;21) status but expressing high levels of AML1-ETO9a indeed had fusion between AML1 and ETO. Interestingly, the Kallisto- fusion found that several AMLs with negative t(8;21) status but expressing detectable levels of AML1-ETO also contained AML1-ETO fusion transcripts.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://zhangj5.github.io/post/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/index.en_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;Detection of AML1-ETO fusion by STAR-Fusion&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Figure 2: Detection of AML1-ETO fusion by STAR-Fusion&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://zhangj5.github.io/post/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/index.en_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Detection of AML1-ETO fusion by Kallisto-Fusion&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Figure 3: Detection of AML1-ETO fusion by Kallisto-Fusion&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;aml1-eto9a-expression-at-the-time-of-diagnosis-was-not-correlated-with-disease-progression&#34;&gt;AML1-ETO9a expression at the time of diagnosis was not correlated with disease progression.&lt;/h3&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://zhangj5.github.io/post/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/index.en_files/figure-html/unnamed-chunk-5-1.png&#34; alt=&#34;AML1-ETO9a levels at diagnosis cannot predict patient outcome&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Figure 4: AML1-ETO9a levels at diagnosis cannot predict patient outcome&lt;/p&gt;
+&lt;/div&gt;
+### AML1-ETO9a levels are significantly increased at relapse in t(8;21) AML.
+&lt;p&gt;Now that we have determined AML1-ETO9a levels at both diagnosis and relapse, we wanted to know whether its expression changes significantly at relapse compared with expression at diagnosis. This required the use of paired AMLs, for which 5 cases were available for t(8;21) AML.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://zhangj5.github.io/post/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/index.en_files/figure-html/unnamed-chunk-6-1.png&#34; alt=&#34;AML1-ETO9a is significantly increased at relape in t(8;21) AML&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Figure 5: AML1-ETO9a is significantly increased at relape in t(8;21) AML&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The results showed that the expression of AML1-ETO9a significantly increased in t(8;21) AML at relapse.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring the relationship between gene expression and leukemia prognosis in Shiny</title>
+      <link>https://zhangj5.github.io/post/exploring-leukemia-prognosis-using-in-shiny/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/post/exploring-leukemia-prognosis-using-in-shiny/</guid>
+      <description>&lt;p&gt;The acute myeloid leukemia (AML) is one of the most devastating forms of cancer. AML prognosis is determined by many factors. Here, we build a dynamic application in Shiny to explore the relationship between patient prognosis and gene expression.&lt;/p&gt;
+&lt;iframe src=&#34;https://zhangj5.shinyapps.io/Acute_Myeloid_Leukemia_Prognosis/&#34; width=1000 height=800&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

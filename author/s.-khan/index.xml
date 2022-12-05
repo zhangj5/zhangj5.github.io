@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S. Khan | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/s.-khan/</link>
+      <atom:link href="https://zhangj5.github.io/author/s.-khan/index.xml" rel="self" type="application/rss+xml" />
+    <description>S. Khan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>S. Khan</title>
+      <link>https://zhangj5.github.io/author/s.-khan/</link>
+    </image>
+    
+    <item>
+      <title>Transcriptional and Genomic Control of Stem Cells in Development and Cancer</title>
+      <link>https://zhangj5.github.io/publication/2017-01-01_transcriptional_and_/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2017-01-01_transcriptional_and_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNA homologous recombination factor SFR1 physically and functionally interacts with estrogen receptor alpha</title>
+      <link>https://zhangj5.github.io/publication/2013-01-01_dna_homologous_recom/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2013-01-01_dna_homologous_recom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regulated clearance of histone deacetylase 3 protects independent formation of nuclear receptor corepressor complexes</title>
+      <link>https://zhangj5.github.io/publication/2012-01-01_regulated_clearance_/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2012-01-01_regulated_clearance_/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

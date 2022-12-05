@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bioinformatics | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/tag/bioinformatics/</link>
+      <atom:link href="https://zhangj5.github.io/tag/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <description>bioinformatics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>bioinformatics</title>
+      <link>https://zhangj5.github.io/tag/bioinformatics/</link>
+    </image>
+    
+    <item>
+      <title>Computational Modeling of Gene-Specific Transcriptional Repression, Activation and Chromatin Interactions in Leukemogenesis by LASSO-Regularized Logistic Regression</title>
+      <link>https://zhangj5.github.io/publication/2021-01-01_computational_modeli/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2021-01-01_computational_modeli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy@SLU</title>
+      <link>https://zhangj5.github.io/project/bioinformatics/galaxy_slu/</link>
+      <pubDate>Wed, 31 Dec 1969 17:59:55 -0600</pubDate>
+      <guid>https://zhangj5.github.io/project/bioinformatics/galaxy_slu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

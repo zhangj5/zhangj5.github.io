@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P. Griffin | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/p.-griffin/</link>
+      <atom:link href="https://zhangj5.github.io/author/p.-griffin/index.xml" rel="self" type="application/rss+xml" />
+    <description>P. Griffin</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>P. Griffin</title>
+      <link>https://zhangj5.github.io/author/p.-griffin/</link>
+    </image>
+    
+    <item>
+      <title>Rev-erb alpha mediates complement expression and diurnal regulation of microglial synaptic phagocytosis</title>
+      <link>https://zhangj5.github.io/publication/2020-01-01_rev-erb_alpha_mediat/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2020-01-01_rev-erb_alpha_mediat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rev-erbα mediates complement expression and diurnal regulation of microglial synaptic phagocytosis</title>
+      <link>https://zhangj5.github.io/publication/2020-01-01_rev-erb%CE%B1_mediates_co/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2020-01-01_rev-erb%CE%B1_mediates_co/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Circadian clock protein Rev-erbα regulates neuroinflammation</title>
+      <link>https://zhangj5.github.io/publication/2019-01-01_circadian_clock_prot/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_circadian_clock_prot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

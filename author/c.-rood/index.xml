@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C. Rood | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/c.-rood/</link>
+      <atom:link href="https://zhangj5.github.io/author/c.-rood/index.xml" rel="self" type="application/rss+xml" />
+    <description>C. Rood</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>C. Rood</title>
+      <link>https://zhangj5.github.io/author/c.-rood/</link>
+    </image>
+    
+    <item>
+      <title>A C terminus–dependent conformational change is required for HDAC3 activation by nuclear receptor corepressors</title>
+      <link>https://zhangj5.github.io/publication/2021-01-01_a_c_terminusdepende/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2021-01-01_a_c_terminusdepende/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

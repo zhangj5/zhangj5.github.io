@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B.T. Chait | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/b.t.-chait/</link>
+      <atom:link href="https://zhangj5.github.io/author/b.t.-chait/index.xml" rel="self" type="application/rss+xml" />
+    <description>B.T. Chait</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Thu, 01 Jan 2004 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>B.T. Chait</title>
+      <link>https://zhangj5.github.io/author/b.t.-chait/</link>
+    </image>
+    
+    <item>
+      <title>E protein silencing by the leukemogenic AML1-ETO fusion protein</title>
+      <link>https://zhangj5.github.io/publication/2004-01-01_e_protein_silencing_/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2004-01-01_e_protein_silencing_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The N-CoR-HDAC3 nuclear receptor corepressor complex inhibits the JNK pathway through the integral subunit GPS2</title>
+      <link>https://zhangj5.github.io/publication/2002-01-01_the_n-cor-hdac3_nucl/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2002-01-01_the_n-cor-hdac3_nucl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M. Wong | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/m.-wong/</link>
+      <atom:link href="https://zhangj5.github.io/author/m.-wong/index.xml" rel="self" type="application/rss+xml" />
+    <description>M. Wong</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>M. Wong</title>
+      <link>https://zhangj5.github.io/author/m.-wong/</link>
+    </image>
+    
+    <item>
+      <title>Histone deacetylase 3 preferentially binds and collaborates with the transcription factor RUNX1 to repress AML1-ETO- dependent transcription in t(8;21) AML</title>
+      <link>https://zhangj5.github.io/publication/2020-01-01_histone_deacetylase_/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2020-01-01_histone_deacetylase_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Myeloid translocation gene CBFA2T3 directs a relapse gene program and determines patient-specific outcomes in AML</title>
+      <link>https://zhangj5.github.io/publication/2019-01-01_myeloid_translocatio/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_myeloid_translocatio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The optimal corepressor function of nuclear receptor corepressor (NCoR) for peroxisome proliferator-activated receptor γ requires g protein pathway suppressor 2</title>
+      <link>https://zhangj5.github.io/publication/2015-01-01_the_optimal_corepres/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2015-01-01_the_optimal_corepres/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

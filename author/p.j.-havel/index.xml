@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P.J. Havel | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/p.j.-havel/</link>
+      <atom:link href="https://zhangj5.github.io/author/p.j.-havel/index.xml" rel="self" type="application/rss+xml" />
+    <description>P.J. Havel</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>P.J. Havel</title>
+      <link>https://zhangj5.github.io/author/p.j.-havel/</link>
+    </image>
+    
+    <item>
+      <title>Low plasma adropin concentrations increase risks of weight gain and metabolic dysregulation in response to a high-sugar diet in male nonhuman primates</title>
+      <link>https://zhangj5.github.io/publication/2019-01-01_low_plasma_adropin_c/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_low_plasma_adropin_c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adropin: An endocrine link between the biological clock and cholesterol homeostasis</title>
+      <link>https://zhangj5.github.io/publication/2018-01-01_adropin_an_endocrine/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2018-01-01_adropin_an_endocrine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

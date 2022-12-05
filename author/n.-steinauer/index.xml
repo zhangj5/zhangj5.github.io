@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>N. Steinauer | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/n.-steinauer/</link>
+      <atom:link href="https://zhangj5.github.io/author/n.-steinauer/index.xml" rel="self" type="application/rss+xml" />
+    <description>N. Steinauer</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>N. Steinauer</title>
+      <link>https://zhangj5.github.io/author/n.-steinauer/</link>
+    </image>
+    
+    <item>
+      <title>Computational Modeling of Gene-Specific Transcriptional Repression, Activation and Chromatin Interactions in Leukemogenesis by LASSO-Regularized Logistic Regression</title>
+      <link>https://zhangj5.github.io/publication/2021-01-01_computational_modeli/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2021-01-01_computational_modeli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Histone deacetylase 3 preferentially binds and collaborates with the transcription factor RUNX1 to repress AML1-ETO- dependent transcription in t(8;21) AML</title>
+      <link>https://zhangj5.github.io/publication/2020-01-01_histone_deacetylase_/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2020-01-01_histone_deacetylase_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The transcriptional corepressor CBFA2T3 inhibits all-trans-retinoic acid-induced myeloid gene expression and differentiation in acute myeloid leukemia</title>
+      <link>https://zhangj5.github.io/publication/2020-01-01_the_transcriptional_/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2020-01-01_the_transcriptional_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LXR-inverse agonism stimulates immune-mediated tumor destruction by enhancing CD8 T-cell activity in triple negative breast cancer</title>
+      <link>https://zhangj5.github.io/publication/2019-01-01_lxr-inverse_agonism_/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_lxr-inverse_agonism_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Myeloid translocation gene CBFA2T3 directs a relapse gene program and determines patient-specific outcomes in AML</title>
+      <link>https://zhangj5.github.io/publication/2019-01-01_myeloid_translocatio/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_myeloid_translocatio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emerging Roles of MTG16 in Cell-Fate Control of Hematopoietic Stem Cells and Cancer</title>
+      <link>https://zhangj5.github.io/publication/2017-01-01_emerging_roles_of_mt/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2017-01-01_emerging_roles_of_mt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New insights into transcriptional and leukemogenic mechanisms of AML1-ETO and E2A fusion proteins</title>
+      <link>https://zhangj5.github.io/publication/2016-01-01_new_insights_into_tr/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2016-01-01_new_insights_into_tr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

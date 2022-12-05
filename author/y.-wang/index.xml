@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y. Wang | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/y.-wang/</link>
+      <atom:link href="https://zhangj5.github.io/author/y.-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Y. Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Y. Wang</title>
+      <link>https://zhangj5.github.io/author/y.-wang/</link>
+    </image>
+    
+    <item>
+      <title>The optimal corepressor function of nuclear receptor corepressor (NCoR) for peroxisome proliferator-activated receptor γ requires g protein pathway suppressor 2</title>
+      <link>https://zhangj5.github.io/publication/2015-01-01_the_optimal_corepres/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2015-01-01_the_optimal_corepres/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

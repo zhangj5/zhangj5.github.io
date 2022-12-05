@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Q. Hu | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/q.-hu/</link>
+      <atom:link href="https://zhangj5.github.io/author/q.-hu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Q. Hu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Q. Hu</title>
+      <link>https://zhangj5.github.io/author/q.-hu/</link>
+    </image>
+    
+    <item>
+      <title>Differential involvement of E2A-corepressor interactions in distinct leukemogenic pathways</title>
+      <link>https://zhangj5.github.io/publication/2014-01-01_differential_involve/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2014-01-01_differential_involve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LMO7 mediates cell-specific activation of the rho-myocardin-related transcription factor-serum response factor pathway and plays an important role in breast cancer cell migration</title>
+      <link>https://zhangj5.github.io/publication/2011-01-01_lmo7_mediates_cell-s/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2011-01-01_lmo7_mediates_cell-s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multivalent binding of the ETO corepressor to E proteins facilitates dual repression controls targeting chromatin and the basal transcription machinery</title>
+      <link>https://zhangj5.github.io/publication/2009-01-01_multivalent_binding_/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2009-01-01_multivalent_binding_/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

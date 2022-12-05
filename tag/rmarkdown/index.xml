@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rmarkdown | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/tag/rmarkdown/</link>
+      <atom:link href="https://zhangj5.github.io/tag/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rmarkdown</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Fri, 02 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Rmarkdown</title>
+      <link>https://zhangj5.github.io/tag/rmarkdown/</link>
+    </image>
+    
+    <item>
+      <title>Recent COVID-19 Outbreak in China</title>
+      <link>https://zhangj5.github.io/post/recent-covid19-outbreak-in-china/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/post/recent-covid19-outbreak-in-china/</guid>
+      <description>&lt;iframe src=&#34;https://zhangj5.shinyapps.io/COVID19/&#34; width=1000 height=800&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

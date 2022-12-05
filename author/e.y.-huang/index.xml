@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E.Y. Huang | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/e.y.-huang/</link>
+      <atom:link href="https://zhangj5.github.io/author/e.y.-huang/index.xml" rel="self" type="application/rss+xml" />
+    <description>E.Y. Huang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Mon, 01 Jan 2001 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>E.Y. Huang</title>
+      <link>https://zhangj5.github.io/author/e.y.-huang/</link>
+    </image>
+    
+    <item>
+      <title>Oligomerization of ETO is obligatory for corepressor interaction</title>
+      <link>https://zhangj5.github.io/publication/2001-01-01_oligomerization_of_e/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2001-01-01_oligomerization_of_e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nuclear receptor corepressors partner with class II histone deacetylases in a Sin3-independent repression pathway</title>
+      <link>https://zhangj5.github.io/publication/2000-01-01_nuclear_receptor_cor/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2000-01-01_nuclear_receptor_cor/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

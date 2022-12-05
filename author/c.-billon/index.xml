@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C. Billon | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/c.-billon/</link>
+      <atom:link href="https://zhangj5.github.io/author/c.-billon/index.xml" rel="self" type="application/rss+xml" />
+    <description>C. Billon</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>C. Billon</title>
+      <link>https://zhangj5.github.io/author/c.-billon/</link>
+    </image>
+    
+    <item>
+      <title>Adropin: An endocrine link between the biological clock and cholesterol homeostasis</title>
+      <link>https://zhangj5.github.io/publication/2018-01-01_adropin_an_endocrine/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2018-01-01_adropin_an_endocrine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

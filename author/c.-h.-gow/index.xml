@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C.-H. Gow | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/c.-h.-gow/</link>
+      <atom:link href="https://zhangj5.github.io/author/c.-h.-gow/index.xml" rel="self" type="application/rss+xml" />
+    <description>C.-H. Gow</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>C.-H. Gow</title>
+      <link>https://zhangj5.github.io/author/c.-h.-gow/</link>
+    </image>
+    
+    <item>
+      <title>Transcriptional and Genomic Control of Stem Cells in Development and Cancer</title>
+      <link>https://zhangj5.github.io/publication/2017-01-01_transcriptional_and_/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2017-01-01_transcriptional_and_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The optimal corepressor function of nuclear receptor corepressor (NCoR) for peroxisome proliferator-activated receptor γ requires g protein pathway suppressor 2</title>
+      <link>https://zhangj5.github.io/publication/2015-01-01_the_optimal_corepres/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2015-01-01_the_optimal_corepres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differential involvement of E2A-corepressor interactions in distinct leukemogenic pathways</title>
+      <link>https://zhangj5.github.io/publication/2014-01-01_differential_involve/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2014-01-01_differential_involve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regulated clearance of histone deacetylase 3 protects independent formation of nuclear receptor corepressor complexes</title>
+      <link>https://zhangj5.github.io/publication/2012-01-01_regulated_clearance_/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2012-01-01_regulated_clearance_/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

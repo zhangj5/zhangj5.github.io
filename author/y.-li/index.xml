@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y. Li | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/y.-li/</link>
+      <atom:link href="https://zhangj5.github.io/author/y.-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Y. Li</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Y. Li</title>
+      <link>https://zhangj5.github.io/author/y.-li/</link>
+    </image>
+    
+    <item>
+      <title>The optimal corepressor function of nuclear receptor corepressor (NCoR) for peroxisome proliferator-activated receptor γ requires g protein pathway suppressor 2</title>
+      <link>https://zhangj5.github.io/publication/2015-01-01_the_optimal_corepres/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2015-01-01_the_optimal_corepres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regulated clearance of histone deacetylase 3 protects independent formation of nuclear receptor corepressor complexes</title>
+      <link>https://zhangj5.github.io/publication/2012-01-01_regulated_clearance_/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2012-01-01_regulated_clearance_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LMO7 mediates cell-specific activation of the rho-myocardin-related transcription factor-serum response factor pathway and plays an important role in breast cancer cell migration</title>
+      <link>https://zhangj5.github.io/publication/2011-01-01_lmo7_mediates_cell-s/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2011-01-01_lmo7_mediates_cell-s/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B.V. Lananna | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/b.v.-lananna/</link>
+      <atom:link href="https://zhangj5.github.io/author/b.v.-lananna/index.xml" rel="self" type="application/rss+xml" />
+    <description>B.V. Lananna</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>B.V. Lananna</title>
+      <link>https://zhangj5.github.io/author/b.v.-lananna/</link>
+    </image>
+    
+    <item>
+      <title>Chi3l1-YKL-40 is controlled by the astrocyte circadian clock and regulates neuroinflammation and Alzheimer&#39;s disease pathogenesis</title>
+      <link>https://zhangj5.github.io/publication/2020-01-01_chi3l1-ykl-40_is_con/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2020-01-01_chi3l1-ykl-40_is_con/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Circadian clock protein Rev-erbα regulates neuroinflammation</title>
+      <link>https://zhangj5.github.io/publication/2019-01-01_circadian_clock_prot/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_circadian_clock_prot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

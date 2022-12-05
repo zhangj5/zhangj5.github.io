@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>drug | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/tag/drug/</link>
+      <atom:link href="https://zhangj5.github.io/tag/drug/index.xml" rel="self" type="application/rss+xml" />
+    <description>drug</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Wed, 31 Dec 1969 18:00:01 -0600</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>drug</title>
+      <link>https://zhangj5.github.io/tag/drug/</link>
+    </image>
+    
+    <item>
+      <title>Mechanism of Disease Progression In AML</title>
+      <link>https://zhangj5.github.io/project/mechanism-of-leukemogenesis/project1_eto2/</link>
+      <pubDate>Wed, 31 Dec 1969 18:00:01 -0600</pubDate>
+      <guid>https://zhangj5.github.io/project/mechanism-of-leukemogenesis/project1_eto2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drug Resistance In AML</title>
+      <link>https://zhangj5.github.io/project/drug-resistance/</link>
+      <pubDate>Wed, 31 Dec 1969 17:59:58 -0600</pubDate>
+      <guid>https://zhangj5.github.io/project/drug-resistance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

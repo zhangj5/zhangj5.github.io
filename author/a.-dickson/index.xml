@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A. Dickson | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/a.-dickson/</link>
+      <atom:link href="https://zhangj5.github.io/author/a.-dickson/index.xml" rel="self" type="application/rss+xml" />
+    <description>A. Dickson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>A. Dickson</title>
+      <link>https://zhangj5.github.io/author/a.-dickson/</link>
+    </image>
+    
+    <item>
+      <title>Histone deacetylase 3 preferentially binds and collaborates with the transcription factor RUNX1 to repress AML1-ETO- dependent transcription in t(8;21) AML</title>
+      <link>https://zhangj5.github.io/publication/2020-01-01_histone_deacetylase_/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2020-01-01_histone_deacetylase_/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I. Zamir | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/i.-zamir/</link>
+      <atom:link href="https://zhangj5.github.io/author/i.-zamir/index.xml" rel="self" type="application/rss+xml" />
+    <description>I. Zamir</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Wed, 01 Jan 1997 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>I. Zamir</title>
+      <link>https://zhangj5.github.io/author/i.-zamir/</link>
+    </image>
+    
+    <item>
+      <title>Differential recognition of liganded and unliganded thyroid hormone receptor by retinoid X receptor regulates transcriptional repression</title>
+      <link>https://zhangj5.github.io/publication/1997-01-01_differential_recogni/</link>
+      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/1997-01-01_differential_recogni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stoichiometric and steric principles governing repression by nuclear hormone receptors</title>
+      <link>https://zhangj5.github.io/publication/1997-01-01_stoichiometric_and_s/</link>
+      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/1997-01-01_stoichiometric_and_s/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

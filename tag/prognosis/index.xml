@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prognosis | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/tag/prognosis/</link>
+      <atom:link href="https://zhangj5.github.io/tag/prognosis/index.xml" rel="self" type="application/rss+xml" />
+    <description>prognosis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>prognosis</title>
+      <link>https://zhangj5.github.io/tag/prognosis/</link>
+    </image>
+    
+    <item>
+      <title>Exploring the relationship between gene expression and leukemia prognosis in Shiny</title>
+      <link>https://zhangj5.github.io/post/exploring-leukemia-prognosis-using-in-shiny/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/post/exploring-leukemia-prognosis-using-in-shiny/</guid>
+      <description>&lt;p&gt;The acute myeloid leukemia (AML) is one of the most devastating forms of cancer. AML prognosis is determined by many factors. Here, we build a dynamic application in Shiny to explore the relationship between patient prognosis and gene expression.&lt;/p&gt;
+&lt;iframe src=&#34;https://zhangj5.shinyapps.io/Acute_Myeloid_Leukemia_Prognosis/&#34; width=1000 height=800&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

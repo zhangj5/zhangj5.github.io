@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M. Sengupta | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/author/m.-sengupta/</link>
+      <atom:link href="https://zhangj5.github.io/author/m.-sengupta/index.xml" rel="self" type="application/rss+xml" />
+    <description>M. Sengupta</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>M. Sengupta</title>
+      <link>https://zhangj5.github.io/author/m.-sengupta/</link>
+    </image>
+    
+    <item>
+      <title>LXR-inverse agonism stimulates immune-mediated tumor destruction by enhancing CD8 T-cell activity in triple negative breast cancer</title>
+      <link>https://zhangj5.github.io/publication/2019-01-01_lxr-inverse_agonism_/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2019-01-01_lxr-inverse_agonism_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rev-Erb co-regulates muscle regeneration via tethered interaction with the NF-Y cistrome</title>
+      <link>https://zhangj5.github.io/publication/2017-01-01_rev-erb_co-regulates/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/publication/2017-01-01_rev-erb_co-regulates/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
