@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apps | Jinsong Zhang</title>
+    <link>https://zhangj5.github.io/app/</link>
+      <atom:link href="https://zhangj5.github.io/app/index.xml" rel="self" type="application/rss+xml" />
+    <description>Apps</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Wed, 31 Dec 1969 18:00:10 -0600</lastBuildDate>
+    <image>
+      <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Apps</title>
+      <link>https://zhangj5.github.io/app/</link>
+    </image>
+    
+    <item>
+      <title>Exploring leukemia prognosis in Shiny</title>
+      <link>https://zhangj5.github.io/app/exploring-aml-prognosis-in-shiny/aml/</link>
+      <pubDate>Wed, 31 Dec 1969 18:00:10 -0600</pubDate>
+      <guid>https://zhangj5.github.io/app/exploring-aml-prognosis-in-shiny/aml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulate Common Statistic Distributions In R</title>
+      <link>https://zhangj5.github.io/app/simulating-common-statistical-distribution-to-validate-clt/clt/</link>
+      <pubDate>Wed, 31 Dec 1969 18:00:00 -0600</pubDate>
+      <guid>https://zhangj5.github.io/app/simulating-common-statistical-distribution-to-validate-clt/clt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Covid-19 Outbreat In China</title>
+      <link>https://zhangj5.github.io/app/recent-covid-19-ourbreak-in-china/covid19/</link>
+      <pubDate>Wed, 31 Dec 1969 17:59:54 -0600</pubDate>
+      <guid>https://zhangj5.github.io/app/recent-covid-19-ourbreak-in-china/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy@SLU</title>
+      <link>https://zhangj5.github.io/app/galaxyslu/galaxy_slu/</link>
+      <pubDate>Wed, 31 Dec 1969 17:59:50 -0600</pubDate>
+      <guid>https://zhangj5.github.io/app/galaxyslu/galaxy_slu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

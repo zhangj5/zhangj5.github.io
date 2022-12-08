@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://zhangj5.github.io/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,42 +29,42 @@
   
   <url>
     <loc>https://zhangj5.github.io/tags/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangj5.github.io/tag/blogdown/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangj5.github.io/category/blogdown/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangj5.github.io/categories/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangj5.github.io/tag/hugo-academic/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangj5.github.io/category/hugo-academic/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangj5.github.io/post/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangj5.github.io/post/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1853,18 +1853,38 @@
   </url>
   
   <url>
-    <loc>https://zhangj5.github.io/tag/drug/</loc>
-    <lastmod>1969-12-31T18:00:01-06:00</lastmod>
+    <loc>https://zhangj5.github.io/app/</loc>
+    <lastmod>1969-12-31T18:00:10-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangj5.github.io/app/exploring-aml-prognosis-in-shiny/aml/</loc>
+    <lastmod>1969-12-31T18:00:10-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangj5.github.io/tag/leukemia/</loc>
+    <lastmod>1969-12-31T18:00:10-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangj5.github.io/tag/drug/</loc>
     <lastmod>1969-12-31T18:00:01-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangj5.github.io/project/mechanism-of-leukemogenesis/project1_eto2/</loc>
     <lastmod>1969-12-31T18:00:01-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangj5.github.io/app/simulating-common-statistical-distribution-to-validate-clt/clt/</loc>
+    <lastmod>1969-12-31T18:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangj5.github.io/tag/statistics/</loc>
+    <lastmod>1969-12-31T18:00:00-06:00</lastmod>
   </url>
   
   <url>
@@ -1875,6 +1895,21 @@
   <url>
     <loc>https://zhangj5.github.io/project/bioinformatics/galaxy_slu/</loc>
     <lastmod>1969-12-31T17:59:55-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangj5.github.io/tag/demo/</loc>
+    <lastmod>1969-12-31T17:59:54-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangj5.github.io/app/recent-covid-19-ourbreak-in-china/covid19/</loc>
+    <lastmod>1969-12-31T17:59:54-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangj5.github.io/app/galaxyslu/galaxy_slu/</loc>
+    <lastmod>1969-12-31T17:59:50-06:00</lastmod>
   </url>
   
 </urlset>

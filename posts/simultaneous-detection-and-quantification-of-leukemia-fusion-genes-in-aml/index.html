@@ -1,0 +1,1333 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Introduction and objective One of the earliest fusion genes discovered in the history of biomedical science is a fusion between the BCR gene and the ABL gene. This creates the BCR-ABL fusion protein that is the cause of a common type of leukemia known as t(9;22) CML.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#4caf50">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.820a572c3bcdfbb91adcdfc5acef4546.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RD54YJVZNC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RD54YJVZNC', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Jinsong Zhang">
+  <meta property="og:url" content="https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/">
+  <meta property="og:title" content="Simultaneous detection and quantification of leukemia fusion gene isoforms from RNA-Seq data in AML | Jinsong Zhang">
+  <meta property="og:description" content="Introduction and objective One of the earliest fusion genes discovered in the history of biomedical science is a fusion between the BCR gene and the ABL gene. This creates the BCR-ABL fusion protein that is the cause of a common type of leukemia known as t(9;22) CML."><meta property="og:image" content="https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/featured.png">
+  <meta property="twitter:image" content="https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2022-12-03T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-12-08T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Simultaneous detection and quantification of leukemia fusion gene isoforms from RNA-Seq data in AML | Jinsong Zhang</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.1df0392aab543464b23a85146803aaf2.js"></script>
+
+  
+
+<aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Jinsong Zhang</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Jinsong Zhang</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Featured articles</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#articles"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/project/"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#app"><span>Apps</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Simultaneous detection and quantification of leukemia fusion gene isoforms from RNA-Seq data in AML</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 8, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/hugo-academic/">hugo academic</a>, <a href="/category/blogdown/">blogdown</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 756px;">
+  <div style="position: relative">
+    <img src="/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/featured_hu1fd7ffff024fb9c35997398aeb550bb5_470576_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption"><span>Photo by <a href="https://unsplash.com/@daniel_von_appen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Daniel von Appen</a> on <a href="https://unsplash.com/s/photos/steps?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="introduction-and-objective">Introduction and objective</h2>
+<p>One of the earliest fusion genes discovered in the history of biomedical science is a fusion between the BCR gene and the ABL gene. This creates the BCR-ABL fusion protein that is the cause of a common type of leukemia known as t(9;22) CML.
+<img src="https://nci-media.cancer.gov/pdq/media/images/533336.jpg" alt=""></p>
+<p>Since then, many different leukemia fusion proteins have been discovered to act as the drivers of various leukemias. One of these is AML1-ETO, which causes approximately 10-15% of all acute myeloid leukemias (AML). AML1-ETO is a fusion between the AML/RUNX1 gene and the ETO/MTG8/RUNX1T1 gene. ETO is a gene with many exons. ETO has an &ldquo;atypical&rdquo; exon called 9a, which is not annotated in official transcriptome builds such as hg19. Dr. Dong-Er Zhang found that this exon can participate in alternative splicing events. When retained in the spliced product, the fusion gene produces a truncated protein known as AML1-ETO9a. Both full-length (FL) AML1-ETO and AML1-ETO9a have been found in patients. However, it is controversial whether expression of AML1-ETO9a has an impact on prognosis</p>
+<p>The aim of this study is to develop an algorithm to detect the fusion genes using RNA-Seq data and quantify the expression of their isoforms. For this purpose, we use AML1-ETO as a model for our study.</p>
+<h1 id="methods">Methods</h1>
+<p>To quantify transcript levels, we used the software <a href="https://pachterlab.github.io/kallisto/" target="_blank" rel="noopener">Kallisto</a>. Kallisto quantifies the expression of a given transcript by aligning the reads to a transcriptomic index created from the sequences of available transcripts in the genome. In our case, we created a custom index by replacing the ETO/RUNX1T1 isoforms with the sequences of FL AML1-ETO and AML1-ETO9a. The RNA-Seq of the patient samples were downloaded from the NCI TARGET AML database.</p>
+<h2 id="results">Results</h2>
+<h3 id="aml1-eto9a-expression-is-detected-in-non-t821-amls">AML1-ETO9a expression is detected in non-t(8;21) AMLs.</h3>
+<div class="figure">
+<img src="https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/index.en_files/figure-html/unnamed-chunk-2-1.png" alt="Expression of AML1-ETO FL and AML1-ETO9a" width="672" />
+<p class="caption">Figure 1: Expression of AML1-ETO FL and AML1-ETO9a</p>
+</div>
+<p>As you can see, we found that AML1-ETO9a was expressed in non-t(8;21) AMLs, including AMLs with &ldquo;unknown&rdquo; t(8;21) status and AMLs with negative t(8;21) status, as determined by assays such as FISH. One possibility is that these assays were not sensitive enough to detect the presence of fusion genes.</p>
+<h3 id="detection-of-aml1-eto-fusion-transcripts-by-star-fusion-and-kallisto-fusion-tools">Detection of AML1-ETO fusion transcripts by STAR-fusion and Kallisto-fusion tools.</h3>
+<p>Some algorithms have been developed to detect fusion genes based on RNA-Seq data. We tested two such algorithms, including STAR-fusion and Kallisto-fusion. Both algorithms found that the two AMLs with an &ldquo;unknown&rdquo; t(8;21) status but expressing high levels of AML1-ETO9a indeed had fusion between AML1 and ETO. Interestingly, the Kallisto- fusion found that several AMLs with negative t(8;21) status but expressing detectable levels of AML1-ETO also contained AML1-ETO fusion transcripts.</p>
+<div class="figure">
+<img src="https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/index.en_files/figure-html/unnamed-chunk-3-1.png" alt="Detection of AML1-ETO fusion by STAR-Fusion" width="672" />
+<p class="caption">Figure 2: Detection of AML1-ETO fusion by STAR-Fusion</p>
+</div>
+<div class="figure">
+<img src="https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/index.en_files/figure-html/unnamed-chunk-4-1.png" alt="Detection of AML1-ETO fusion by Kallisto-Fusion" width="672" />
+<p class="caption">Figure 3: Detection of AML1-ETO fusion by Kallisto-Fusion</p>
+</div>
+<h3 id="aml1-eto9a-expression-at-the-time-of-diagnosis-was-not-correlated-with-disease-progression">AML1-ETO9a expression at the time of diagnosis was not correlated with disease progression.</h3>
+<div class="figure">
+<img src="https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/index.en_files/figure-html/unnamed-chunk-5-1.png" alt="AML1-ETO9a levels at diagnosis cannot predict patient outcome" width="672" />
+<p class="caption">Figure 4: AML1-ETO9a levels at diagnosis cannot predict patient outcome</p>
+</div>
+### AML1-ETO9a levels are significantly increased at relapse in t(8;21) AML.
+<p>Now that we have determined AML1-ETO9a levels at both diagnosis and relapse, we wanted to know whether its expression changes significantly at relapse compared with expression at diagnosis. This required the use of paired AMLs, for which 5 cases were available for t(8;21) AML.</p>
+<div class="figure">
+<img src="https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/index.en_files/figure-html/unnamed-chunk-6-1.png" alt="AML1-ETO9a is significantly increased at relape in t(8;21) AML" width="672" />
+<p class="caption">Figure 5: AML1-ETO9a is significantly increased at relape in t(8;21) AML</p>
+</div>
+<p>The results showed that the expression of AML1-ETO9a significantly increased in t(8;21) AML at relapse.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/blogdown/">blogdown</a>
+  
+  <a class="badge badge-light" href="/tag/hugo-academic/">hugo academic</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/&amp;text=Simultaneous%20detection%20and%20quantification%20of%20leukemia%20fusion%20gene%20isoforms%20from%20RNA-Seq%20data%20in%20AML" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/&amp;t=Simultaneous%20detection%20and%20quantification%20of%20leukemia%20fusion%20gene%20isoforms%20from%20RNA-Seq%20data%20in%20AML" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Simultaneous%20detection%20and%20quantification%20of%20leukemia%20fusion%20gene%20isoforms%20from%20RNA-Seq%20data%20in%20AML&amp;body=https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/&amp;title=Simultaneous%20detection%20and%20quantification%20of%20leukemia%20fusion%20gene%20isoforms%20from%20RNA-Seq%20data%20in%20AML" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Simultaneous%20detection%20and%20quantification%20of%20leukemia%20fusion%20gene%20isoforms%20from%20RNA-Seq%20data%20in%20AML%20https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://zhangj5.github.io/posts/simultaneous-detection-and-quantification-of-leukemia-fusion-genes-in-aml/&amp;title=Simultaneous%20detection%20and%20quantification%20of%20leukemia%20fusion%20gene%20isoforms%20from%20RNA-Seq%20data%20in%20AML" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://zhangj5.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/avatar_hu17447b166aa918f1a16eec838e992048_77133_270x270_fill_lanczos_center_2.png" alt=""></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://zhangj5.github.io/"></a></h5>
+      <h6 class="card-subtitle">Associate Professor</h6>
+      <p class="card-text">My research interests include gene transcription, epigenetics, data science and development of targeted therapeutics for cancer.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/JinsongZhang12" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=kof8uhMAAAAJ#d=gs_hdr_drw" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/zhangj5" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/zhangjinsong/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0002-8798-7316" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    © Jinsong Zhang {2022}
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'event' : "Events",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/js/wowchemy.min.572b7caf7fe601716a0f74d67d754c21.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
