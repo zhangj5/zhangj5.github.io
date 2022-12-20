@@ -5,12 +5,23 @@
     <link>https://zhangj5.github.io/tag/hugo-academic/</link>
       <atom:link href="https://zhangj5.github.io/tag/hugo-academic/index.xml" rel="self" type="application/rss+xml" />
     <description>hugo academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Sat, 03 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>hugo academic</title>
       <link>https://zhangj5.github.io/tag/hugo-academic/</link>
     </image>
+    
+    <item>
+      <title>A movie showing how nuclear receptor changes its conformation in response to the ligand, referred to as &#34;Mouse Trap&#34;.</title>
+      <link>https://zhangj5.github.io/post/2022-12-17-nuclear_receptor_conformational_change/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/post/2022-12-17-nuclear_receptor_conformational_change/</guid>
+      <description>&lt;video width=&#34;1920&#34; height=&#34;1080&#34;  autoplay loop muted controls&gt;
+  &lt;source src=&#34;./nuclear_receptor_conformational_change_animation.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+</description>
+    </item>
     
     <item>
       <title>FusionQuant, an algorithm that simultaneously detects and quantifies leukemia fusion genes and isoforms from RNA-Seq data in AML</title>
