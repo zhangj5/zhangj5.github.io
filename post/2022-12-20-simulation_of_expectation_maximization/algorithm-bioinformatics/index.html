@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="Jinsong Zhang&#39;s home page">
+  <meta name="description" content="A toy example of the expectation-maximization algorithm in R">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://zhangj5.github.io/tags/">
+  <link rel="alternate" hreflang="en-us" href="https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/">
 
   
 
@@ -295,14 +295,12 @@
   
 
   
-  <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="Jinsong Zhang">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://zhangj5.github.io/tags/">
+  <link rel="canonical" href="https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/">
 
   
   
@@ -318,18 +316,58 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Jinsong Zhang">
-  <meta property="og:url" content="https://zhangj5.github.io/tags/">
-  <meta property="og:title" content="Tags | Jinsong Zhang">
-  <meta property="og:description" content="Jinsong Zhang&#39;s home page"><meta property="og:image" content="https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/">
+  <meta property="og:title" content="Implementation of expectation-maximization algorithm in R | Jinsong Zhang">
+  <meta property="og:description" content="A toy example of the expectation-maximization algorithm in R"><meta property="og:image" content="https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-12-23T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2022-12-23T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-12-23T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/"
+  },
+  "headline": "Implementation of expectation-maximization algorithm in R",
+  
+  "datePublished": "2022-12-23T00:00:00Z",
+  "dateModified": "2022-12-23T00:00:00Z",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jinsong Zhang",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "A toy example of the expectation-maximization algorithm in R"
+}
+</script>
+
+  
 
   
 
@@ -337,10 +375,13 @@
   
 
 
+  
 
 
 
-  <title>Tags | Jinsong Zhang</title>
+
+
+  <title>Implementation of expectation-maximization algorithm in R | Jinsong Zhang</title>
 
 </head>
 
@@ -732,6 +773,70 @@
   </div>
 
   <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Implementation of expectation-maximization algorithm in R</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 23, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
     
 
 
@@ -745,141 +850,437 @@
 
 
 
-  
 
-  
-  
-  
-    
-  
-<div class="universal-wrapper pt-3">
-  <h1>Tags</h1>
-
-  
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/algorithm/" >Algorithm</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/bioinformatics/" >bioinformatics</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/rmarkdown/" >Rmarkdown</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/blogdown/" >blogdown</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/hugo-academic/" >hugo academic</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/epigenetics/" >epigenetics</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/covid19/" >Covid19</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/data-mining/" >Data mining</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/shiny/" >Shiny</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/comparative-politics/" >Comparative Politics</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
+    <div class="article-style">
+      <h1 id="an-implemenation-of-expectation-maximization-em-in-r">An implemenation of expectation-maximization (EM) in R</h1>
+<p>Suppose that a mixed distribution consists of two underlying normal distributions. The hidden variables are the mean and variance of these two underlying distributions. In this tutorial, I will provide an example to show how we can use the EM algorithm to estimate the true values of these hidden parameters.</p>
+<pre><code>## 
+## Attaching package: 'dplyr'
+</code></pre>
+<pre><code>## The following objects are masked from 'package:stats':
+## 
+##     filter, lag
+</code></pre>
+<pre><code>## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union
+</code></pre>
+<ol>
+<li>Let these be the true parameters of the two normal distributions:</li>
+</ol>
+<pre><code class="language-r">red_mean = 3
+red_std = 0.8
 
+blue_mean = 7
+blue_std = 2
+
+red = rnorm(200,red_mean, red_std)
+blue = rnorm(200,blue_mean, blue_std)
+
+both_colours = c(red, blue) %&gt;% sort() 
+plot(red,rep(0,length(red)),col=&quot;red&quot;,pch=16,ylab = &quot;distribution 1&quot;)
+</code></pre>
+<p><img src="/post/2022-12-20-simulation_of_expectation_maximization/EM_example_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<pre><code class="language-r">plot(blue,rep(0,length(red)),col=&quot;blue&quot;,pch=16,ylab = &quot;distribution 2&quot;)
+</code></pre>
+<p><img src="/post/2022-12-20-simulation_of_expectation_maximization/EM_example_files/figure-html/unnamed-chunk-2-2.png" width="672" /></p>
+<pre><code class="language-r">plot(both_colours,rep(0,length(both_colours)),col=&quot;purple&quot;,pch=16,ylab = &quot;mixed distribution&quot;)
+</code></pre>
+<p><img src="/post/2022-12-20-simulation_of_expectation_maximization/EM_example_files/figure-html/unnamed-chunk-2-3.png" width="672" /></p>
+<ol start="2">
+<li>We need three functions to calculate the weighted probability, estimate the mean and the standard deviation.</li>
+</ol>
+<pre><code class="language-r"># estimate the weight for each data point
+weight_of_colour&lt;-function(colour_likelihood, total_likelihood)
+  {
+    return(colour_likelihood/total_likelihood)
+}
+
+#estimate the mean
+estimate_mean&lt;-function(data, weight){
+    return(sum(data*weight)/sum(weight))
+}
+
+#estimate the standard deviation
+estimate_std&lt;-function(data, weight, mean){
+    variance = sum(weight*(data-mean)^2)/sum(weight)
+    return(sqrt(variance))
+}  
+
+# make the intermediate plot for each iteration
+plot_guesses&lt;-function(red_mean_guess, blue_mean_guess, red_std_guess, blue_std_guess, alpha=1){
+    points(x, dnorm(x,red_mean_guess, red_std_guess), col=alpha(alpha = alpha,colour = 'red'))
+    points(x, dnorm(x,blue_mean_guess, blue_std_guess), col=alpha(alpha = alpha,colour = 'blue'))
+    r_height = dnorm(red_mean_guess,red_mean_guess, red_std_guess)
+    b_height = dnorm(blue_mean_guess,blue_mean_guess, blue_std_guess)
+    segments(x0=red_mean_guess, x1=red_mean_guess, y=0, y1=r_height, col=alpha(alpha = alpha,colour = 'red'))
+    segments(x0=blue_mean_guess, x1=blue_mean_guess, y0=0, y1=b_height, col=alpha(alpha = alpha,colour = 'blue'));
+
+}
+</code></pre>
+<ol start="3">
+<li>The first step is to initiate starting parameters:</li>
+</ol>
+<pre><code class="language-r">red_mean_guess = 1.5
+blue_mean_guess = 8
+
+ini_m=c(red_mean_guess,blue_mean_guess)
+
+red_std_guess = 2
+blue_std_guess = 1.7
+
+ini_std=c(red_std_guess,blue_std_guess)
+</code></pre>
+<ol start="4">
+<li>We then iterate between the steps of expectation and maximization using a loop function.</li>
+</ol>
+<pre><code class="language-r">N_ITER = 200
+
+alphas = seq(0.1, 1, length.out=N_ITER) 
+lo = floor(min(both_colours)) - 1
+hi = ceiling(max(both_colours)) + 1
+x = seq(lo, hi, length.out=500)
+plot(both_colours, rep(0,length(both_colours)), pch=16, col='purple',ylim = c(0,0.6))
+
+
+
+for(i in 0:N_ITER){
+    
+# Expectation step
+
+    likelihood_of_red = dnorm(both_colours,red_mean_guess, red_std_guess)
+    likelihood_of_blue = dnorm(both_colours,blue_mean_guess, blue_std_guess)
+
+    red_weight = weight_of_colour(likelihood_of_red, likelihood_of_red+likelihood_of_blue)
+    blue_weight = weight_of_colour(likelihood_of_blue, likelihood_of_red+likelihood_of_blue)
+# maximization step
+    
+    red_std_guess = estimate_std(both_colours, red_weight, red_mean_guess)
+    blue_std_guess = estimate_std(both_colours, blue_weight, blue_mean_guess)
+
+    red_mean_guess = estimate_mean(both_colours, red_weight)
+    blue_mean_guess = estimate_mean(both_colours, blue_weight)
+
+    plot_guesses(red_mean_guess, blue_mean_guess, red_std_guess, blue_std_guess, alpha=alphas[i])
+
+}
+</code></pre>
+<p><img src="/post/2022-12-20-simulation_of_expectation_maximization/EM_example_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+5. After 200 loops, here is a comparison of the true and estimated parameters:</p>
+<pre><code class="language-r">        true_r_m=mean(red)
+        true_b_m=mean(blue)
+        
+        est_r_m=red_mean_guess
+        est_b_m=blue_mean_guess
+        
+        true_r_s=sqrt(var(red))
+        true_b_s=sqrt(var(blue))
+        
+        est_r_s=red_std_guess
+        est_b_s=blue_std_guess
+        
+        df&lt;-data.frame(true_mean=c(true_r_m,true_b_m),inital_mean=ini_m, estimated_mean=c(est_r_m,est_b_m),true_std=c(true_r_s,true_b_s),initial_std=ini_std, estimated_std=c(est_r_s,est_b_s))
+        print(df)
+</code></pre>
+<pre><code>##   true_mean inital_mean estimated_mean true_std initial_std estimated_std
+## 1     2.915         1.5          2.944   0.7557         2.0         0.760
+## 2     6.737         8.0          6.726   1.9773         1.7         2.013
+</code></pre>
+<p>The results clearly showed a significant improvement over the initial parameters.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
   
-<nav>
-  <ul class="pagination justify-content-center">
+  <a class="badge badge-light" href="/tag/algorithm/">Algorithm</a>
+  
+  <a class="badge badge-light" href="/tag/bioinformatics/">bioinformatics</a>
+  
+  <a class="badge badge-light" href="/tag/rmarkdown/">Rmarkdown</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/&amp;text=Implementation%20of%20expectation-maximization%20algorithm%20in%20R" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
-    <li class="page-item"><a class="page-link" href="/tags/page/2/">&raquo;</a></li>
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/&amp;t=Implementation%20of%20expectation-maximization%20algorithm%20in%20R" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Implementation%20of%20expectation-maximization%20algorithm%20in%20R&amp;body=https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/&amp;title=Implementation%20of%20expectation-maximization%20algorithm%20in%20R" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Implementation%20of%20expectation-maximization%20algorithm%20in%20R%20https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/&amp;title=Implementation%20of%20expectation-maximization%20algorithm%20in%20R" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
-</nav>
-
-
 </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://zhangj5.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/avatar_hu17447b166aa918f1a16eec838e992048_77133_270x270_fill_lanczos_center_2.png" alt=""></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://zhangj5.github.io/"></a></h5>
+      <h6 class="card-subtitle">Associate Professor</h6>
+      <p class="card-text">My research explores how different factors are involved in regulating gene transcription that leads to the development of acute myeloid leukemia and other human cancers.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/JinsongZhang12" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=kof8uhMAAAAJ#d=gs_hdr_drw" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/zhangj5" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/zhangjinsong/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0002-8798-7316" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/recent-covid19-outbreak-in-china/">Recent COVID-19 Outbreak in China</a></li>
+      
+      <li><a href="/publication/2021-01-01_computational_modeli/">Computational Modeling of Gene-Specific Transcriptional Repression, Activation and Chromatin Interactions in Leukemogenesis by LASSO-Regularized Logistic Regression</a></li>
+      
+      <li><a href="/app/exploring-aml-prognosis-in-shiny/aml/">Exploring leukemia prognosis in Shiny</a></li>
+      
+      <li><a href="/app/simulating-common-statistical-distribution-to-validate-clt/clt/">Simulate Common Statistic Distributions In R</a></li>
+      
+      <li><a href="/project/bioinformatics/galaxy_slu/">Galaxy@SLU</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
   </div>
 
   <div class="page-footer">

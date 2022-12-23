@@ -5,12 +5,155 @@
     <link>https://zhangj5.github.io/post/</link>
       <atom:link href="https://zhangj5.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jinsong Zhang {2022}</copyright><lastBuildDate>Fri, 23 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zhangj5.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://zhangj5.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Implementation of expectation-maximization algorithm in R</title>
+      <link>https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/algorithm-bioinformatics/</guid>
+      <description>&lt;h1 id=&#34;an-implemenation-of-expectation-maximization-em-in-r&#34;&gt;An implemenation of expectation-maximization (EM) in R&lt;/h1&gt;
+&lt;p&gt;Suppose that a mixed distribution consists of two underlying normal distributions. The hidden variables are the mean and variance of these two underlying distributions. In this tutorial, I will provide an example to show how we can use the EM algorithm to estimate the true values of these hidden parameters.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &#39;dplyr&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;Let these be the true parameters of the two normal distributions:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;red_mean = 3
+red_std = 0.8
+
+blue_mean = 7
+blue_std = 2
+
+red = rnorm(200,red_mean, red_std)
+blue = rnorm(200,blue_mean, blue_std)
+
+both_colours = c(red, blue) %&amp;gt;% sort() 
+plot(red,rep(0,length(red)),col=&amp;quot;red&amp;quot;,pch=16,ylab = &amp;quot;distribution 1&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/EM_example_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;plot(blue,rep(0,length(red)),col=&amp;quot;blue&amp;quot;,pch=16,ylab = &amp;quot;distribution 2&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/EM_example_files/figure-html/unnamed-chunk-2-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;plot(both_colours,rep(0,length(both_colours)),col=&amp;quot;purple&amp;quot;,pch=16,ylab = &amp;quot;mixed distribution&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/EM_example_files/figure-html/unnamed-chunk-2-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;We need three functions to calculate the weighted probability, estimate the mean and the standard deviation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# estimate the weight for each data point
+weight_of_colour&amp;lt;-function(colour_likelihood, total_likelihood)
+  {
+    return(colour_likelihood/total_likelihood)
+}
+
+#estimate the mean
+estimate_mean&amp;lt;-function(data, weight){
+    return(sum(data*weight)/sum(weight))
+}
+
+#estimate the standard deviation
+estimate_std&amp;lt;-function(data, weight, mean){
+    variance = sum(weight*(data-mean)^2)/sum(weight)
+    return(sqrt(variance))
+}  
+
+# make the intermediate plot for each iteration
+plot_guesses&amp;lt;-function(red_mean_guess, blue_mean_guess, red_std_guess, blue_std_guess, alpha=1){
+    points(x, dnorm(x,red_mean_guess, red_std_guess), col=alpha(alpha = alpha,colour = &#39;red&#39;))
+    points(x, dnorm(x,blue_mean_guess, blue_std_guess), col=alpha(alpha = alpha,colour = &#39;blue&#39;))
+    r_height = dnorm(red_mean_guess,red_mean_guess, red_std_guess)
+    b_height = dnorm(blue_mean_guess,blue_mean_guess, blue_std_guess)
+    segments(x0=red_mean_guess, x1=red_mean_guess, y=0, y1=r_height, col=alpha(alpha = alpha,colour = &#39;red&#39;))
+    segments(x0=blue_mean_guess, x1=blue_mean_guess, y0=0, y1=b_height, col=alpha(alpha = alpha,colour = &#39;blue&#39;));
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;The first step is to initiate starting parameters:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;red_mean_guess = 1.5
+blue_mean_guess = 8
+
+ini_m=c(red_mean_guess,blue_mean_guess)
+
+red_std_guess = 2
+blue_std_guess = 1.7
+
+ini_std=c(red_std_guess,blue_std_guess)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;We then iterate between the steps of expectation and maximization using a loop function.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;N_ITER = 200
+
+alphas = seq(0.1, 1, length.out=N_ITER) 
+lo = floor(min(both_colours)) - 1
+hi = ceiling(max(both_colours)) + 1
+x = seq(lo, hi, length.out=500)
+plot(both_colours, rep(0,length(both_colours)), pch=16, col=&#39;purple&#39;,ylim = c(0,0.6))
+
+
+
+for(i in 0:N_ITER){
+    
+# Expectation step
+
+    likelihood_of_red = dnorm(both_colours,red_mean_guess, red_std_guess)
+    likelihood_of_blue = dnorm(both_colours,blue_mean_guess, blue_std_guess)
+
+    red_weight = weight_of_colour(likelihood_of_red, likelihood_of_red+likelihood_of_blue)
+    blue_weight = weight_of_colour(likelihood_of_blue, likelihood_of_red+likelihood_of_blue)
+# maximization step
+    
+    red_std_guess = estimate_std(both_colours, red_weight, red_mean_guess)
+    blue_std_guess = estimate_std(both_colours, blue_weight, blue_mean_guess)
+
+    red_mean_guess = estimate_mean(both_colours, red_weight)
+    blue_mean_guess = estimate_mean(both_colours, blue_weight)
+
+    plot_guesses(red_mean_guess, blue_mean_guess, red_std_guess, blue_std_guess, alpha=alphas[i])
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zhangj5.github.io/post/2022-12-20-simulation_of_expectation_maximization/EM_example_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;
+5. After 200 loops, here is a comparison of the true and estimated parameters:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;        true_r_m=mean(red)
+        true_b_m=mean(blue)
+        
+        est_r_m=red_mean_guess
+        est_b_m=blue_mean_guess
+        
+        true_r_s=sqrt(var(red))
+        true_b_s=sqrt(var(blue))
+        
+        est_r_s=red_std_guess
+        est_b_s=blue_std_guess
+        
+        df&amp;lt;-data.frame(true_mean=c(true_r_m,true_b_m),inital_mean=ini_m, estimated_mean=c(est_r_m,est_b_m),true_std=c(true_r_s,true_b_s),initial_std=ini_std, estimated_std=c(est_r_s,est_b_s))
+        print(df)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   true_mean inital_mean estimated_mean true_std initial_std estimated_std
+## 1     2.915         1.5          2.944   0.7557         2.0         0.760
+## 2     6.737         8.0          6.726   1.9773         1.7         2.013
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The results clearly showed a significant improvement over the initial parameters.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A movie showing how nuclear receptor changes its conformation in response to the ligand, referred to as &#34;Mouse Trap&#34;.</title>
