@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>A ChatGPT App in Shiny</title>
+      <link>https://zhangj5.github.io/app/chatgpt-in-shiny/chatgpt/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/app/chatgpt-in-shiny/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ChatGPT App in Shiny</title>
       <link>https://zhangj5.github.io/post/chatgpt-shinyapp/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
@@ -176,6 +184,22 @@ for(i in 0:N_ITER){
     </item>
     
     <item>
+      <title>Simulate Common Statistic Distributions In R</title>
+      <link>https://zhangj5.github.io/app/simulating-common-statistical-distribution-to-validate-clt/clt/</link>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/app/simulating-common-statistical-distribution-to-validate-clt/clt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring leukemia prognosis in Shiny</title>
+      <link>https://zhangj5.github.io/app/exploring-aml-prognosis-in-shiny/aml/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/app/exploring-aml-prognosis-in-shiny/aml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Epigenetics</title>
       <link>https://zhangj5.github.io/project/epigenetics/hdac3/</link>
       <pubDate>Sun, 04 Dec 2022 06:24:42 -0500</pubDate>
@@ -249,6 +273,14 @@ for(i in 0:N_ITER){
       <guid>https://zhangj5.github.io/post/recent-covid19-outbreak-in-china/</guid>
       <description>&lt;iframe src=&#34;https://zhangj5.shinyapps.io/COVID19/&#34; width=&#34;100%&#34; height=&#34;800px&#34;&gt;&lt;/iframe&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Recent Covid-19 Outbreat In China</title>
+      <link>https://zhangj5.github.io/app/recent-covid-19-ourbreak-in-china/covid19/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/app/recent-covid-19-ourbreak-in-china/covid19/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -2267,6 +2299,14 @@ Three
     </item>
     
     <item>
+      <title>Galaxy@SLU</title>
+      <link>https://zhangj5.github.io/app/galaxyslu/galaxy_slu/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://zhangj5.github.io/app/galaxyslu/galaxy_slu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>New insights into transcriptional and leukemogenic mechanisms of AML1-ETO and E2A fusion proteins</title>
       <link>https://zhangj5.github.io/publication/2016-01-01_new_insights_into_tr/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -2507,26 +2547,10 @@ Three
     </item>
     
     <item>
-      <title>Exploring leukemia prognosis in Shiny</title>
-      <link>https://zhangj5.github.io/app/exploring-aml-prognosis-in-shiny/aml/</link>
-      <pubDate>Wed, 31 Dec 1969 18:00:10 -0600</pubDate>
-      <guid>https://zhangj5.github.io/app/exploring-aml-prognosis-in-shiny/aml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Mechanism of Disease Progression In AML</title>
       <link>https://zhangj5.github.io/project/mechanism-of-leukemogenesis/project1_eto2/</link>
       <pubDate>Wed, 31 Dec 1969 18:00:01 -0600</pubDate>
       <guid>https://zhangj5.github.io/project/mechanism-of-leukemogenesis/project1_eto2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simulate Common Statistic Distributions In R</title>
-      <link>https://zhangj5.github.io/app/simulating-common-statistical-distribution-to-validate-clt/clt/</link>
-      <pubDate>Wed, 31 Dec 1969 18:00:00 -0600</pubDate>
-      <guid>https://zhangj5.github.io/app/simulating-common-statistical-distribution-to-validate-clt/clt/</guid>
       <description></description>
     </item>
     
@@ -2543,22 +2567,6 @@ Three
       <link>https://zhangj5.github.io/project/bioinformatics/galaxy_slu/</link>
       <pubDate>Wed, 31 Dec 1969 17:59:55 -0600</pubDate>
       <guid>https://zhangj5.github.io/project/bioinformatics/galaxy_slu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Covid-19 Outbreat In China</title>
-      <link>https://zhangj5.github.io/app/recent-covid-19-ourbreak-in-china/covid19/</link>
-      <pubDate>Wed, 31 Dec 1969 17:59:54 -0600</pubDate>
-      <guid>https://zhangj5.github.io/app/recent-covid-19-ourbreak-in-china/covid19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Galaxy@SLU</title>
-      <link>https://zhangj5.github.io/app/galaxyslu/galaxy_slu/</link>
-      <pubDate>Wed, 31 Dec 1969 17:59:50 -0600</pubDate>
-      <guid>https://zhangj5.github.io/app/galaxyslu/galaxy_slu/</guid>
       <description></description>
     </item>
     
